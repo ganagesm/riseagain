@@ -8,6 +8,7 @@ Branding & Focus on SAT
 - Cloud Partnerships
 - Case Studies
 - Team
+  
 =Divider=
 INTRO HERO BANNER with rotating text:
 Imagine what you can do for your customers if:
