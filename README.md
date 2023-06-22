@@ -55,6 +55,7 @@ Contact us/talk to us now
 - "Technologies" Landing page (Find a design to list 5-10 technology areas but highlight the focus as Machine Learning, Infrastructure, Flutter/Web)
 - "Cloud Partnerships" landing page (Azure panel, Google panel, and case studies panel with a list of cloud partnerships
 - Multiple design options for home page
+- "Team" page
 
 # README
 - Run this project w/ npm install and npm run dev, nextjs13
