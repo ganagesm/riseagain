@@ -43,7 +43,9 @@ Technologies (list of options; take as many from current site)
 Cloud Partnernships (Google Cloud Premier Partner Logo, Microsoft Azure Logo)
 
 Case Studies (row of tiles, all leading to blog posts)
-========
+
+=Divider=
+
 Contact us/talk to us now
 
 # Blog posts
