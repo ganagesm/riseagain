@@ -48,13 +48,12 @@ Case Studies (row of tiles, all leading to blog posts)
 
 Contact us/talk to us now
 
-# Blog posts
--engineering standards, quality engineering
--revolutionary producivity boosts for engineers across recodex with AI
-
 # Action Items:
-- Blog landing page
-- Blog detail page multiple design options
+- Modify existing index.html to support above layout; use [this](https://www.canva.com/design/DAFmX_GUbXo/piLrg-G_YZG2qYrajt3EfA/edit?utm_content=DAFmX_GUbXo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) layout as reference but themeing from homepage2 (as per the edited index.html)
+- "Case Studies" landing page (chose from the component library an option for a blog landing page)
+- "Case Study detail" page (need a detailed blog page)
+- "Technologies" Landing page (Find a design to list 5-10 technology areas but highlight the focus as Machine Learning, Infrastructure, Flutter/Web)
+- "Cloud Partnerships" landing page (Azure panel, Google panel, and case studies panel with a list of cloud partnerships
 - Multiple design options for home page
 
 # README
