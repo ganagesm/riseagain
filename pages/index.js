@@ -1,11 +1,19 @@
 import Navbar from "../components/Layouts/Navbar";
 import MainBanner from "../components/HomeTwo/MainBanner";
+import About from "../components/HomeFour/About";
+import Outpartnerships from "../components/HomeEight/Outpartnerships";
+import BusinessSolution from "../components/HomeEight/BusinessSolution";
+import AboutUs from "../components/HomeEight/AboutUs";
 
 const Index = () => {
     return (
         <>
         <Navbar />
         <MainBanner />
+        <AboutUs />
+        {/* <BusinessSolution /> */}
+        <Outpartnerships/>
+       
         </>
     )
 }
