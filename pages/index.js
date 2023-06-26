@@ -1,11 +1,26 @@
 import Navbar from "../components/Layouts/Navbar";
-import MainBanner from "../components/HomeTwo/MainBanner";
+import NavbarSeven from "../components/Layouts/NavbarSeven";
+import Footer from "../components/Layouts/Footer";
+
+import HeroBanner from "../components/HomeNine/HeroBanner";
+import Outpartnerships from "../components/HomeEight/Outpartnerships";
+import AboutUs from "../components/HomeEight/AboutUs";
+import Services from "../components/HomeFour/Services";
+import Testimonials from "../components/HomeThree/Testimonials";
+import BlogPost from "../components/Common/BlogPost";
+
 
 const Index = () => {
     return (
         <>
-        <Navbar />
-        <MainBanner />
+        <NavbarSeven />
+        <HeroBanner/>
+        <AboutUs />
+        <Outpartnerships/>
+        <Services/>
+        <Testimonials />
+       <BlogPost />
+       <Footer />
         </>
     )
 }
