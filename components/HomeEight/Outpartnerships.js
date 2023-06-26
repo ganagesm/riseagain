@@ -10,7 +10,7 @@ const Outpartnerships = () => {
             <div className="col-lg-6 col-md-12">
               <div className="creativity-content">
                 <h3>
-                Out s <span>Partnership</span>
+                Cloud <span> Partnernships</span>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
