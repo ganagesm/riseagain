@@ -2,6 +2,7 @@ import Navbar from "../components/Layouts/Navbar";
 import NavbarSeven from "../components/Layouts/NavbarSeven";
 import Footer from "../components/Layouts/Footer";
 
+
 import HeroBanner from "../components/nearshore/HeroBanner";
 import Outpartnerships from "../components/HomeEight/Outpartnerships";
 import AboutUs from "../components/nearshore/AboutUs";
@@ -10,6 +11,7 @@ import Testimonials from "../components/HomeThree/Testimonials";
 import BlogPost from "../components/Common/BlogPost";
 import FunFacts from "../components/nearshore/FunFacts";
 import MainBanner from "../components/nearshore/MainBanner";
+
 
 
 const Index = () => {
