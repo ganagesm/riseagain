@@ -18,9 +18,10 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <i className="flaticon-income"></i>
-                </div>
-
+                  {/* <i className="flaticon-income"></i> */}
+                  <img src="/images/software-engineer.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
+                  </div>
+                
                 <h3>
                   <Link href="/service-details">Talent in Your Time Zone</Link>
                 </h3>
@@ -31,7 +32,8 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <i className="flaticon-automatic"></i>
+                  {/* <i className="flaticon-automatic"></i> */}
+                  <img src="/images/speech-bubble.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
 
                 <h3>
@@ -46,7 +48,8 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <i className="flaticon-locked"></i>
+                  {/* <i className="flaticon-locked"></i> */}
+                  <img src="/images/businessman-with-a-dollar-clock.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
 
                 <h3>
@@ -59,7 +62,8 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <i className="flaticon-molecular"></i>
+                  {/* <i className="flaticon-molecular"></i> */}
+                  <img src="/images/clipboard-list.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
 
                 <h3>
@@ -74,7 +78,8 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <i className="flaticon-gear"></i>
+                  {/* <i className="flaticon-gear"></i> */}
+                  <img src="/images/pinpaper-check.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
 
                 <h3>
@@ -87,7 +92,8 @@ const Services = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <i className="flaticon-ceo"></i>
+                  {/* <i className="flaticon-ceo"></i> */}
+                  <img src="/images/judge.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
 
                 <h3>
