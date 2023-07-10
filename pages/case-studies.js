@@ -1,30 +1,27 @@
 import React from "react";
 import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import TeamContent from "../components/Team/TeamContent";
-import FreeTrialForm from "../components/Common/FreeTrialForm";
+import CaseStudiesGrid from "../components/Live/CaseStudiesGrid";
 import Footer from "../components/Live/Footer";
 
-const Team = () => {
+const Blog = () => {
   return (
     <>
       <Navbar />
 
       <PageBanner
-        pageTitle="Our Team"
+        pageTitle="Case Studies"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Team"
-        bgImgClass="item-bg1"
+        activePageText="Case Studies"
+        bgImgClass="item-bg2"
       />
 
-      <TeamContent />
-
-      <FreeTrialForm />
+      <CaseStudiesGrid />
 
       <Footer />
     </>
   );
 };
 
-export default Team;
+export default Blog;

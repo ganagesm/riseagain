@@ -172,7 +172,7 @@ const BlogDetailsContent = () => {
               </div>
 
               {/* Blog Comments Area */}
-              <BlogCommentsArea />
+              {/* <BlogCommentsArea /> */}
             </div>
 
             <div className="col-lg-4 col-md-12">

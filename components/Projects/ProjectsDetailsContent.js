@@ -41,7 +41,7 @@ const ProjectsDetailsContent = () => {
                         </li>
                         <li>
                           <span>Demo Link:</span>{" "}
-                          <a href="#">www.bariton.com</a>
+                          <a href="#">www.triosource.com</a>
                         </li>
                         <li>
                           <span>Tags:</span> App, Design, Web, Dev

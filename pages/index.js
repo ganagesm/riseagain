@@ -1,76 +1,30 @@
-import Navbar from "../components/Layouts/Navbar";
-import NavbarSeven from "../components/Layouts/NavbarSeven";
-import Footer from "../components/Layouts/Footer";
-
-import HeroBanner from "../components/HomeNine/HeroBanner";
-import Outpartnerships from "../components/HomeEight/Outpartnerships";
-import AboutUs from "../components/HomeEight/AboutUs";
-import Services from "../components/HomeFour/Services";
-import Testimonials from "../components/HomeThree/Testimonials";
-import BlogPost from "../components/Common/BlogPost";
-
+import Navbar from "../components/Live/Navbar";
+// import NavbarSeven from "../components/Layouts/NavbarSeven";
+import Footer from "../components/Live/Footer";
+import HeroBanner from "../components/Live/HeroBanner";
+import AboutUs from "../components/Live/AboutUs";
+import Services from "../components/Live/Services";
+import BlogPost from "../components/Live/BlogPost";
+import FunFacts from "../components/Live/FunFacts";
+import MainBanner from "../components/Live/MainBanner";
+import PartnerContent from "../components/Live/PartnerContent";
+import TechSlider from "../components/Live/TechSlider";
+import Projects from "../components/Live/Projects";
 
 const Index = () => {
     return (
         <>
-        <NavbarSeven />
+
+        <Navbar />
         <HeroBanner/>
-        <AboutUs />
-        <Outpartnerships/>
+        <PartnerContent />
         <Services/>
-        <Testimonials />
-       <BlogPost />
-       <Footer />
+        <FunFacts />
+        <TechSlider />
+        {/* <MainBanner/> */}
+        <BlogPost />
+        <Footer />
         </>
     )
 }
 export default Index;
-
-// import React from "react";
-// import NavbarThree from "../components/Layouts/NavbarThree";
-// import MainBanner from "../components/HomeTwo/MainBanner";
-// import OurFeaturedSolutions from "../components/HomeTwo/OurFeaturedSolutions";
-// import AboutUs from "../components/HomeTwo/AboutUs";
-// import Services from "../components/HomeTwo/Services";
-// import FunFacts from "../components/HomeTwo/FunFacts";
-// import Projects from "../components/HomeTwo/Projects";
-// import OurPricingPlan from "../components/HomeTwo/OurPricingPlan";
-// import Testimonials from "../components/HomeTwo/Testimonials";
-// import BlogPost from "../components/Common/BlogPost";
-// import FreeTrialArea from "../components/Common/FreeTrialArea";
-// import PartnerSlider from "../components/Common/PartnerSlider";
-// import Footer from "../components/Layouts/Footer";
-
-// const Index2 = () => {
-//   return (
-//     <>
-//       <NavbarThree />
-
-//       <MainBanner />
-
-//       <OurFeaturedSolutions />
-
-//       <AboutUs />
-
-//       <Services />
-
-//       <FunFacts />
-
-//       <Projects />
-
-//       <OurPricingPlan />
-
-//       <Testimonials />
-
-//       <BlogPost />
-
-//       <FreeTrialArea />
-
-//       <PartnerSlider />
-      
-//       <Footer />
-//     </>
-//   );
-// };
-
-// export default Index2;
