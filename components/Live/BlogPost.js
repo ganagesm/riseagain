@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const BlogPost = () => {
+const BlogPostsSection = () => {
   return (
     <>
       <section className="blog-area ptb-110">
@@ -169,4 +169,4 @@ const BlogPost = () => {
   );
 };
 
-export default BlogPost;
+export default BlogPostsSection;
