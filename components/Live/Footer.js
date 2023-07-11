@@ -20,9 +20,7 @@ const Footer = () => {
                     <img src="/images/white-triosource.png" alt="triosource logo" width={200} />
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud.
+                    Trisource is a technology consulting and outsourcing company. Nearshore, Offshore, onsite. Hire technology talent anywhere or let our experts use bleeding edge tech to unlock business value for you. 
                   </p>
                 </div>
 
@@ -62,13 +60,13 @@ const Footer = () => {
 
                 <ul className="footer-services-list">
                   <li>
-                    <Link href="/nearshoring-details">Nearshoreing</Link>
+                    <Link href="/nearshore">Nearshoreing</Link>
                   </li>
                   <li>
-                    <Link href="/service-details">offshore</Link>
+                    <Link href="/offshore">Offshore</Link>
                   </li>
                   <li>
-                    <Link href="/service-details">Onsite</Link>
+                    <Link href="/onsite">Onsite</Link>
                   </li>
                 </ul>
               </div>

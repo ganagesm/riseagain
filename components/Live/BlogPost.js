@@ -7,10 +7,9 @@ const BlogPost = () => {
       <section className="blog-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Our Recent News</h2>
+            <h2>Recent Blog Posts</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Learn more about our work through case studies and technology specific articles.
             </p>
           </div>
 
@@ -31,24 +30,17 @@ const BlogPost = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>
-                        <Link href="/blog">Admin</Link>
-                      </li>
-                      <li>March 10, 2020</li>
+                      <li>June 11, 2023</li>
                     </ul>
                   </div>
-
                   <h3>
                     <Link href="/blog-details">
-                      Making Peace With The Feast Or Famine Of Freelancing
+                      Swiftly's secret nearshore weapon
                     </Link>
                   </h3>
-
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
+                  In 2023, Swiftly, a cutting-edge retail technology platform, was in a difficult position. They were struggling to find the right software engineers for their growing roster of projects.
                   </p>
-
                   <Link href="/blog-details" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
@@ -75,7 +67,7 @@ const BlogPost = () => {
                       <li>
                         <Link href="/blog">Admin</Link>
                       </li>
-                      <li>March 11, 2020</li>
+                      <li>July 11, 2023</li>
                     </ul>
                   </div>
 

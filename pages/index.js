@@ -10,18 +10,17 @@ import MainBanner from "../components/Live/MainBanner";
 import PartnerContent from "../components/Live/PartnerContent";
 import TechSlider from "../components/Live/TechSlider";
 import Projects from "../components/Live/Projects";
+import Link from "next/link";
 
 const Index = () => {
     return (
         <>
-
         <Navbar />
         <HeroBanner/>
         <PartnerContent />
         <Services/>
         <FunFacts />
         <TechSlider />
-        {/* <MainBanner/> */}
         <BlogPost />
         <Footer />
         </>

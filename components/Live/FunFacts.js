@@ -7,61 +7,20 @@ const FunFacts = () => {
       <div className="fun-facts-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>We completed 2500+ Projects Yearly Successfully & counting</h2>
+            <h2>Kubernetes to Kotlin.</h2>
+            <h2>Triosource has you covered.</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Engineers across any stack and any scale. Just chose an engagement model and share your requirements. We'll take care of the rest.
             </p>
           </div>
-
-          <div className="row">
-            <div className="col-lg-3 col-6 col-sm-3 col-md-3">
-              <div className="single-funfacts">
-                <h3>
-                  5000 <span className="sign-icon">+</span>
-                </h3>
-                <p>Downloaded</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-6 col-sm-3 col-md-3">
-              <div className="single-funfacts">
-                <h3>
-                  3000 <span className="sign-icon">+</span>
-                </h3>
-                <p>Feedback</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-6 col-sm-3 col-md-3">
-              <div className="single-funfacts">
-                <h3>
-                  500 <span className="sign-icon">+</span>
-                </h3>
-                <p>Workers</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-6 col-sm-3 col-md-3">
-              <div className="single-funfacts">
-                <h3>
-                  70 <span className="sign-icon">+</span>
-                </h3>
-                <p>Contributors</p>
-              </div>
-            </div>
-          </div>
-
           <div className="contact-cta-box">
-            <h3>Have any question about us?</h3>
-            <p>Don't hesitate to contact us.</p>
-
-            <Link href="/contact" className="btn btn-primary">
-            Schedule a callback<span></span>
-            </Link>
+                <h3>Get in touch now</h3>
+                <p>Call or chat with us to learn about our work and how we can help scale your teams.</p>
+                <Link href="#contact" className="btn btn-primary">
+                Schedule a callback<span></span>
+                </Link>
           </div>
         </div>
-
         {/* Shape Images  */}
         <div className="shape-img1">
           <img src="/images/map.png" alt="image" />

@@ -10,15 +10,13 @@ const ServiceDetails = () => {
   return (
     <>
       <Navbar />
-
       <PageBanner
-        pageTitle="Nearshoring - Talent in your time zone"
+        pageTitle="Nearshore Development Teams - Talent in your time zone"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Nearshoring Details"
+        activePageText="Nearshore"
         bgImgClass="item-bg2"
       />
-
       <NearshoringServices />
       <ServiceDetailsContent />
       <NearshoringTestimonials />

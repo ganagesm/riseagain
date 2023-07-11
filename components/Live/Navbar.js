@@ -79,6 +79,50 @@ const Navbar = () => {
 
               <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
+              <li className="nav-item">
+                    <Link
+                      href=""
+                      className={`nav-link ${
+                        currentPath == "/engagement-models" && "active"
+                      }`}
+                    >
+                      Engagement Models
+                    </Link>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/nearshore/"
+                          className={`nav-link ${
+                            currentPath == "/nearshore/" && "active"
+                          }`}
+                        >
+                          Nearshore
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/offshore/"
+                          className={`nav-link ${
+                            currentPath == "/offshore/" && "active"
+                          }`}
+                        >
+                            Offshore
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/onsite/"
+                          className={`nav-link ${
+                            currentPath == "/onsite/" && "active"
+                          }`}
+                        >
+                         Onsite
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
                   <li className="nav-item">
                     <Link
                       href="/technologies"
@@ -91,12 +135,12 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/python/"
+                          href="/kubernetes/"
                           className={`nav-link ${
                             currentPath == "/python/" && "active"
                           }`}
                         >
-                          Node Js
+                          Kubernetes
                         </Link>
                       </li>
 
@@ -178,16 +222,6 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li>
-                  {/* <li className="nav-item">
-                    <Link
-                      href="/cloud-partnerships"
-                      className={`nav-link ${
-                        currentPath == "/cloud-partnerships" && "active"
-                      }`}
-                    >
-                      Cloud Partnerships
-                    </Link>
-                  </li> */}
                   <li className="nav-item">
                     <Link
                       href="/case-studies/"
