@@ -81,7 +81,7 @@ const Navbar = () => {
               <ul className="navbar-nav">
               <li className="nav-item">
                     <Link
-                      href=""
+                      href="#"
                       className={`nav-link ${
                         currentPath == "/engagement-models" && "active"
                       }`}
@@ -232,7 +232,7 @@ const Navbar = () => {
                       Case Studies
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/team"
                       className={`nav-link ${
@@ -241,7 +241,7 @@ const Navbar = () => {
                     >
                       Team
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link
                       href="/about"

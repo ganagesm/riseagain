@@ -20,7 +20,7 @@ const PartnerContent = () => {
               data-aos-delay="100"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner1.png" alt="image" />
+                <img src="/images/partner/1.png" alt="image" />
               </a>
             </div>
 
@@ -31,7 +31,7 @@ const PartnerContent = () => {
               data-aos-delay="200"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner2.png" alt="image" />
+                <img src="/images/partner/2.png" alt="image" />
               </a>
             </div>
 
@@ -42,7 +42,7 @@ const PartnerContent = () => {
               data-aos-delay="300"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner3.png" alt="image" />
+                <img src="/images/partner/3.png" alt="image" />
               </a>
             </div>
 
@@ -53,7 +53,7 @@ const PartnerContent = () => {
               data-aos-delay="400"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner4.png" alt="image" />
+                <img src="/images/partner/4.png" alt="image" />
               </a>
             </div>
 
@@ -64,7 +64,7 @@ const PartnerContent = () => {
               data-aos-delay="500"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner5.png" alt="image" />
+                <img src="/images/partner/5.png" alt="image" />
               </a>
             </div>
 
@@ -75,7 +75,7 @@ const PartnerContent = () => {
               data-aos-delay="600"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner6.png" alt="image" />
+                <img src="/images/partner/6.png" alt="image" />
               </a>
             </div>
 
@@ -86,7 +86,7 @@ const PartnerContent = () => {
               data-aos-delay="700"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner1.png" alt="image" />
+                <img src="/images/partner/7.png" alt="image" />
               </a>
             </div>
 
@@ -97,7 +97,7 @@ const PartnerContent = () => {
               data-aos-delay="800"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner2.png" alt="image" />
+                <img src="/images/partner/8.png" alt="image" />
               </a>
             </div>
 
@@ -108,7 +108,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner3.png" alt="image" />
+                <img src="/images/partner/9.png" alt="image" />
               </a>
             </div>
             <div 
@@ -118,7 +118,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner1.png" alt="image" />
+                <img src="/images/partner/10.png" alt="image" />
               </a>
             </div>
             <div 
@@ -128,7 +128,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner5.png" alt="image" />
+                <img src="/images/partner/11.png" alt="image" />
               </a>
             </div>
             <div 
@@ -138,7 +138,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner4.png" alt="image" />
+                <img src="/images/partner/12.png" alt="image" />
               </a>
             </div><div 
               className="partner-item"
@@ -147,7 +147,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner1.png" alt="image" />
+                <img src="/images/partner/13.png" alt="image" />
               </a>
             </div><div 
               className="partner-item"
@@ -156,7 +156,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/partner3.png" alt="image" />
+                <img src="/images/partner/14.png" alt="image" />
               </a>
             </div>
           </div>
