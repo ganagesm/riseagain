@@ -24,7 +24,7 @@ const Services = () => {
                   <Link href="">Nearshoring
                   <h3 style={{color: "darkgray"}}>Talent in your time zone</h3></Link>
                 </h2>
-                <p>Engineers online when you are. On contract, full time, or project based work.</p>
+                <p>Engineers online when you are. Contract, full time, or project based work.</p>
               </div>
             </div>
 
@@ -37,7 +37,7 @@ const Services = () => {
                   <Link href="">Offshore
                   <h3 style={{color: "darkgray"}}>Talent at scale</h3></Link>
                 </h2>
-                <p>Build out teams by the hundred. Vetted technology talent and hyper competitive rates.</p>
+                <p>Build out teams by the hundreds. Vetted technology talent and hyper competitive rates.</p>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ const Services = () => {
                   <Link href="">Onsite
                   <h3 style={{color: "darkgray"}}>Talent at home</h3></Link>
                 </h2>
-                <p>Let our teams focus on the vetting process while you deliver for your customers</p>
+                <p>Let our teams focus on the vetting process while you deliver for your customers.</p>
               </div>
             </div>
           </div>
