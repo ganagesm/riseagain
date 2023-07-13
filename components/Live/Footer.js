@@ -68,7 +68,7 @@ const Footer = () => {
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/about-us">About Us</Link>
+                    <Link href="/about">About Us</Link>
                   </li>
                   {/* <li> <Link href="/technologies">Technologies</Link> </li> */}
                   <li> <Link href="/blog">Case Studies</Link> </li>
