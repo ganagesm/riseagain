@@ -1,10 +1,10 @@
 
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import Services from "../components/reactjs/Services";
-import ComputerVisionAI from "../components/reactjs/ComputerVisionAI";
-import PageBanner from "../components/reactjs/PageBanner";
-import TechDetailsContent from "../components/reactjs/TechDetailsContent";
+import Services from "../components/net/Services";
+import ComputerVisionAI from "../components/net/ComputerVisionAI";
+import PageBanner from "../components/net/PageBanner";
+import TechDetailsContent from "../components/net/TechDetailsContent";
 
 const Index = () => {
   return (
@@ -12,16 +12,18 @@ const Index = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Top React Development Company"
+        pageTitle=".NET Development Services"
         homePageUrl="/"
         homePageText="Technology"
-        activePageText="React"
+        activePageText=".NET"
         bgImgClass="item-bg2"
       />
 
       <TechDetailsContent />
       <ComputerVisionAI />
       <Services />
+      {/* <BlogPost /> */}
+
       <Footer />
     </>
   )

@@ -1,10 +1,10 @@
 
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import Services from "../components/reactjs/Services";
-import ComputerVisionAI from "../components/reactjs/ComputerVisionAI";
-import PageBanner from "../components/reactjs/PageBanner";
-import TechDetailsContent from "../components/reactjs/TechDetailsContent";
+import Services from "../components/kubernetes/Services";
+import ComputerVisionAI from "../components/kubernetes/ComputerVisionAI";
+import PageBanner from "../components/kubernetes/PageBanner";
+import TechDetailsContent from "../components/kubernetes/TechDetailsContent";
 
 const Index = () => {
   return (
@@ -12,16 +12,18 @@ const Index = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Top React Development Company"
+        pageTitle="Kubernetes Development Services"
         homePageUrl="/"
         homePageText="Technology"
-        activePageText="React"
+        activePageText="Kubernetes"
         bgImgClass="item-bg2"
       />
 
       <TechDetailsContent />
       <ComputerVisionAI />
       <Services />
+      {/* <BlogPost /> */}
+
       <Footer />
     </>
   )
