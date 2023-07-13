@@ -32,10 +32,6 @@ const About = () => {
       <PartnerContent />
 
       <FeedbackSlider />
-
-      <PricingCard />
-
-      <FreeTrialForm />
       
       <Footer />
     </>
