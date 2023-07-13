@@ -68,19 +68,19 @@ const Footer = () => {
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/team">About Us</Link>
+                    <Link href="/about-us">About Us</Link>
                   </li>
-                  <li> <Link href="/technologies">Technologies</Link> </li>
-                  <li> <Link href="/blog">Case Studies </Link> </li>
-                  <li>
+                  {/* <li> <Link href="/technologies">Technologies</Link> </li> */}
+                  <li> <Link href="/blog">Case Studies</Link> </li>
+                  {/* <li>
                     <Link href="/technologies/kubernetes">Kubernetes</Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/technologies/generative-ai">Generative Ai</Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/technologies/mobile">Mobile</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
