@@ -137,7 +137,7 @@ const Navbar = () => {
                         <Link
                           href="/kubernetes/"
                           className={`nav-link ${
-                            currentPath == "/python/" && "active"
+                            currentPath == "/kubernetes/" && "active"
                           }`}
                         >
                           Kubernetes
@@ -179,9 +179,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/python/"
+                          href="/c-sharp/"
                           className={`nav-link ${
-                            currentPath == "/python/" && "active"
+                            currentPath == "/c-sharp/" && "active"
                           }`}
                         >
                           C#
