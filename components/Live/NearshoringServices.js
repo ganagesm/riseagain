@@ -8,90 +8,84 @@ const NearshoringServices = () => {
         <div className="container">
           <div className="section-title">
             <h2>Flexible engagements.</h2>
-            <h2> we'll work how you work.</h2>
-            <p>
-              Our outsourced engineers can plug directly into your teams. Triosource also creates dedicated teams of engineers with a project based approach. Our consulting approach allows for a hybrid. We can work however you work.
-            </p>
+            <h2>We work how you work.</h2>
           </div>
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/software-engineer.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
+                  <img
+                    src="/images/software-engineer.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </div>
                 <h2>
-                  <Link href="#">Nearshoring
-                  <h3 style={{color: "darkgray"}}>Talent in your time zone</h3></Link>
+                  <Link href="#">
+                    Direct
+                    <h3 style={{ color: "darkgray" }}>
+                      Talent in your time zone
+                    </h3>
+                  </Link>
                 </h2>
-                <p>Engineers online when you are. Contract, full time, or project based work.</p>
+                <p>
+                  Engineers online when you are, speaking the language you
+                  speak.
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/offshore.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
+                  <img
+                    src="/images/clipboard-list.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </div>
                 <h2>
-                  <Link href="#">Offshore
-                  <h3 style={{color: "darkgray"}}>Talent at scale</h3></Link>
+                  <Link href="#">
+                    Project
+                    <h3 style={{ color: "darkgray" }}>Talent at scale</h3>
+                  </Link>
                 </h2>
-                <p>Build out teams by the hundreds. Vetted technology talent and hyper competitive rates.</p>
+                <p>Give us a spec, and we'll deliver value.</p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/clipboard-list.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
+                  <img
+                    src="/images/clipboard-list.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </div>
                 <h2>
-                  <Link href="#">Onsite
-                  <h3 style={{color: "darkgray"}}>Talent at home</h3></Link>
+                  <Link href="#">
+                    Hybrid
+                    <h3 style={{ color: "darkgray" }}>Talent at home</h3>
+                  </Link>
                 </h2>
-                <p>Let our teams focus on the vetting process while you deliver for your customers.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <img src="/images/software-engineer.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
-                </div>
-                <h2>
-                  <Link href="#">Nearshoring
-                  <h3 style={{color: "darkgray"}}>Talent in your time zone</h3></Link>
-                </h2>
-                <p>Engineers online when you are. Contract, full time, or project based work.</p>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <img src="/images/offshore.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
-                </div>
-                <h2>
-                  <Link href="#">Offshore
-                  <h3 style={{color: "darkgray"}}>Talent at scale</h3></Link>
-                </h2>
-                <p>Build out teams by the hundreds. Vetted technology talent and hyper competitive rates.</p>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <img src="/images/clipboard-list.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
-                </div>
-                <h2>
-                  <Link href="#">Onsite
-                  <h3 style={{color: "darkgray"}}>Talent at home</h3></Link>
-                </h2>
-                <p>Let our teams focus on the vetting process while you deliver for your customers.</p>
+                <p>
+                  Our engineers work with you to ultimately deliver your
+                  project.
+                </p>
               </div>
             </div>
           </div>

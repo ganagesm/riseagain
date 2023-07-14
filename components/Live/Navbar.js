@@ -78,8 +78,8 @@ const Navbar = () => {
               </button>
 
               <div className={classOne} id="navbarSupportedContent">
-              <ul className="navbar-nav">
-              <li className="nav-item">
+                <ul className="navbar-nav">
+                  <li className="nav-item">
                     <Link
                       href=""
                       className={`nav-link ${
@@ -107,7 +107,7 @@ const Navbar = () => {
                             currentPath == "/offshore/" && "active"
                           }`}
                         >
-                            Offshore
+                          Offshore
                         </Link>
                       </li>
 
@@ -118,12 +118,12 @@ const Navbar = () => {
                             currentPath == "/onsite/" && "active"
                           }`}
                         >
-                         Onsite
+                          Onsite
                         </Link>
                       </li>
                     </ul>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/technologies"
                       className={`nav-link ${
@@ -221,7 +221,7 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link
                       href="/case-studies/"
