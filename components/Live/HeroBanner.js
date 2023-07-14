@@ -23,11 +23,17 @@ const HeroBanner = () => {
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1 style={{color:"#fff"}}>Triosource is a technology consulting and outsourcing company.</h1>
-                <p>Nearshore, offshore, onsite. Hire talent anywhere or let our experts unlock business value for you with bleeding edge technologies</p>
+                <h1 style={{ color: "#fff" }}>
+                  Triosource is a technology consulting and outsourcing company.
+                </h1>
+                <p>
+                  Nearshore, offshore, onsite. Hire talent anywhere or let our
+                  experts unlock business value for you with bleeding edge
+                  technologies
+                </p>
 
                 <div className="btn-box">
-                  <Link href="#" className="btn btn-primary">
+                  <Link href="/contact" className="btn btn-primary">
                     Get in touch now
                   </Link>
                 </div>
