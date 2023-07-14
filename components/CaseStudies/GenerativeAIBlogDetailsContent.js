@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 // import BlogCommentsArea from "./BlogCommentsArea";
-// import SwiftlyBlogSidebar from "./SwiftlyBlogSidebar";
+import SwiftlyBlogSidebar from "./SwiftlyBlogSidebar";
 
 const BlogDetailsContent = () => {
   return (
