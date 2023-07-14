@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 const PartnerContent = () => {
   return (
@@ -21,7 +20,7 @@ const PartnerContent = () => {
               data-aos-delay="100"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/101.png" alt="image" />
+                <img src="/images/partner/partner1.png" alt="image" />
               </a>
             </div>
 
@@ -32,7 +31,7 @@ const PartnerContent = () => {
               data-aos-delay="200"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/102.png" alt="image" />
+                <img src="/images/partner/partner2.png" alt="image" />
               </a>
             </div>
 
@@ -43,7 +42,7 @@ const PartnerContent = () => {
               data-aos-delay="300"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/103.png" alt="image" />
+                <img src="/images/partner/partner3.png" alt="image" />
               </a>
             </div>
 
@@ -54,7 +53,7 @@ const PartnerContent = () => {
               data-aos-delay="400"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/104.png" alt="image" />
+                <img src="/images/partner/partner4.png" alt="image" />
               </a>
             </div>
 
@@ -65,7 +64,7 @@ const PartnerContent = () => {
               data-aos-delay="500"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/105.png" alt="image" />
+                <img src="/images/partner/partner5.png" alt="image" />
               </a>
             </div>
 
@@ -76,7 +75,7 @@ const PartnerContent = () => {
               data-aos-delay="600"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/106.png" alt="image" />
+                <img src="/images/partner/partner6.png" alt="image" />
               </a>
             </div>
 
@@ -87,7 +86,7 @@ const PartnerContent = () => {
               data-aos-delay="700"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/107.png" alt="image" />
+                <img src="/images/partner/partner1.png" alt="image" />
               </a>
             </div>
 
@@ -98,7 +97,7 @@ const PartnerContent = () => {
               data-aos-delay="800"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/108.png" alt="image" />
+                <img src="/images/partner/partner2.png" alt="image" />
               </a>
             </div>
 
@@ -109,7 +108,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/109.png" alt="image" />
+                <img src="/images/partner/partner3.png" alt="image" />
               </a>
             </div>
             <div 
@@ -119,7 +118,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/110.png" alt="image" />
+                <img src="/images/partner/partner1.png" alt="image" />
               </a>
             </div>
             <div 
@@ -129,7 +128,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/111.png" alt="image" />
+                <img src="/images/partner/partner5.png" alt="image" />
               </a>
             </div>
             <div 
@@ -139,7 +138,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/112.png" alt="image" />
+                <img src="/images/partner/partner4.png" alt="image" />
               </a>
             </div><div 
               className="partner-item"
@@ -148,7 +147,7 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/113.png" alt="image" />
+                <img src="/images/partner/partner1.png" alt="image" />
               </a>
             </div><div 
               className="partner-item"
@@ -157,19 +156,9 @@ const PartnerContent = () => {
               data-aos-delay="900"
             >
               <a href="#" target="_blank" rel="noreferrer">
-                <img src="/images/partner/114.png" alt="image" />
+                <img src="/images/partner/partner3.png" alt="image" />
               </a>
             </div>
-            <div className="col-lg-12 col-md-12">
-              <div className="ai-all-services-btn">
-                <Link href="#" className="btn btn-primary">
-                Discover More
-                </Link>
-              </div>
-            </div>
-            {/* <Link href="/about-two" className="btn btn-primary">
-                  Discover More
-                </Link> */}
           </div>
         </div>
       </div>
