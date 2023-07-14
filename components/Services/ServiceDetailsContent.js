@@ -7,22 +7,12 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>Incredible Infrastructure</h3>
+              <h3>Seamless Collaboration Made Easy</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo.
+              Triosource's nearshore teams, with overlapping time zones, enable seamless collaboration and effortless communication. With real-time communication, improved collaboration and coordination, agile decision-making, faster turnaround times, enhanced project visibility, and improved client satisfaction, Triosource ensures that geographic boundaries do not hinder the success of your tech projects. Embrace the power of overlapping time zones with Triosource's nearshore teams and experience a new level of seamless collaboration in your organization.
               </p>
 
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
+              <p>Seamless collaboration facilitated by Triosource's nearshore teams contributes to improved client satisfaction. By providing direct access to your team during your working hours, you can address client queries, provide timely updates, and ensure effective communication, enhancing the overall client experience.
               </p>
             </div>
 
@@ -43,28 +33,25 @@ const ServiceDetailsContent = () => {
             </div>
 
             <div className="services-details-desc">
-              <h3>Working Process</h3>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.
+              <h3>Overlapping Time Zones with Triosource's Nearshore Teams</h3>
+              <p>Tech projects often require the flexibility to scale up or down the development team as project requirements evolve. Triosource understands the importance of scalability and offers agile team adjustments to meet your changing needs. 
               </p>
 
               <ul>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <strong>Real-Time Communication :</strong> With Triosource's nearshore teams, you can enjoy real-time communication. By leveraging overlapping time zones, you can have direct interactions with your nearshore team members, enabling instant communication, quick feedback loops, and resolving issues in a timely manner.
                 </li>
                 <li>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo.
+                  <strong>Improved Collaboration and Coordination:</strong> Overlapping time zones foster improved collaboration and coordination. It allows for better synchronization between your team and the nearshore team, reducing delays and ensuring smoother workflow handoffs. This enhanced collaboration leads to increased efficiency and productivity throughout the project.
                 </li>
                 <li>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete.
+                  <strong>Agile Decision-Making:</strong> By having direct access to your nearshore team during critical decision-making moments, you can gather insights, discuss options, and reach consensus promptly. This agility empowers you to adapt to changing project needs efficiently.
+                </li>
+                <li>
+                  <strong>Enhanced Project Visibility:</strong> You can stay updated on the progress, challenges, and achievements of your nearshore team in real-time. This visibility allows for better tracking of project status, identification of potential risks, and proactive resolution of issues.
+                </li>
+                <li>
+                  <strong>Improved Client Satisfaction:</strong> Seamless collaboration facilitated by Triosource's nearshore teams contributes to improved client satisfaction. By providing direct access to your team during your working hours, you can address client queries, provide timely updates, and ensure effective communication, enhancing the overall client experience.
                 </li>
               </ul>
             </div>
