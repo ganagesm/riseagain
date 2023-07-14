@@ -10,7 +10,7 @@ const PartnerSlider = () => {
           <Swiper
             spaceBetween={30}
             autoplay={{
-              delay: 5000,
+              delay: 1,
               disableOnInteraction: true,
               pauseOnMouseEnter: true,
             }}

@@ -1,14 +1,14 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
+import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import TeamContent from "../components/Team/TeamContent";
 import FreeTrialForm from "../components/Common/FreeTrialForm";
-import Footer from "../components/Layouts/Footer";
+import Footer from "../components/Live/Footer";
 
 const Team = () => {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <PageBanner
         pageTitle="Our Team"

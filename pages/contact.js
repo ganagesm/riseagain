@@ -1,13 +1,13 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
+import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import ContactFormContent from "../components/Contact/ContactFormContent";
-import Footer from "../components/Layouts/Footer";
+import Footer from "../components/Live/Footer";
 
 const Contact = () => {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <PageBanner
         pageTitle="Contact"

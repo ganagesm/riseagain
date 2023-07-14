@@ -4779,7 +4779,7 @@ Footer Area CSS
 }
 .copyright-area {
     background-color: #000000;
-    margin-top: 70px;
+    // margin-top: 70px;
     padding: {
         top: 20px;
         bottom: 20px;
@@ -9756,5 +9756,11 @@ Footer Wrap Area CSS
     z-index: -1;
     animation: animationFramesOne 20s infinite linear;
 }
-
+.single-partner-item {
+    a {
+    font-size: 3.25rem;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    }
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

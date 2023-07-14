@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
+import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import AboutContact from "../components/About/AboutContent";
 import Services from "../components/HomeOne/Services";
@@ -8,12 +8,12 @@ import PartnerContent from "../components/Common/PartnerContent";
 import FeedbackSlider from "../components/Common/FeedbackSlider";
 import PricingCard from "../components/Common/PricingCard";
 import FreeTrialForm from "../components/Common/FreeTrialForm";
-import Footer from "../components/Layouts/Footer";
+import Footer from "../components/Live/Footer";
 
 const About = () => {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <PageBanner
         pageTitle="About Us"
@@ -27,15 +27,15 @@ const About = () => {
 
       <Services />
 
-      <Team />
+      {/* <Team /> */}
 
       <PartnerContent />
 
       <FeedbackSlider />
 
-      <PricingCard />
+      {/* <PricingCard /> */}
 
-      <FreeTrialForm />
+      {/* <FreeTrialForm /> */}
       
       <Footer />
     </>

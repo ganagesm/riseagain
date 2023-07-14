@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Bariton - IT Machine Learning React Next Template</title>
+        <title>Triosource - Technology Consulting & Outsourcing Company</title>
       </Head>
 
       <Component {...pageProps} />

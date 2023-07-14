@@ -1,19 +1,19 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
+import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import BlogThreeGrid from "../components/Blog/BlogThreeGrid";
-import Footer from "../components/Layouts/Footer";
+import Footer from "../components/Live/Footer";
 
 const Blog = () => {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <PageBanner
-        pageTitle="Blog Grid"
+        pageTitle="Blog"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Blog Grid"
+        activePageText="Blog"
         bgImgClass="item-bg2"
       />
 
