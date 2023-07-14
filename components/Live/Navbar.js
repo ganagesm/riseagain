@@ -125,7 +125,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/technologies"
+                      href=""
                       className={`nav-link ${
                         currentPath == "/technologies" && "active"
                       }`}
