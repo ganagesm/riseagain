@@ -25,14 +25,14 @@ const About = () => {
 
       <AboutContact />
 
-      <Services />
+      {/* <Services /> */}
 
-      <Team />
+      {/* <Team /> */}
 
-      <PartnerContent />
+      {/* <PartnerContent /> */}
 
-      <FeedbackSlider />
-      
+      {/* <FeedbackSlider /> */}
+
       <Footer />
     </>
   );
