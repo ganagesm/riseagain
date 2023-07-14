@@ -39,7 +39,9 @@ const AboutContact = () => {
                 <div className="about-text">
                   <h3>Our History</h3>
                   <p>
-                  We have over 2 decades of experience in the IT consulting and staffing industry. We began focusing on outsourcing development to India, and have since helped 100+ companies in the US and Canada achieve digital transformations, launch new products, and recruit globally.
+                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
+                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
+                    elei fend et tiram.
                   </p>
                 </div>
               </div>
@@ -48,7 +50,9 @@ const AboutContact = () => {
                 <div className="about-text">
                   <h3>Our Mission</h3>
                   <p>
-                  We help companies solve their most crucial problem: hiring and staffing. We find world class people in any time zone, with any expertise, and at many price points.
+                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
+                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
+                    elei fend et tiram.
                   </p>
                 </div>
               </div>
@@ -57,7 +61,9 @@ const AboutContact = () => {
                 <div className="about-text">
                   <h3>Who we are</h3>
                   <p>
-                  We are a globally distributed team with offices in California, New York, India and Mexico. We collectively bring expertise in outsourcing, nearshoring, machine learning infrastructure, startups, enterprise, Flutter/Android/React Native/iOS/Ionic development, engineering management, Kubernetes and privately hosted LLMs. If you can name it, one of us has probably done it.
+                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
+                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
+                    elei fend et tiram.
                   </p>
                 </div>
               </div>

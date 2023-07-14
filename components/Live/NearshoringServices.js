@@ -21,12 +21,10 @@ const NearshoringServices = () => {
                   <img src="/images/software-engineer.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
                 <h2>
-                  <Link href="">Unlocking Success
-                  <h3 style={{color: "darkgray"}}>Tech Project Excellence</h3></Link>
+                  <Link href="#">Nearshoring
+                  <h3 style={{color: "darkgray"}}>Talent in your time zone</h3></Link>
                 </h2>
                 <p>Engineers online when you are. Contract, full time, or project based work.</p>
-                <p>Discover how partnering with Triosource's top 1% developers can elevate your tech projects to new heights.</p>
-                <p style={{marginTop: "25px"}}></p>
               </div>
             </div>
 
@@ -36,11 +34,10 @@ const NearshoringServices = () => {
                   <img src="/images/offshore.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
                 <h2>
-                  <Link href="">Fast Onboarding Process
+                  <Link href="#">Offshore
                   <h3 style={{color: "darkgray"}}>Talent at scale</h3></Link>
                 </h2>
                 <p>Build out teams by the hundreds. Vetted technology talent and hyper competitive rates.</p>
-                <p>Accelerate Your Tech Projects with Triosource's Fast Onboarding Process, Learn how Triosource's streamlined onboarding process helps you quickly kick-start your tech projects for timely delivery.</p>
               </div>
             </div>
 
@@ -50,11 +47,10 @@ const NearshoringServices = () => {
                   <img src="/images/clipboard-list.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
                 <h2>
-                  <Link href="">Flexible Solutions for Tech Talent
+                  <Link href="#">Onsite
                   <h3 style={{color: "darkgray"}}>Talent at home</h3></Link>
                 </h2>
                 <p>Let our teams focus on the vetting process while you deliver for your customers.</p>
-                <p>Explore the advantages of Triosource's flexible team arrangements and how they align with your project requirements.</p>
               </div>
             </div>
           </div>
@@ -66,11 +62,10 @@ const NearshoringServices = () => {
                   <img src="/images/software-engineer.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
                 <h2>
-                  <Link href="">Maximize Cost Efficiency
-                  <h3 style={{color: "darkgray"}}>Nearshore Tech Talent</h3></Link>
+                  <Link href="#">Nearshoring
+                  <h3 style={{color: "darkgray"}}>Talent in your time zone</h3></Link>
                 </h2>
                 <p>Engineers online when you are. Contract, full time, or project based work.</p>
-                <p>Delve into the cost-saving benefits of Triosource's Nearshore teams and how they optimize your budget allocation.</p>
               </div>
             </div>
 
@@ -80,11 +75,10 @@ const NearshoringServices = () => {
                   <img src="/images/offshore.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
                 <h2>
-                  <Link href="">Seamless Collaboration
-                  <h3 style={{color: "darkgray"}}>Overlapping Time Zones</h3></Link>
+                  <Link href="#">Offshore
+                  <h3 style={{color: "darkgray"}}>Talent at scale</h3></Link>
                 </h2>
                 <p>Build out teams by the hundreds. Vetted technology talent and hyper competitive rates.</p>
-                <p>Discover how Triosource's nearshore teams enable seamless collaboration and effective communication through overlapping time zones.</p>
               </div>
             </div>
 
@@ -94,11 +88,10 @@ const NearshoringServices = () => {
                   <img src="/images/clipboard-list.svg" alt="image" style={{ width: "75%", textAlign: "center",marginTop: "10px" }} />
                 </div>
                 <h2>
-                  <Link href="">Expertise on Demand
-                  <h3 style={{color: "darkgray"}}>Unleashing a Vast Pool of Skills</h3></Link>
+                  <Link href="#">Onsite
+                  <h3 style={{color: "darkgray"}}>Talent at home</h3></Link>
                 </h2>
                 <p>Let our teams focus on the vetting process while you deliver for your customers.</p>
-                <p>Discover how Triosource's extensive pool of skilled developers offers expertise in various technologies, frameworks, and programming languages.</p>
               </div>
             </div>
           </div>
