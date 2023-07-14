@@ -123,7 +123,7 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li>
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <Link
                       href=""
                       className={`nav-link ${
@@ -151,7 +151,7 @@ const Navbar = () => {
                             currentPath == "/react/" && "active"
                           }`}
                         >
-                            React
+                          React
                         </Link>
                       </li>
 
@@ -162,7 +162,7 @@ const Navbar = () => {
                             currentPath == "/python/" && "active"
                           }`}
                         >
-                         .NET
+                          .NET
                         </Link>
                       </li>
 
@@ -173,7 +173,7 @@ const Navbar = () => {
                             currentPath == "/python/" && "active"
                           }`}
                         >
-                         Python
+                          Python
                         </Link>
                       </li>
 
@@ -221,7 +221,7 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li> */}
+                  </li>
                   <li className="nav-item">
                     <Link
                       href="/case-studies/"
