@@ -34,12 +34,12 @@ const ContactFormContent = () => {
             <div className="contact-info-content">
               <h3>Contact us by Phone Number or Email Address</h3>
               <h2>
-                <span className="number">+088 130 629 8615</span>
+                <span className="number">(408) 400-7043</span>
                 <span className="or">OR</span>
                 <span className="email">hello@triosource.com</span>
               </h2>
 
-              <ul className="social">
+              {/* <ul className="social">
                 <li>
                   <a
                     href="https://twitter.com/"
@@ -85,7 +85,7 @@ const ContactFormContent = () => {
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

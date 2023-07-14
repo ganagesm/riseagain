@@ -68,7 +68,7 @@ const Footer = () => {
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/about">About Us</Link>
+                    <Link href="/case-studies/">About Us</Link>
                   </li>
                   {/* <li> <Link href="/technologies">Technologies</Link> </li> */}
                   <li> <Link href="/blog">Case Studies</Link> </li>
@@ -100,7 +100,7 @@ const Footer = () => {
                     3031 Tisch Way, 110 Plaza West <br /> San Jose, CA
                   </li>
                   <li> <span>Email:</span> hello@triosource.com </li>
-                  <li> <span>Phone:</span> +1 408-931-2520 </li>
+                  <li> <span>Phone:</span> (408) 400-7043</li>
                 </ul>
               </div>
             </div>
