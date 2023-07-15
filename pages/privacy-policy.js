@@ -6,7 +6,7 @@ import Footer from "../components/Live/Footer";
 const PrivacyPolicy = () => {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <PageBanner
         pageTitle="Privacy Policy"
@@ -17,8 +17,6 @@ const PrivacyPolicy = () => {
 
       <div className="text-container ptb-110">
         <div className="container">
-          <h4>What is lorem ipsum?</h4>
-
           <p>
             <h3>Overview</h3>
             <p>
