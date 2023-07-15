@@ -7,7 +7,7 @@ const BlogPostsSection = () => {
       <section className="blog-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Recent Blog Posts</h2>
+            <h2>Recent Case Studies</h2>
             <p>
               Learn more about our work through case studies and technology specific articles.
             </p>
@@ -22,7 +22,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog-details">
+                  <Link href="/swiftly-case-studies/">
                     <img src="/images/blog/blog1.jpg" alt="image" />
                   </Link>
                 </div>
@@ -34,7 +34,7 @@ const BlogPostsSection = () => {
                     </ul>
                   </div>
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/swiftly-case-studies/">
                       Swiftly's secret nearshore weapon
                     </Link>
                   </h3>
@@ -56,7 +56,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog-details">
+                  <Link href="/Supercharges-case-studies/">
                     <img src="/images/blog/blog2.jpg" alt="image" />
                   </Link>
                 </div>
@@ -64,24 +64,20 @@ const BlogPostsSection = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>
-                        <Link href="/blog">Admin</Link>
-                      </li>
                       <li>July 11, 2023</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/blog-details">
-                      I Used The Web For A Day On A 50 MB Budget
+                    <Link href="/Supercharges-case-studies/">
+                    Triosource Supercharges Sharpz's React Native App Development
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
+                  Sharpz is a sports betting social network, with a pre-existing iOS app. Their platform allows users to create an account, link to their online sports-books.
                   </p>
 
-                  <Link href="/blog-details" className="learn-more-btn">
+                  <Link href="/Supercharges-case-studies/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
@@ -96,7 +92,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog-details">
+                  <Link href="/generative-ai-case-studies/">
                     <img src="/images/blog/blog3.jpg" alt="image" />
                   </Link>
                 </div>
@@ -104,24 +100,20 @@ const BlogPostsSection = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>
-                        <Link href="/blog">Admin</Link>
-                      </li>
-                      <li>March 12, 2020</li>
+                      <li>July 12, 2023</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/blog-details">
-                      Here are the 5 most telling signs of micromanagement
+                    <Link href="/generative-ai-case-studies/">
+                    Harnessing Generative AI In Custom Development Environments
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
+                  Generative Artificial Intelligence (AI) is revolutionizing the way developers create custom solutions. This case study explores the success story of TechGen.
                   </p>
 
-                  <Link href="/blog-details" className="learn-more-btn">
+                  <Link href="/generative-ai-case-studies/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>

@@ -33,28 +33,28 @@ const TechSlider = () => {
           >
             <SwiperSlide>
             <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                   Node Js
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                   Java
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/react/" target="_blank" rel="noreferrer">
                   React
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/net/" target="_blank" rel="noreferrer">
                   .NET
                 </a>
               </div>
@@ -68,70 +68,70 @@ const TechSlider = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/c-sharp/" target="_blank" rel="noreferrer">
                   C#
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/rails/" target="_blank" rel="noreferrer">
                   Rails
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/angular/" target="_blank" rel="noreferrer">
                 Angular
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 PHP
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/android/" target="_blank" rel="noreferrer">
                 Android
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 iOS
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/" target="_blank" rel="noreferrer">
                 Golang
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/" target="_blank" rel="noreferrer">
                 Vue.js
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 C++
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 JavaScript
                 </a>
               </div>
@@ -176,112 +176,112 @@ const TechSlider = () => {
           >
             <SwiperSlide>
             <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                   Node Js
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                   Java
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/react/" target="_blank" rel="noreferrer">
                   React
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/net/" target="_blank" rel="noreferrer">
                   .NET
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/python/" target="_blank" rel="noreferrer">
                   Python
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/c-sharp/" target="_blank" rel="noreferrer">
                   C#
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/rails/" target="_blank" rel="noreferrer">
                   Rails
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/angular/" target="_blank" rel="noreferrer">
                 Angular
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 PHP
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/android/" target="_blank" rel="noreferrer">
                 Android
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 iOS
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 Golang
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 Vue.js
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 C++
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 JavaScript
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="single-partner-item">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                 Swift
                 </a>
               </div>

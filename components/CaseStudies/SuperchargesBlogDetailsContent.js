@@ -12,7 +12,7 @@ const BlogDetailsContent = () => {
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
                 <div className="article-image">
-                  <img src="/images/blog/blog-details.jpg" alt="image" />
+                  <img src="/images/blog/app-development.jpeg" alt="image" />
                 </div>
 
                 <div className="article-content">
