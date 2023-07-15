@@ -32,7 +32,7 @@ const Services = () => {
                   />
                 </div>
                 <h2>
-                  <Link href="">
+                  <Link href="/nearshore">
                     Nearshoring
                     <h3 style={{ color: "darkgray" }}>
                       Talent in your time zone
@@ -60,7 +60,7 @@ const Services = () => {
                   />
                 </div>
                 <h2>
-                  <Link href="">
+                  <Link href="/offshore">
                     Offshore
                     <h3 style={{ color: "darkgray" }}>Talent at scale</h3>
                   </Link>
@@ -86,7 +86,7 @@ const Services = () => {
                   />
                 </div>
                 <h2>
-                  <Link href="">
+                  <Link href="/onsite">
                     Onsite
                     <h3 style={{ color: "darkgray" }}>Talent at home</h3>
                   </Link>

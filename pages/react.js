@@ -1,4 +1,3 @@
-
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import Services from "../components/reactjs/Services";
@@ -12,7 +11,7 @@ const Index = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Top React Development Company"
+        pageTitle="React Development Services"
         homePageUrl="/"
         homePageText="Technology"
         activePageText="React"
@@ -24,6 +23,6 @@ const Index = () => {
       <Services />
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;
