@@ -17,17 +17,35 @@ const Footer = () => {
               >
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/white-triosource.png" alt="triosource logo" width={200} />
+                    <img
+                      src="/images/white-triosource.png"
+                      alt="triosource logo"
+                      width={200}
+                    />
                   </Link>
                   <p>
-                    Trisource is a technology consulting and outsourcing company. Nearshore, Offshore, onsite. Hire technology talent anywhere or let our experts use bleeding edge tech to unlock business value for you. 
+                    Trisource is a technology consulting and outsourcing
+                    company. Nearshore, Offshore, onsite. Hire technology talent
+                    anywhere or let our experts use bleeding edge tech to unlock
+                    business value for you.
                   </p>
                 </div>
 
                 <ul className="social">
                   <li>
-                    <a href="https://www.linkedin.com/company/triosource/" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    <a
+                      href="https://www.linkedin.com/company/triosource/"
+                      target="_blank"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="white"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                      </svg>
                     </a>
                   </li>
                 </ul>
@@ -55,7 +73,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>            
+            </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div
@@ -68,19 +86,27 @@ const Footer = () => {
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/case-studies/">About Us</Link>
+                    <Link href="/team">About Us</Link>
                   </li>
-                  {/* <li> <Link href="/technologies">Technologies</Link> </li> */}
-                  <li> <Link href="/blog">Case Studies</Link> </li>
-                  {/* <li>
+                  <li>
+                    {" "}
+                    <Link href="/technologies">Technologies</Link>{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    <Link href="/blog">Case Studies </Link>{" "}
+                  </li>
+                  <li>
                     <Link href="/technologies/kubernetes">Kubernetes</Link>
-                  </li> */}
-                  {/* <li>
-                    <Link href="/technologies/generative-ai">Generative Ai</Link>
-                  </li> */}
-                  {/* <li>
+                  </li>
+                  <li>
+                    <Link href="/technologies/generative-ai">
+                      Generative Ai
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/technologies/mobile">Mobile</Link>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
             </div>
@@ -99,8 +125,14 @@ const Footer = () => {
                     <span>Address:</span>
                     3031 Tisch Way, 110 Plaza West <br /> San Jose, CA
                   </li>
-                  <li> <span>Email:</span> hello@triosource.com </li>
-                  <li> <span>Phone:</span> (408) 400-7043</li>
+                  <li>
+                    {" "}
+                    <span>Email:</span> hello@triosource.com{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    <span>Phone:</span> (408) 400-7043
+                  </li>
                 </ul>
               </div>
             </div>
@@ -112,8 +144,8 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <p>
-                  @ Copyright &copy;{currentYear} Triosource. All Rights Reserved{" "}
-                  .
+                  @ Copyright &copy;{currentYear} Triosource. All Rights
+                  Reserved .
                 </p>
               </div>
 
