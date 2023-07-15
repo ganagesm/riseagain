@@ -6,7 +6,7 @@ import Footer from "../components/Layouts/Footer";
 const PrivacyPolicy = () => {
   return (
     <>
-      <Navbar />
+      <NavbarTwo />
 
       <PageBanner
         pageTitle="Privacy Policy"
@@ -17,23 +17,93 @@ const PrivacyPolicy = () => {
 
       <div className="text-container ptb-110">
         <div className="container">
+          <h4>What is lorem ipsum?</h4>
+
           <p>
-TrioSource (TS) has designed this current Privacy Policy to showcase our commitment to safeguarding privacy and personal data. This Privacy Policy pertains to and applies to the personal information of website visitors or users that might get collected via TrioSource. This could include collecting names, emails, telephone numbers, and any other information that can authenticate an individual's identity and could be used for business purposes. By agreeing to this Privacy Policy and continuing to use this website you are accepting the terms and conditions of this policy.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
 
-Information We Collect and How We Use It
-Like most websites, we collect user information to provide better services. We gather personal information like a computer's Internet Protocol (IP) address, browser type, browser version, visited pages of our site, time and date of each visit, the time spent on specific pages, and other relevant statistics of users using our site. Similar data is collected when you interact with us by commenting on a blog, through our contact form, applying to our jobs or chatbot. The purpose of collecting this data is to offer our clients enhanced usability, troubleshooting, site maintenance, and to analyze the most visited parts of the website and its frequency. This helps us to evaluate audience response to TrioSource and make improvements wherever necessary.
+          <h4>Where does it come from?</h4>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word in classical literature,
+            discovered the undoubtable source. Lorem Ipsum comes from sections
+            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a
+            treatise on the theory of ethics, very popular during the
+            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+            amet..".
+          </p>
 
-Information Security
-TS recognizes the sensitivity of protecting personal information and we aim to keep it secure. TrioSource strictly refrains from sharing your personal information with any third party without your consent. We adhere to a comprehensive procedure that involves administrative, physical security, and technical controls to protect your private information. Occasionally, we may use third-party tools and plugins. These might also assimilate the information necessary to offer improved services. These third-party tools and plugins follow their own set of privacy policies. We recommend that you inquire about these policies from the providers for a clear understanding.
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+          </p>
 
-Cookies
-Cookies are small text files placed on your device by the sites you visit. Websites can read these files and recognize you when you return to a website. Like most websites, we automatically gather certain information and store it in log files. Also, when you visit our website, we may automatically collect certain information from your device. This information may include internet protocol (IP) addresses, browser type, internet service provider (ISP), referring/exit pages, operating system, date/time stamp, clickstream data, landing page, and referring URL. To collect this information, a cookie may be set on your computer or device when you visit our Services. Cookies contain a small amount of information that allows our web servers to recognize you. We store information that we collect through cookies, log files, and/or clear gifs to record your preferences. We may also automatically collect information about your use of features of our Services, about the functionality of our Services, frequency of visits, and other information related to your interactions with the Services. We may track your use across different websites and services. Session cookies are deleted as soon as you leave the page or close the web browser.
+          <h4>Where can I get some?</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim.
+          </p>
 
-Cookie Functions
-Session Cookies: A Session cookie remains as long as your browser session is active. These cookies aim to help you avoid any browsing inconvenience during an active session. These cookies allow websites to link with user actions during a browsing session and expire when the session ends. Session cookies assist the user while navigating sites, and allow the user to connect with secure webpage parts when logged in.
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable. If you are going to use a passage of Lorem Ipsum, you
+            need to be sure there isn't anything embarrassing hidden in the
+            middle of text. All the Lorem Ipsum generators on the Internet tend
+            to repeat predefined chunks as necessary, making this the first true
+            generator on the Internet. It uses a dictionary of over 200 Latin
+            words, combined with a handful of model sentence structures, to
+            generate Lorem Ipsum which looks reasonable. The generated Lorem
+            Ipsum is therefore always free from repetition, injected.
+          </p>
 
-Privacy Policy Changes
-This policy is effective and will remain so concerning any alterations in its provision in the future. This will take effect quickly after updating on this page. We reserve the right to modify or update this privacy policy at any time, and we suggest you check them frequently. Your continued use of this webpage, even after changes to the privacy policy, will be considered as your acknowledgment and consent to the newly formed Privacy Policy.
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing
+            pleasure and praising pain was born and I will give you a complete
+            account of the system, and expound the actual teachings of the great
+            explorer of the truth, the master-builder of human happiness. No one
+            rejects, dislikes, or avoids pleasure itself, because it is
+            pleasure, but because those who do not know how to pursue pleasure
+            rationally encounter consequences that are extremely painful. Nor
+            again is there anyone who loves or pursues or desires to obtain pain
+            of itself, because it is pain, but because occasionally
+            circumstances occur in which toil and pain can procure him some
+            great pleasure. To take a trivial example, which of us ever
+            undertakes laborious physical exercise, except to obtain some
+            advantage from it? But who has any right to find fault with a man
+            who chooses to enjoy a pleasure that has no annoying consequences,
+            or one who avoids a pain that produces no resultant pleasure?
           </p>
         </div>
       </div>
