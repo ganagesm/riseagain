@@ -16,19 +16,8 @@ const AboutContact = () => {
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
                 <h2>Engaging New Audiences Through Smart Approach</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo.
-                </p>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't anything.
-                </p>
+                <p> Welcome to TrioSource! We are a leading technology company specializing in innovative software solutions for businesses in various industries. With a passion for delivering excellence, our team of talented engineers and developers is dedicated to creating cutting-edge products that empower organizations to thrive in the digital age. At TrioSource, we combine our technical expertise with a deep understanding of our clients' needs to develop tailored solutions that drive growth, efficiency, and customer satisfaction. Join us on this exciting journey as we transform businesses through technology. </p>
+                <p> TrioSource is built on the foundation of innovation and collaboration. Our story began with a group of visionary entrepreneurs who recognized the potential of technology to revolutionize the way businesses operate. Since our inception, we have been committed to delivering exceptional software solutions that empower our clients to stay ahead in a rapidly changing landscape. With a diverse team of industry experts and thought leaders, we bring together the best minds to develop robust, scalable, and user-friendly applications. Join us as we harness the power of technology to shape a brighter future for businesses around the world.</p>
               </div>
             </div>
           </div>
@@ -39,9 +28,7 @@ const AboutContact = () => {
                 <div className="about-text">
                   <h3>Our History</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  We have over 2 decades of experience in the IT consulting and staffing industry. We began focusing on outsourcing development to India, and have since helped 100+ companies in the US and Canada achieve digital transformations, launch new products, and recruit globally.
                   </p>
                 </div>
               </div>
@@ -50,9 +37,7 @@ const AboutContact = () => {
                 <div className="about-text">
                   <h3>Our Mission</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  We help companies solve their most crucial problem: hiring and staffing. We find world class people in any time zone, with any expertise, and at many price points.
                   </p>
                 </div>
               </div>
@@ -61,9 +46,7 @@ const AboutContact = () => {
                 <div className="about-text">
                   <h3>Who we are</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  We are a globally distributed team with offices in California, New York, India and Mexico. We collectively bring expertise in outsourcing, nearshoring, machine learning infrastructure, startups, enterprise, Flutter/Android/React Native/iOS/Ionic development, engineering management, Kubernetes and privately hosted LLMs. If you can name it, one of us has probably done it.
                   </p>
                 </div>
               </div>

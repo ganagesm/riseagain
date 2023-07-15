@@ -78,10 +78,10 @@ const Navbar = () => {
               </button>
 
               <div className={classOne} id="navbarSupportedContent">
-              <ul className="navbar-nav">
-              <li className="nav-item">
+                <ul className="navbar-nav">
+                  <li className="nav-item">
                     <Link
-                      href=""
+                      href="#"
                       className={`nav-link ${
                         currentPath == "/engagement-models" && "active"
                       }`}
@@ -107,7 +107,7 @@ const Navbar = () => {
                             currentPath == "/offshore/" && "active"
                           }`}
                         >
-                            Offshore
+                          Offshore
                         </Link>
                       </li>
 
@@ -118,14 +118,14 @@ const Navbar = () => {
                             currentPath == "/onsite/" && "active"
                           }`}
                         >
-                         Onsite
+                          Onsite
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/technologies"
+                      href=""
                       className={`nav-link ${
                         currentPath == "/technologies" && "active"
                       }`}
@@ -151,7 +151,18 @@ const Navbar = () => {
                             currentPath == "/react/" && "active"
                           }`}
                         >
-                            React
+                          React
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/net/"
+                          className={`nav-link ${
+                            currentPath == "/net/" && "active"
+                          }`}
+                        >
+                          .NET
                         </Link>
                       </li>
 
@@ -162,18 +173,7 @@ const Navbar = () => {
                             currentPath == "/python/" && "active"
                           }`}
                         >
-                         .NET
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/python/"
-                          className={`nav-link ${
-                            currentPath == "/python/" && "active"
-                          }`}
-                        >
-                         Python
+                          Python
                         </Link>
                       </li>
 
@@ -190,9 +190,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/python/"
+                          href="/rails/"
                           className={`nav-link ${
-                            currentPath == "/python/" && "active"
+                            currentPath == "/rails/" && "active"
                           }`}
                         >
                           Rails
@@ -201,9 +201,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/python/"
+                          href="/angular/"
                           className={`nav-link ${
-                            currentPath == "/python/" && "active"
+                            currentPath == "/angular/" && "active"
                           }`}
                         >
                           Angular
@@ -212,9 +212,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/python/"
+                          href="/android/"
                           className={`nav-link ${
-                            currentPath == "/python/" && "active"
+                            currentPath == "/android/" && "active"
                           }`}
                         >
                           Android
@@ -232,7 +232,7 @@ const Navbar = () => {
                       Case Studies
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/team"
                       className={`nav-link ${
@@ -241,7 +241,7 @@ const Navbar = () => {
                     >
                       Team
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link
                       href="/about"

@@ -5,6 +5,9 @@ import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
 
+// const sendGridMail = require('@sendgrid/mail');
+// sendGridMail.setApiKey('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');
+
 const alertContent = () => {
   MySwal.fire({
     title: "Congratulations!",
@@ -31,15 +34,20 @@ const ContactForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
-    // console.log(contact)
+    console.log(contact)
   };
 
   const handleSubmit = async (e) => {
+    debugger;
     e.preventDefault();
     try {
       const url = `${baseUrl}/api/contact`;
       const { name, email, number, subject, text } = contact;
       const payload = { name, email, number, subject, text };
+
+      // await sendGridMail.send(payload);
+      console.log('Test email sent successfully');
+
       const response = await axios.post(url, payload);
       console.log(response);
       setContact(INITIAL_STATE);

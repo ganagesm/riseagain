@@ -1,20 +1,9 @@
-// import Navbar from "../components/Layouts/Navbar";
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
-import HeroBanner from "../components/Live/HeroBanner";
-import AboutUs from "../components/Live/AboutUs";
-import Services from "../components/Live/Services";
-import BlogPost from "../components/Common/BlogPost";
-import FunFacts from "../components/Live/FunFacts";
-import MainBanner from "../components/Live/MainBanner";
-import PartnerContent from "../components/Live/PartnerContent";
-import TechSlider from "../components/Live/TechSlider";
-import Projects from "../components/Live/Projects";
-
-
-import ComputerVisionAI from "../components/Live/ComputerVisionAI";
-import PageBanner from "../components/Live/PageBanner";
-import TechDetailsContent from "../components/Live/TechDetailsContent";
+import Services from "../components/reactjs/Services";
+import ComputerVisionAI from "../components/reactjs/ComputerVisionAI";
+import PageBanner from "../components/reactjs/PageBanner";
+import TechDetailsContent from "../components/reactjs/TechDetailsContent";
 
 const Index = () => {
   return (
@@ -22,20 +11,18 @@ const Index = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="React Js Services"
+        pageTitle="React Development Services"
         homePageUrl="/"
         homePageText="Technology"
-        activePageText="React Js"
+        activePageText="React"
         bgImgClass="item-bg2"
       />
 
       <TechDetailsContent />
       <ComputerVisionAI />
       <Services />
-      <BlogPost />
-
       <Footer />
     </>
-  )
-}
+  );
+};
 export default Index;

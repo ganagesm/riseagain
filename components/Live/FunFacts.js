@@ -16,7 +16,7 @@ const FunFacts = () => {
           <div className="contact-cta-box">
                 <h3>Get in touch now</h3>
                 <p>Call or chat with us to learn about our work and how we can help scale your teams.</p>
-                <Link href="#contact" className="btn btn-primary">
+                <Link href="/contact/" target="_blank" className="btn btn-primary">
                 Schedule a callback<span></span>
                 </Link>
           </div>

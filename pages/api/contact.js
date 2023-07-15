@@ -4,7 +4,8 @@ import sgTransport from "nodemailer-sendgrid-transport";
 const transporter = {
   auth: {
     // Update your SendGrid API key here
-    api_key: "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",
+    // api_key: "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",
+    api_key: "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",
   },
 };
 
@@ -17,7 +18,7 @@ export default async (req, res) => {
 
   const data = {
     // Update your email here
-    to: "exampleyour@gmail.com",
+    to: "hello@triosource.com",
     from: email,
     subject: "Hi there",
     text: text,

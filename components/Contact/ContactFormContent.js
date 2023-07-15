@@ -1,17 +1,50 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContactForm from "./ContactForm";
 
 const ContactFormContent = () => {
+  const executeFunction = () => {
+      try{
+      var f = document.createElement("iframe");
+      f.src = 'https://forms.zohopublic.in/satechsoftwareipvtltd/form/Triosource/formperma/Yd6FLG9ozg5icmdah2YR8Dmh3WZ9gw8RHBd3D1sbPJs?zf_rszfm=1';
+      f.style.border="none";
+      f.style.height="576px";
+      f.style.width="90%";
+      f.style.transition="all 0.5s ease";
+      
+      var d = document.getElementById("zf_div_Yd6FLG9ozg5icmdah2YR8Dmh3WZ9gw8RHBd3D1sbPJs");
+      d.appendChild(f);
+      window.addEventListener('message', function (){
+      var evntData = event.data;
+      if( evntData && evntData.constructor == String ){
+      var zf_ifrm_data = evntData.split("|");
+      if ( zf_ifrm_data.length == 2 ) {
+      var zf_perma = zf_ifrm_data[0];
+      var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
+      var iframe = document.getElementById("zf_div_Yd6FLG9ozg5icmdah2YR8Dmh3WZ9gw8RHBd3D1sbPJs").getElementsByTagName("iframe")[0];
+      if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
+      var prevIframeHeight = iframe.style.height;
+      if ( prevIframeHeight != zf_ifrm_ht_nw ) {
+      iframe.style.height = zf_ifrm_ht_nw;
+      }
+      }
+      }
+      }
+      }, false);
+      }catch(e){}
+  }
+  useEffect(()=>{
+    executeFunction();
+  }, []);
   return (
     <>
       <section className="contact-area ptb-110">
         <div className="container">
           <div className="section-title">
             <span>Message Us</span>
-            <h2>Drop us Message for any Query</h2>
+            <h2>Drop us a Message with any inquiry</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Thank you for your interest in TrioSource. We’d like to ask you a
+              few questions to get to know you and your requirements better.
             </p>
           </div>
 
@@ -24,7 +57,9 @@ const ContactFormContent = () => {
               </div>
 
               <div className="col-lg-7 col-md-12">
-                <ContactForm />
+                {/* <ContactForm /> */}
+                <div id="zf_div_Yd6FLG9ozg5icmdah2YR8Dmh3WZ9gw8RHBd3D1sbPJs"></div>
+                
               </div>
             </div>
           </div>
@@ -34,12 +69,12 @@ const ContactFormContent = () => {
             <div className="contact-info-content">
               <h3>Contact us by Phone Number or Email Address</h3>
               <h2>
-                <span className="number">+088 130 629 8615</span>
+                <span className="number">(408) 400-7043</span>
                 <span className="or">OR</span>
                 <span className="email">hello@triosource.com</span>
               </h2>
 
-              <ul className="social">
+              {/* <ul className="social">
                 <li>
                   <a
                     href="https://twitter.com/"
@@ -85,7 +120,7 @@ const ContactFormContent = () => {
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

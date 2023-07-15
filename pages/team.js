@@ -20,8 +20,6 @@ const Team = () => {
 
       <TeamContent />
 
-      <FreeTrialForm />
-
       <Footer />
     </>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 // import BlogCommentsArea from "./BlogCommentsArea";
-import SwiftlyBlogSidebar from "./SwiftlyBlogSidebar";
+// import SwiftlyBlogSidebar from "./CaseStudies/SwiftlyBlogSidebar";
 
 const BlogDetailsContent = () => {
   return (
@@ -12,7 +12,7 @@ const BlogDetailsContent = () => {
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
                 <div className="article-image">
-                  <img src="/images/blog/blog-details.jpg" alt="image" />
+                  <img src="/images/blog/generative-ai-case-studie.jpeg" alt="image" />
                 </div>
 
                 <div className="article-content">
@@ -22,10 +22,10 @@ const BlogDetailsContent = () => {
                         <span>Posted On:</span>
                         12 July, 2023
                       </li>
-                      <li>
+                      {/* <li>
                         <span>Posted By:</span>
                         <Link href="#">John Anderson</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
 
@@ -98,7 +98,7 @@ const BlogDetailsContent = () => {
             </div>
 
             <div className="col-lg-4 col-md-12">
-              <SwiftlyBlogSidebar />
+              {/* <SwiftlyBlogSidebar /> */}
             </div>
           </div>
         </div>
