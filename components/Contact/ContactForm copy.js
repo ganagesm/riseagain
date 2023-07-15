@@ -5,8 +5,8 @@ import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
 
-// const sendGridMail = require('@sendgrid/mail');
-// sendGridMail.setApiKey('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');
+const sendGridMail = require('@sendgrid/mail');
+sendGridMail.setApiKey('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');
 
 const alertContent = () => {
   MySwal.fire({
@@ -31,35 +31,83 @@ const INITIAL_STATE = {
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
 
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setContact((prevState) => ({ ...prevState, [name]: value }));
+  //   console.log(contact)
+  // };
   const handleChange = (e) => {
+    debugger;
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
     console.log(contact)
   };
 
-  const handleSubmit = async (e) => {
+  // const handleSubmit = async (e) => {
+  //   debugger;
+  //   e.preventDefault();
+  //   try {
+  //     const url = `${baseUrl}/api/contact`;
+  //     const { name, email, number, subject, text } = contact;
+  //     const payload = { name, email, number, subject, text };
+  //     const response = await axios.post(url, payload);
+  //     console.log(response);
+  //     setContact(INITIAL_STATE);
+  //     alertContent();
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+
+// backup 15/07/2023
+  // function getMessage() {
+  //   const body = 'This is a test email using SendGrid from Node.js';
+  //   return {
+  //     to: 'gangesm1@gmail.com',
+  //     // to: 'info@triosource.com',
+  //     from: 'info@triosource.com',
+  //     // from: 'gangesm1@gmail.com',
+  //     subject: 'Test email with Node.js and SendGrid',
+  //     text: body,
+  //     html: `<strong>${body}</strong>`,
+  //   };
+  // }
+  function getMessage() {
+    const body = 'test';
+    return {
+          // to: 'gangesm1@gmail.com',
+          to: 'info@triosource.com',
+          from: 'info@triosource.com',
+          from: 'gangesm1@gmail.com',
+          subject: 'Test email with Node.js and SendGrid',
+          text: body,
+          html: `<strong>${body}</strong>`,
+        };
+  }
+  
+  async function sendEmail() {
     debugger;
-    e.preventDefault();
     try {
-      const url = `${baseUrl}/api/contact`;
-      const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
-
-      // await sendGridMail.send(payload);
+      await sendGridMail.send(getMessage());
       console.log('Test email sent successfully');
-
-      const response = await axios.post(url, payload);
-      console.log(response);
-      setContact(INITIAL_STATE);
-      alertContent();
     } catch (error) {
-      console.log(error);
+      console.error('Error sending test email');
+      console.error(error);
+      if (error.response) {
+        console.error(error.response.body)
+      }
     }
-  };
+  }
+  
+  (async () => {
+    console.log('Sending test email');
+    await sendEmail();
+  })();
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={getMessage}>
+      {/* <form> */}
         <div className="row">
           <div className="col-lg-6 col-md-6">
             <div className="form-group">
