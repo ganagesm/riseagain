@@ -47,7 +47,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="300"
             >
-              <a href="" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/103.png" alt="image" />
               </a>
             </div>
@@ -153,7 +153,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
                 <img src="/images/partner/113.png" alt="image" />
               </a>
             </div>
@@ -163,20 +163,17 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
                 <img src="/images/partner/114.png" alt="image" />
               </a>
             </div>
             <div className="col-lg-12 col-md-12">
               <div className="ai-all-services-btn">
-                <Link href="#" className="btn btn-primary">
+                <Link href="/customers-and-partners/" className="btn btn-primary">
                   Discover More
                 </Link>
               </div>
             </div>
-            {/* <Link href="/about-two" className="btn btn-primary">
-                  Discover More
-                </Link> */}
           </div>
         </div>
       </div>
