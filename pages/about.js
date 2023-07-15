@@ -2,12 +2,8 @@ import React, { Component } from "react";
 import Navbar from "../components/Live/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import AboutContact from "../components/About/AboutContent";
-import Services from "../components/HomeOne/Services";
-import Team from "../components/Common/Team";
-import PartnerContent from "../components/Common/PartnerContent";
-import FeedbackSlider from "../components/Common/FeedbackSlider";
-import PricingCard from "../components/Common/PricingCard";
-import FreeTrialForm from "../components/Common/FreeTrialForm";
+import PartnerContent from "../components/Live/PartnerContent";
+import NearshoringTestimonials from "../components/Live/NearshoringTestimonials";
 import Footer from "../components/Live/Footer";
 
 const About = () => {
@@ -24,20 +20,8 @@ const About = () => {
       />
 
       <AboutContact />
-
-      {/* <Services /> */}
-
-      {/* <Team /> */}
-      {/* <Team /> */}
-
-      {/* <PartnerContent /> */}
-
-      <FeedbackSlider />
-
-      {/* <PricingCard /> */}
-
-      {/* <FreeTrialForm /> */}
-
+      <PartnerContent />
+      <NearshoringTestimonials />
       <Footer />
     </>
   );
