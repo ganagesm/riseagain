@@ -113,7 +113,7 @@ const BlogSidebar = () => {
         </div>
 
         {/* Categories */}
-        {/* <div className="widget widget_categories">
+        <div className="widget widget_categories">
           <h3 className="widget-title">Categories</h3>
 
           <ul>
@@ -133,10 +133,10 @@ const BlogSidebar = () => {
               <Link href="#">Uncategorized</Link>
             </li>
           </ul>
-        </div> */}
+        </div>
 
         {/* Tags */}
-        {/* <div className="widget widget_tag_cloud">
+        <div className="widget widget_tag_cloud">
           <h3 className="widget-title">Tags</h3>
 
           <div className="tagcloud">
@@ -172,7 +172,7 @@ const BlogSidebar = () => {
               Tips <span className="tag-link-count">(2)</span>
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );

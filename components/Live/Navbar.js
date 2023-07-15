@@ -78,8 +78,8 @@ const Navbar = () => {
               </button>
 
               <div className={classOne} id="navbarSupportedContent">
-              <ul className="navbar-nav">
-              <li className="nav-item">
+                <ul className="navbar-nav">
+                  <li className="nav-item">
                     <Link
                       href="#"
                       className={`nav-link ${
@@ -107,7 +107,7 @@ const Navbar = () => {
                             currentPath == "/offshore/" && "active"
                           }`}
                         >
-                            Offshore
+                          Offshore
                         </Link>
                       </li>
 
@@ -118,14 +118,14 @@ const Navbar = () => {
                             currentPath == "/onsite/" && "active"
                           }`}
                         >
-                         Onsite
+                          Onsite
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/technologies"
+                      href=""
                       className={`nav-link ${
                         currentPath == "/technologies" && "active"
                       }`}
@@ -151,7 +151,7 @@ const Navbar = () => {
                             currentPath == "/react/" && "active"
                           }`}
                         >
-                            React
+                          React
                         </Link>
                       </li>
 
@@ -162,7 +162,7 @@ const Navbar = () => {
                             currentPath == "/net/" && "active"
                           }`}
                         >
-                         .NET
+                          .NET
                         </Link>
                       </li>
 
@@ -173,7 +173,7 @@ const Navbar = () => {
                             currentPath == "/python/" && "active"
                           }`}
                         >
-                         Python
+                          Python
                         </Link>
                       </li>
 

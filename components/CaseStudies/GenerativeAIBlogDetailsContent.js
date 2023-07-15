@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 // import BlogCommentsArea from "./BlogCommentsArea";
-import SwiftlyBlogSidebar from "./SwiftlyBlogSidebar";
+// import SwiftlyBlogSidebar from "./CaseStudies/SwiftlyBlogSidebar";
 
 const BlogDetailsContent = () => {
   return (
@@ -98,7 +98,7 @@ const BlogDetailsContent = () => {
             </div>
 
             <div className="col-lg-4 col-md-12">
-              <SwiftlyBlogSidebar />
+              {/* <SwiftlyBlogSidebar /> */}
             </div>
           </div>
         </div>
