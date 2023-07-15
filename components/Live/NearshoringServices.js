@@ -56,10 +56,15 @@ const NearshoringServices = () => {
                 <h2>
                   <Link href="#">
                     Project
-                    <h3 style={{ color: "darkgray" }}>Talent at scale</h3>
+                    <h3 style={{ color: "darkgray" }}>
+                      Over 1000 projects delivered
+                    </h3>
                   </Link>
                 </h2>
-                <p>Give us a spec, and we'll deliver value.</p>
+                <p>
+                  Give us a spec, and we'll deliver a responsive, well-built
+                  product integrated with your business.
+                </p>
               </div>
             </div>
 
@@ -83,8 +88,8 @@ const NearshoringServices = () => {
                   </Link>
                 </h2>
                 <p>
-                  Our engineers work with you to ultimately deliver your
-                  project.
+                  Our engineers work with you and your team to ultimately
+                  deliver your project.
                 </p>
               </div>
             </div>

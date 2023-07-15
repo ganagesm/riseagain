@@ -29,7 +29,7 @@ const HeroBanner = () => {
                 <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
                   experts unlock business value for you with bleeding edge
-                  technologies
+                  technologies.
                 </p>
 
                 <div className="btn-box">

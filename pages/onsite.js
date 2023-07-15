@@ -11,14 +11,14 @@ const ServiceDetails = () => {
     <>
       <Navbar />
       <OnsitePageBanner
-        pageTitle="Onsite Teams - Collaboration and Proximity"
+        pageTitle="Onsite Teams - Proximity and Collaboration"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Onsite"
         bgImgClass="item-bg2"
       />
       <OnsiteServices />
-      <onsiteServiceDetailsContent />
+      <OnsiteServiceDetailsContent />
       <NearshoringTestimonials />
       <Footer />
     </>

@@ -7,26 +7,41 @@ const NearshoringServices = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Choosing the Right Team.</h2>
-            <h2>Arrangement with Triosource.</h2>
-            <p>
-              Our outsourced engineers can plug directly into your teams. Triosource also creates dedicated teams of engineers with a project based approach. Our consulting approach allows for a hybrid. We can work however you work.
-            </p>
+            <h2>Choose the Right Option for your Team.</h2>
+            <h2>Arrangements with Triosource.</h2>
+            <p></p>
           </div>
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/software-engineer.svg" alt="image" style={{ width: "75%", textAlign: "center", marginTop: "10px" }} />
+                  <img
+                    src="/images/software-engineer.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </div>
                 <h2>
-                  <Link href="#">Offshore Teams
-                    <h3 style={{ color: "darkgray" }}>Cost Savings and Global Talent Pool</h3></Link>
+                  <Link href="#">
+                    Offshore Teams
+                    <h3 style={{ color: "darkgray" }}>
+                      Cost Savings and Global Talent Pool
+                    </h3>
+                  </Link>
                 </h2>
-                <p>Triosource's offshore teams, situated in countries with lower labor costs, offer substantial cost savings without compromising on quality. Leveraging offshore teams allows you to tap into a global talent pool, gaining access to a diverse range of skills and expertise.
-
-                  Tailored Team Arrangements for Project-specific Needs.</p>
+                <p>
+                  Triosource's offshore teams, situated in countries with lower
+                  labor costs, offer substantial cost savings without
+                  compromising on quality. Leveraging offshore teams allows you
+                  to tap into a global talent pool, gaining access to a diverse
+                  range of skills and expertise. Tailored Team Arrangements for
+                  Project-specific Needs.
+                </p>
                 <p style={{ marginTop: "35px" }}></p>
               </div>
             </div>
@@ -34,31 +49,67 @@ const NearshoringServices = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/offshore.svg" alt="image" style={{ width: "75%", textAlign: "center", marginTop: "10px" }} />
+                  <img
+                    src="/images/offshore.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </div>
                 <h2>
-                  <Link href="#">Flexible Engagement Models
-                    <h3 style={{ color: "darkgray" }}>Dedicated resource models</h3></Link>
+                  <Link href="#">
+                    Flexible Engagement Models
+                    <h3 style={{ color: "darkgray" }}>
+                      Dedicated resource models
+                    </h3>
+                  </Link>
                 </h2>
-                <p>Triosource offers flexible engagement models for their newshore teams, such as project-based or dedicated resource models. This flexibility allows you to choose the engagement model that best aligns with your project requirements and budget, ensuring optimal cost efficiency.</p>
+                <p>
+                  Triosource offers flexible engagement models for their
+                  offshore teams, such as project-based or dedicated resource
+                  models. This flexibility allows you to choose the engagement
+                  model that best aligns with your project requirements and
+                  budget.
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
                 <div className="icon">
-                  <img src="/images/clipboard-list.svg" alt="image" style={{ width: "75%", textAlign: "center", marginTop: "10px" }} />
+                  <img
+                    src="/images/clipboard-list.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
                 </div>
                 <h2>
-                  <Link href="#">Cost Predictability
-                    <h3 style={{ color: "darkgray" }}>Clear contractual terms</h3></Link>
+                  <Link href="#">
+                    Cost Predictability
+                    <h3 style={{ color: "darkgray" }}>
+                      Clear contractual terms
+                    </h3>
+                  </Link>
                 </h2>
-                <p>Triosource's newshore teams provide cost predictability for your tech projects. They offer transparent pricing models and clear contractual terms, allowing you to have a clear understanding of the costs involved. This predictability enables better budget planning and cost control throughout the project lifecycle.</p>
-                <p style={{marginTop: "25px"}}></p>
+                <p>
+                  Triosource's offshore teams provide cost predictability for
+                  your tech projects. They offer transparent pricing models and
+                  clear contractual terms, allowing you to have a clear
+                  understanding of the costs involved. This predictability
+                  enables better budget planning and cost control throughout the
+                  project lifecycle.
+                </p>
+                <p style={{ marginTop: "25px" }}></p>
               </div>
             </div>
           </div>
-
         </div>
 
         {/* Shape Images */}

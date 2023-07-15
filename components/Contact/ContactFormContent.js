@@ -8,10 +8,10 @@ const ContactFormContent = () => {
         <div className="container">
           <div className="section-title">
             <span>Message Us</span>
-            <h2>Drop us Message for any Query</h2>
+            <h2>Drop us a Message with any inquiry</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Thank you for your interest in TrioSource. We’d like to ask you a
+              few questions to get to know you and your requirements better.
             </p>
           </div>
 
