@@ -96,17 +96,11 @@ const Footer = () => {
                     {" "}
                     <Link href="/case-studies/">Case Studies </Link>{" "}
                   </li>
-                  {/* <li>
-                    <Link href="/technologies/kubernetes">Kubernetes</Link>
-                  </li>
                   <li>
-                    <Link href="/technologies/generative-ai">
+                    <Link href="//generativeAi/">
                       Generative Ai
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/technologies/mobile">Mobile</Link>
-                  </li> */}
                 </ul>
               </div>
             </div>
