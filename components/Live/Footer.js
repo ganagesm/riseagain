@@ -86,17 +86,17 @@ const Footer = () => {
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/team">About Us</Link>
+                    <Link href="/about">About Us</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     {" "}
                     <Link href="/technologies">Technologies</Link>{" "}
-                  </li>
+                  </li> */}
                   <li>
                     {" "}
-                    <Link href="/blog">Case Studies </Link>{" "}
+                    <Link href="/case-studies/">Case Studies </Link>{" "}
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/technologies/kubernetes">Kubernetes</Link>
                   </li>
                   <li>
@@ -106,7 +106,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/technologies/mobile">Mobile</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
