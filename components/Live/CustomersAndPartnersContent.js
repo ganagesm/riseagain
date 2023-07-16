@@ -19,7 +19,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/101.png" alt="image" />
               </a>
             </div>
@@ -30,7 +30,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/102.png" alt="image" />
               </a>
             </div>
@@ -41,7 +41,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="300"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/103.png" alt="image" />
               </a>
             </div>
@@ -52,7 +52,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="400"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/104.png" alt="image" />
               </a>
             </div>
@@ -63,7 +63,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="500"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/105.png" alt="image" />
               </a>
             </div>
@@ -74,7 +74,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="600"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/106.png" alt="image" />
               </a>
             </div>
@@ -85,7 +85,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="700"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/107.png" alt="image" />
               </a>
             </div>
@@ -96,7 +96,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="800"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/108.png" alt="image" />
               </a>
             </div>
@@ -107,7 +107,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/109.png" alt="image" />
               </a>
             </div>
@@ -117,7 +117,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/110.png" alt="image" />
               </a>
             </div>
@@ -127,7 +127,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/111.png" alt="image" />
               </a>
             </div>
@@ -137,7 +137,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/112.png" alt="image" />
               </a>
             </div><div
@@ -146,7 +146,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/113.png" alt="image" />
               </a>
             </div>
@@ -156,7 +156,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/114.png" alt="image" />
               </a>
             </div>
@@ -171,7 +171,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/1.png" alt="image" />
               </a>
             </div>
@@ -181,7 +181,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/2.png" alt="image" />
               </a>
             </div>
@@ -191,7 +191,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/3.png" alt="image" />
               </a>
             </div>
@@ -201,7 +201,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/4.png" alt="image" />
               </a>
             </div>
@@ -211,7 +211,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/5.png" alt="image" />
               </a>
             </div>
@@ -221,7 +221,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/6.png" alt="image" />
               </a>
             </div>
@@ -231,7 +231,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/7.png" alt="image" />
               </a>
             </div>
@@ -241,7 +241,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/8.png" alt="image" />
               </a>
             </div>
@@ -251,7 +251,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/9.png" alt="image" />
               </a>
             </div>
@@ -261,7 +261,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/10.png" alt="image" />
               </a>
             </div>
@@ -271,7 +271,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/11.png" alt="image" />
               </a>
             </div>
@@ -281,7 +281,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/12.png" alt="image" />
               </a>
             </div>
@@ -291,7 +291,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/13.png" alt="image" />
               </a>
             </div>
@@ -301,7 +301,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/14.png" alt="image" />
               </a>
             </div>
