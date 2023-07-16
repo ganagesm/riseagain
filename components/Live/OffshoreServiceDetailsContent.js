@@ -46,7 +46,7 @@ const ServiceDetailsContent = () => {
               </p>
               <ul>
                 <li>
-                  <strong>Scalability and Agile Team Adjustments:</strong>{" "}
+                  <strong>Scalability and Agile Team Adjustments:</strong>
                   Triosource's team arrangements provide scalability and
                   agility. As your project evolves, you can easily scale up or
                   down your team size based on the changing requirements. This
@@ -55,8 +55,16 @@ const ServiceDetailsContent = () => {
                   the project lifecycle.
                 </li>
                 <li>
-                  <strong>REPLACE THIS WITH INFO ABOUT OFFSHORE: </strong>{" "}
-                  REPLACE THIS WITH INFO ABOUT OFFSHORE:
+                  <strong>Outsourcing Companies: </strong>
+                  Partnering with established outsourcing companies in countries with a strong tech talent pool can provide a flexible and scalable solution. These companies often offer a range of services, including recruitment, HR management, infrastructure, and project management, allowing you to focus on core business functions.
+                </li>
+                <li>
+                  <strong>Freelance Platforms: </strong>
+                  Platforms like Upwork, Freelancer, and Toptal offer access to a vast pool of freelance tech talent from around the world. You can hire individuals or build a team based on specific skills and project requirements. This option is highly flexible as you can scale the team up or down as needed.
+                </li>
+                <li>
+                  <strong>Tech Hubs and Incubators: </strong>
+                  Many countries have established tech hubs and incubators that foster a vibrant tech community. Partnering with such organizations can help you tap into local talent while benefiting from their expertise and support.
                 </li>
               </ul>
             </div>
