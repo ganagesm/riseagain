@@ -7,28 +7,19 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>Incredible Infrastructure</h3>
+              <h3>Onsite Talent</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo.
+              "onsite talent" refers to employees or workers who work at a physical location, such as an office, factory, or any other company premises. These individuals are physically present at their workplace.
               </p>
 
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
+              Having onsite talent is the traditional way that many companies have operated for decades. Employees report to a designated workplace and work in the same physical location as their colleagues and superiors. This allows for more direct collaboration, face-to-face interactions, and a sense of belonging to a cohesive team.
               </p>
             </div>
 
             <div className="services-details-image">
               <img
-                src="/images/services-details/service-details1.jpg"
+                src="/images/services-details/onsite-talent-banner.jpeg"
                 alt="image"
               />
             </div>
@@ -37,34 +28,27 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-image mb-30">
               <img
-                src="/images/services-details/service-details2.jpg"
+                src="/images/services-details/working-process.jpeg"
                 alt="image"
               />
             </div>
 
             <div className="services-details-desc">
               <h3>Working Process</h3>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.
-              </p>
+              <p> The working process of onsite talent refers to how employees or individuals who work at a physical location, such as an office or company premises, carry out their daily tasks and responsibilities. Here's an overview of the typical working process for onsite talent: </p>
 
               <ul>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <strong>Commuting to the Workplace:</strong> Onsite talent usually starts their workday by commuting to their designated workplace. They may travel by car, public transportation, or other means, depending on their location and personal preferences.
                 </li>
                 <li>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo.
+                <strong>Clocking In:</strong> Upon arriving at the workplace, employees typically "clock in" or log their attendance using a time tracking system, if required by the company.
                 </li>
                 <li>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete.
+                <strong>Engaging in Team Meetings and Collaboration:</strong> Onsite talent often participate in team meetings, huddles, or stand-ups to discuss daily tasks, project updates, and other relevant information. These in-person interactions promote better collaboration, idea sharing, and problem-solving.
+                </li>
+                <li>
+                <strong>Interacting with Colleagues and Superiors:</strong> Onsite talent has the advantage of direct face-to-face interactions with colleagues, superiors, and other team members. These interactions can foster a stronger sense of teamwork and build professional relationships.
                 </li>
               </ul>
             </div>
