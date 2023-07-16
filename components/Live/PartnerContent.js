@@ -153,7 +153,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/113.png" alt="image" />
               </a>
             </div>
@@ -163,7 +163,7 @@ const PartnerContent = () => {
               data-aos-duration="1200"
               data-aos-delay="900"
             >
-              <a href="javascript:void(0)" target="_blank" rel="noreferrer">
+              <a href="javascript:void(0)" rel="noreferrer">
                 <img src="/images/partner/114.png" alt="image" />
               </a>
             </div>
