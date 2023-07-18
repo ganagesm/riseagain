@@ -24,7 +24,7 @@ const HeroBanner = () => {
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}>
-                  Triosource is a technology consulting and outsourcing company.
+                Ai trained nearshore software development teams.
                 </h1>
                 <p>
                   Nearshore, offshore, onsite. Hire talent anywhere or let our
