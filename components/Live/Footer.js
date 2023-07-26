@@ -1,7 +1,48 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
+import {Helmet} from "react-helmet";
 import Link from "next/link";
 
 const Footer = () => {
+
+  // useEffect(() => {
+  //   const script = document.createElement("script")
+
+  //   script.src =
+  //     "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+
+  //   script.async = true
+
+  //   script.integrity =
+  //     "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+
+  //   script.crossOrigin = "anonymous"
+
+  //   document.body.appendChild(script)
+
+  //   return () => {
+  //     // clean up the script when the component in unmounted
+  //     document.body.removeChild(script)
+  //   }
+  // }, [])
+
+
+//Zoho Sales Iq Script:
+const useScript = (url, widgetCode) => {
+  useEffect(() => {
+  const script = document.createElement('script');
+  script.setAttribute("type", "text/javascript");
+
+  let code = `var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "${widgetCode}", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="${url}";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.innerHTML = "<div id='zsiqwidget'></div>";`
+  
+  script.appendChild(document.createTextNode(code));
+  document.body.appendChild(script);
+
+  return () => {
+  document.body.removeChild(script);
+  }
+}, [url]);
+};
+  
   const currentYear = new Date().getFullYear();
   return (
     <>
@@ -167,6 +208,14 @@ const Footer = () => {
           <div className="line"></div>
         </div>
       </footer>
+
+      <React.Fragment>
+            {useScript('https://salesiq.zoho.com/widget', 'siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c')}
+        </React.Fragment>
+
+      {/* <Helmet> */}
+      {/* <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script> */}
+      {/* </Helmet> */}
     </>
   );
 };
