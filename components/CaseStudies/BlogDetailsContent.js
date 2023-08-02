@@ -90,7 +90,7 @@ const BlogDetailsContent = () => {
             </div>
 
             <div className="col-lg-4 col-md-12">
-              <SwiftlyBlogSidebar />
+              {/* <SwiftlyBlogSidebar /> */}
             </div>
           </div>
         </div>

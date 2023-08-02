@@ -1,5 +1,5 @@
 import React, { Component, useEffect } from "react";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import Link from "next/link";
 
 const Footer = () => {
@@ -26,23 +26,23 @@ const Footer = () => {
   // }, [])
 
 
-//Zoho Sales Iq Script:
-const useScript = (url, widgetCode) => {
-  useEffect(() => {
-  const script = document.createElement('script');
-  script.setAttribute("type", "text/javascript");
+  //Zoho Sales Iq Script:
+  const useScript = (url, widgetCode) => {
+    useEffect(() => {
+      const script = document.createElement('script');
+      script.setAttribute("type", "text/javascript");
 
-  let code = `var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "${widgetCode}", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="${url}";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.innerHTML = "<div id='zsiqwidget'></div>";`
-  
-  script.appendChild(document.createTextNode(code));
-  document.body.appendChild(script);
+      let code = `var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "${widgetCode}", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="${url}";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.innerHTML = "<div id='zsiqwidget'></div>";`
 
-  return () => {
-  document.body.removeChild(script);
-  }
-}, [url]);
-};
-  
+      script.appendChild(document.createTextNode(code));
+      document.body.appendChild(script);
+
+      return () => {
+        document.body.removeChild(script);
+      }
+    }, [url]);
+  };
+
   const currentYear = new Date().getFullYear();
   return (
     <>
@@ -87,6 +87,16 @@ const useScript = (url, widgetCode) => {
                       >
                         <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                       </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/TrioSource/" target="_blank" rel="noreferrer">
+                      <i className="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/TrioSource" target="_blank" rel="noreferrer">
+                      <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                 </ul>
@@ -161,12 +171,10 @@ const useScript = (url, widgetCode) => {
                     3031 Tisch Way, 110 Plaza West <br /> San Jose, CA
                   </li>
                   <li>
-                    {" "}
-                    <span>Email:</span> hello@triosource.com{" "}
+                    <span>Email:</span> <a href="mailto:hello@triosource.com">hello@triosource.com</a>
                   </li>
                   <li>
-                    {" "}
-                    <span>Phone:</span> (408) 400-7043
+                    <span>Phone:</span> <a href="tel:(408)4007043">(408) 400-7043</a>
                   </li>
                 </ul>
               </div>
@@ -210,11 +218,11 @@ const useScript = (url, widgetCode) => {
       </footer>
 
       <React.Fragment>
-            {useScript('https://salesiq.zoho.in/widget', 'siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c')}
-        </React.Fragment>
+        {useScript('https://salesiq.zoho.in/widget', 'siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c')}
+      </React.Fragment>
 
       <Helmet>
-      {/* <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script> */}
+        {/* <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script> */}
       </Helmet>
     </>
   );

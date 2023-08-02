@@ -67,19 +67,19 @@ const BlogDetailsContent = () => {
                   </div>
 
                   <div className="article-share">
-                    <ul className="social">
+                  <ul className="social">
                       <li>
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a href="https://www.facebook.com/TrioSource/" target="_blank" rel="noreferrer">
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a href="https://twitter.com/TrioSource" target="_blank" rel="noreferrer">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/company/triosource/" target="_blank" rel="noreferrer">
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
