@@ -217,9 +217,9 @@ const Footer = () => {
         </div>
       </footer>
 
-      <React.Fragment>
+      {/* <React.Fragment>
         {useScript('https://salesiq.zoho.in/widget', 'siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c')}
-      </React.Fragment>
+      </React.Fragment> */}
 
       <Helmet>
         {/* <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script> */}
