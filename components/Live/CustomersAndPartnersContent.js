@@ -305,7 +305,26 @@ const PartnerContent = () => {
                 <img src="/images/partner/14.png" alt="image" />
               </a>
             </div>
-            
+            <div
+              className="partner-item"
+              data-aos="fade-in"
+              data-aos-duration="1200"
+              data-aos-delay="900"
+            >
+              <a href="javascript:void(0)" rel="noreferrer">
+                <img src="/images/partner/130.png" alt="image" />
+              </a>
+            </div>
+            <div
+              className="partner-item"
+              data-aos="fade-in"
+              data-aos-duration="1200"
+              data-aos-delay="900"
+            >
+              <a href="javascript:void(0)" rel="noreferrer">
+                <img src="/images/partner/131.png" alt="image" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
