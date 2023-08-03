@@ -83,6 +83,37 @@ const Navbar = () => {
                     <Link
                       href="#"
                       className={`nav-link ${
+                        currentPath == "/Services" && "active"
+                      }`}
+                    >
+                      Services
+                    </Link>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/generativeAi/"
+                          className={`nav-link ${
+                            currentPath == "/generativeAi/" && "active"
+                          }`}
+                        >
+                         Generative Ai
+                        </Link>
+                      </li><li className="nav-item">
+                        <Link
+                          href="/mobile-app-development/"
+                          className={`nav-link ${
+                            currentPath == "/mobile-app-development/" && "active"
+                          }`}
+                        >
+                          Mobile Development
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      href="#"
+                      className={`nav-link ${
                         currentPath == "/engagement-models" && "active"
                       }`}
                     >
