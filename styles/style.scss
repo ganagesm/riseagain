@@ -2130,7 +2130,7 @@ Webinar Area CSS
     max-width: 555px;
     padding: {
         top: 150px;
-        bottom: 150px;
+        // bottom: 150px;
         right: 87px;
     }
     h2 {
@@ -6474,7 +6474,7 @@ Pricing Area CSS
     text-align: center;
 }
 .testimonials-slides {
-    max-width: 750px;
+    max-width: 950px;
     margin: -40px auto 0;
 
     .swiper-slide {
@@ -9762,5 +9762,12 @@ Footer Wrap Area CSS
     font-weight: 700;
     font-family: "Dosis", sans-serif;
     }
+}
+.ptb-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pt-50 {
+    padding-top: 50px;
 }
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

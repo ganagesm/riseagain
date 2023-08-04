@@ -6,6 +6,7 @@ import WhyTriosource from "../components/mobile-app-development/WhyTriosource";
 import Testimonials from "../components/mobile-app-development/Testimonials";
 import BlogPost from "../components/mobile-app-development/BlogPost";
 import ComputerVisionAI from "../components/mobile-app-development/ComputerVisionAI";
+import PartnerSlider from "../components/mobile-app-development/PartnerSlider";
 import PageBanner from "../components/mobile-app-development/PageBanner";
 import TechDetailsContent from "../components/mobile-app-development/TechDetailsContent";
 
@@ -14,12 +15,13 @@ const Index = () => {
     <>
       <Navbar />
       <HeroBanner />
+      <ComputerVisionAI />
       <TechDetailsContent />
-      {/* <ComputerVisionAI /> */}
       <Industries />
       <WhyTriosource />
+      {/* <BlogPost /> */}
+      <PartnerSlider />
       <Testimonials />
-      <BlogPost />
       <Footer />
     </>
   )

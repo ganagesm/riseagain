@@ -4,12 +4,12 @@ import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
-      <div className="services-details-area ptb-110">
+      <div className="services-details-area ptb-50">
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
               <h3> Native App Development  </h3>
-              <p>Faster Development with AI Integration, High-Quality Apps with Intelligent Features, Enhanced Security with AI-Driven Solutions, AI for Predictive Analysis and Smart Decision-Making </p>
+              <p>Do you want your app to deliver peak performance, seamless user experience, and optimal device integration? Our native app development services are the perfect fit for you. We specialize in Android and iOS app development, utilizing Java, Kotlin, Objective-C, and Swift to build apps that are tailored specifically for each platform. </p>
 
               <h5 className="pt-3 pb-3">Why Choose Native App Development</h5>
               <ul>
