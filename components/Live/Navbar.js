@@ -98,7 +98,8 @@ const Navbar = () => {
                         >
                          Generative Ai
                         </Link>
-                      </li><li className="nav-item">
+                      </li>
+                      <li className="nav-item">
                         <Link
                           href="/mobile-app-development/"
                           className={`nav-link ${
@@ -108,6 +109,58 @@ const Navbar = () => {
                           Mobile Development
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/frontend-development/"
+                          className={`nav-link ${
+                            currentPath == "/frontend-development/" && "active"
+                          }`}
+                        >
+                       Frontend Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/back-end-development-service/"
+                          className={`nav-link ${
+                            currentPath == "/back-end-development-service/" && "active"
+                          }`}
+                        >
+                        Back-end Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/ai-driven-iot/"
+                          className={`nav-link ${
+                            currentPath == "/ai-driven-iot/" && "active"
+                          }`}
+                        >
+                       IoT And App Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/ai-machine-learning-services/"
+                          className={`nav-link ${
+                            currentPath == "/ai-machine-learning-services/" && "active"
+                          }`}
+                        >
+                          AI Machine Learning
+                        </Link>
+                      </li>
+                      
+                      <li className="nav-item">
+                        <Link
+                          href="/data-science/"
+                          className={`nav-link ${
+                            currentPath == "/data-science/" && "active"
+                          }`}
+                        >
+                       Data Science
+                        </Link>
+                      </li>
+                      
                     </ul>
                   </li>
                   <li className="nav-item">
