@@ -83,10 +83,10 @@ const Navbar = () => {
                     <Link
                       href="#"
                       className={`nav-link ${
-                        currentPath == "/Services" && "active"
+                        currentPath == "/aifirst" && "active"
                       }`}
                     >
-                      Services
+                      AI First
                     </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
