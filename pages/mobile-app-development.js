@@ -8,7 +8,6 @@ import Testimonials from "../components/Live/Testimonials";
 import BlogPost from "../components/mobile-app-development/BlogPost";
 import ComputerVisionAI from "../components/mobile-app-development/ComputerVisionAI";
 import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
-import PageBanner from "../components/mobile-app-development/PageBanner";
 import TechDetailsContent from "../components/mobile-app-development/TechDetailsContent";
 
 const Index = () => {
