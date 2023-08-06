@@ -6,7 +6,7 @@ import Industries from "../components/AIDrivenIoT/Industries";
 import WhyChooseUs from "../components/AIDrivenIoT/WhyChooseUs";
 import Testimonials from "../components/Live/Testimonials";
 // import Testimonials from "../components/AIDrivenIoT/Testimonials";
-import PartnerSlider from "../components/AIDrivenIoT/PartnerSlider";
+import CaseStudiesSlider from "../components/Live/PartnerSlider";
 import WhyTriosource from "../components/AIDrivenIoT/WhyTriosource";
 import ComputerVisionAI from "../components/AIDrivenIoT/ComputerVisionAI";
 import TechDetailsContent from "../components/AIDrivenIoT/TechDetailsContent";
@@ -22,7 +22,7 @@ const Index = () => {
       {/* <AboutUs /> */}
       <Industries />
       <WhyTriosource />
-      <PartnerSlider />
+      <CaseStudiesSlider />
       <Testimonials />
       <Footer />
     </>

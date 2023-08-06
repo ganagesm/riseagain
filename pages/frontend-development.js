@@ -5,7 +5,7 @@ import AboutUs from "../components/frontendDevelopment/AboutUs";
 import Industries from "../components/frontendDevelopment/Industries";
 import Testimonials from "../components/Live/Testimonials";
 // import Testimonials from "../components/frontendDevelopment/Testimonials";
-import PartnerSlider from "../components/frontendDevelopment/PartnerSlider";
+import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import WhyTriosource from "../components/frontendDevelopment/WhyTriosource";
 import ComputerVisionAI from "../components/frontendDevelopment/ComputerVisionAI";
 import TechDetailsContent from "../components/frontendDevelopment/TechDetailsContent";
@@ -20,7 +20,7 @@ const Index = () => {
       {/* <AboutUs /> */}
       <Industries />
       <WhyTriosource />
-      <PartnerSlider />
+      <CaseStudiesSlider />
       <Testimonials />
       <Footer />
     </>

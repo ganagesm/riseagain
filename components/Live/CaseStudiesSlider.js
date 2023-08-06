@@ -11,8 +11,7 @@ const PartnerSlider = () => {
           <div className="section-title">
             <h2>Our Case Studies</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Learn more about our work through case studies and technology specific articles.
             </p>
           </div>
           <Swiper
