@@ -16,9 +16,10 @@ import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import HeroBanner from "../components/Live/HeroBanner";
 import Services from "../components/Live/Services";
-import BlogPostsSection from "../components/Live/BlogPost";
+import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import FunFacts from "../components/Live/FunFacts";
 import PartnerContent from "../components/Live/PartnerContent";
+import Testimonials from "../components/Live/Testimonials";
 import TechSlider from "../components/Live/TechSlider";
 
 
@@ -30,14 +31,10 @@ const Index = () => {
             <PartnerContent />
             <Services />
             <FunFacts />
-
-            {/* <MainBanner/>
-        <Testimonials />
-       <BlogPost />
-       <Footer /> */}
-
+            <Testimonials />
+            {/* <BlogPost /> */}
             <TechSlider />
-            <BlogPostsSection />
+            <CaseStudiesPost />
             <Footer />
 
         </>

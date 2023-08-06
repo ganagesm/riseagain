@@ -144,9 +144,11 @@ const Footer = () => {
                     <Link href="/technologies">Technologies</Link>{" "}
                   </li> */}
                   <li>
-                    {" "}
-                    <Link href="/case-studies/">Case Studies </Link>{" "}
+                    <Link href="/case-studies/">Case Studies </Link>
                   </li>
+                  {/* <li>
+                    <Link href="/blog/">Blogs</Link>
+                  </li> */}
                   <li>
                     <Link href="/generativeAi/">
                       Generative Ai
