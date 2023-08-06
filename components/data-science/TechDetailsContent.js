@@ -8,8 +8,8 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3> Empowering Your Business with AI-Driven Data Science Services  </h3>
-              <p>At TrioSource, we believe that data is the cornerstone of every successful business. Leveraging the power of AI-driven data science, we offer a comprehensive suite of services designed to harness the full potential of your data.   </p>
+              {/* <h3> Empowering Your Business with AI-Driven Data Science Services  </h3>
+              <p>At TrioSource, we believe that data is the cornerstone of every successful business. Leveraging the power of AI-driven data science, we offer a comprehensive suite of services designed to harness the full potential of your data.   </p> */}
 
               <h5 className="pt-3 pb-3">Our Data Science Services</h5>
               <ul>
@@ -37,7 +37,7 @@ const ServiceDetailsContent = () => {
 
             <div className="services-details-image">
               <img
-                src="/images/banners/data-science-banner10.jpeg"
+                src="/images/banners/data-science-001.jpeg"
                 alt="image"
               />
             </div>

@@ -110,7 +110,7 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  <img src="/images/author3.jpg" alt="image" />
+                  <img src="/images/author5.jpg" alt="image" />
                   <h3>CMO,  </h3>
                   <span>Startup</span>
                   <span>Banking</span>
@@ -130,7 +130,7 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  <img src="/images/author3.jpg" alt="image" />
+                  <img src="/images/author4.jpg" alt="image" />
                   <h3>CMO</h3>
                   <span>E-commerce</span>
                   <span>Retail</span>

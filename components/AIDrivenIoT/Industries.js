@@ -14,7 +14,7 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <div class="icon">
+                <div className="icon">
                   <img src="/images/icon/chinese-food.svg" alt="image"
                     style={{
                       width: "75%",
@@ -29,7 +29,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <div class="icon">
+                <div className="icon">
                   <img src="/images/icon/shopping-bag.svg" alt="image"
                     style={{
                       width: "75%",
@@ -45,7 +45,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <div class="icon">
+                <div className="icon">
                   <img src="/images/icon/fitness.svg" alt="image"
                     style={{
                       width: "75%",
@@ -62,7 +62,7 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <div class="icon">
+                <div className="icon">
                   <img src="/images/icon/finance.svg" alt="image"
                     style={{
                       width: "75%",
@@ -78,7 +78,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box">
-                <div class="icon">
+                <div className="icon">
                   <img src="/images/icon/education.svg" alt="image"
                     style={{
                       width: "75%",
@@ -94,7 +94,7 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "290px" }}>
-                <div class="icon">
+                <div className="icon">
                   <img src="/images/icon/hospitality.svg" alt="image"
                     style={{
                       width: "75%",
