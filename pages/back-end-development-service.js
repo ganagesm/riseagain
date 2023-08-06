@@ -6,7 +6,7 @@ import WhyTriosource from "../components/back-end-development-service/WhyTriosou
 // import Testimonials from "../components/back-end-development-service/Testimonials";
 import Testimonials from "../components/Live/Testimonials";
 import ComputerVisionAI from "../components/back-end-development-service/ComputerVisionAI";
-import PartnerSlider from "../components/back-end-development-service/PartnerSlider";
+import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import TechDetailsContent from "../components/back-end-development-service/TechDetailsContent";
 
 const Index = () => {
@@ -18,7 +18,7 @@ const Index = () => {
       <TechDetailsContent />
       <Industries />
       <WhyTriosource />
-      <PartnerSlider />
+      <CaseStudiesSlider />
       <Testimonials />
       <Footer />
     </>

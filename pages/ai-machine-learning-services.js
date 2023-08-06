@@ -6,7 +6,7 @@ import WhyTriosource from "../components/ai-machine-learning-services/WhyTriosou
 // import Testimonials from "../components/ai-machine-learning-services/Testimonials";
 import Testimonials from "../components/Live/Testimonials";
 import ComputerVisionAI from "../components/ai-machine-learning-services/ComputerVisionAI";
-import PartnerSlider from "../components/ai-machine-learning-services/PartnerSlider";
+import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import TechDetailsContent from "../components/ai-machine-learning-services/TechDetailsContent";
 
 const Index = () => {
@@ -18,7 +18,7 @@ const Index = () => {
       <TechDetailsContent />
       <Industries />
       <WhyTriosource />
-      <PartnerSlider />
+      <CaseStudiesSlider />
       <Testimonials />
       <Footer />
     </>

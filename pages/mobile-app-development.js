@@ -7,7 +7,7 @@ import Testimonials from "../components/Live/Testimonials";
 // import Testimonials from "../components/mobile-app-development/Testimonials";
 import BlogPost from "../components/mobile-app-development/BlogPost";
 import ComputerVisionAI from "../components/mobile-app-development/ComputerVisionAI";
-import PartnerSlider from "../components/mobile-app-development/PartnerSlider";
+import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import PageBanner from "../components/mobile-app-development/PageBanner";
 import TechDetailsContent from "../components/mobile-app-development/TechDetailsContent";
 
@@ -21,7 +21,7 @@ const Index = () => {
       <Industries />
       <WhyTriosource />
       {/* <BlogPost /> */}
-      <PartnerSlider />
+      <CaseStudiesSlider />
       <Testimonials />
       <Footer />
     </>
