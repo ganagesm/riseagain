@@ -83,6 +83,90 @@ const Navbar = () => {
                     <Link
                       href="#"
                       className={`nav-link ${
+                        currentPath == "/aifirst" && "active"
+                      }`}
+                    >
+                      AI First
+                    </Link>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/generativeAi/"
+                          className={`nav-link ${
+                            currentPath == "/generativeAi/" && "active"
+                          }`}
+                        >
+                         Generative Ai
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/mobile-app-development/"
+                          className={`nav-link ${
+                            currentPath == "/mobile-app-development/" && "active"
+                          }`}
+                        >
+                          Mobile Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/frontend-development/"
+                          className={`nav-link ${
+                            currentPath == "/frontend-development/" && "active"
+                          }`}
+                        >
+                       Frontend Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/back-end-development-service/"
+                          className={`nav-link ${
+                            currentPath == "/back-end-development-service/" && "active"
+                          }`}
+                        >
+                        Back-end Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/ai-driven-iot/"
+                          className={`nav-link ${
+                            currentPath == "/ai-driven-iot/" && "active"
+                          }`}
+                        >
+                       IoT And App Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/ai-machine-learning-services/"
+                          className={`nav-link ${
+                            currentPath == "/ai-machine-learning-services/" && "active"
+                          }`}
+                        >
+                          AI Machine Learning
+                        </Link>
+                      </li>
+                      
+                      <li className="nav-item">
+                        <Link
+                          href="/data-science/"
+                          className={`nav-link ${
+                            currentPath == "/data-science/" && "active"
+                          }`}
+                        >
+                       Data Science
+                        </Link>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      href="#"
+                      className={`nav-link ${
                         currentPath == "/engagement-models" && "active"
                       }`}
                     >

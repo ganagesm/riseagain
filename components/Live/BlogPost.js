@@ -1,15 +1,16 @@
 import React from "react";
 import Link from "next/link";
 
-const BlogPostsSection = () => {
+const BlogPost = () => {
   return (
     <>
       <section className="blog-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Recent Case Studies</h2>
+            <h2>Our Recent News</h2>
             <p>
-              Learn more about our work through case studies and technology specific articles.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
 
@@ -22,7 +23,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/swiftly-case-studies/">
+                  <Link href="/blog-details">
                     <img src="/images/blog/blog1.jpg" alt="image" />
                   </Link>
                 </div>
@@ -30,17 +31,24 @@ const BlogPostsSection = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>June 11, 2023</li>
+                      <li>
+                        <Link href="/blog">Admin</Link>
+                      </li>
+                      <li>March 10, 2020</li>
                     </ul>
                   </div>
+
                   <h3>
-                    <Link href="/swiftly-case-studies/">
-                      Swiftly's secret nearshore weapon
+                    <Link href="/blog-details">
+                      Making Peace With The Feast Or Famine Of Freelancing
                     </Link>
                   </h3>
+
                   <p>
-                  In 2023, Swiftly, a cutting-edge retail technology platform, was in a difficult position. They were struggling to find the right software engineers for their growing roster of projects.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod...
                   </p>
+
                   <Link href="/blog-details" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
@@ -56,7 +64,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/Supercharges-case-studies/">
+                  <Link href="/blog-details">
                     <img src="/images/blog/blog2.jpg" alt="image" />
                   </Link>
                 </div>
@@ -64,20 +72,24 @@ const BlogPostsSection = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>July 11, 2023</li>
+                      <li>
+                        <Link href="/blog">Admin</Link>
+                      </li>
+                      <li>March 11, 2020</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/Supercharges-case-studies/">
-                    Triosource Supercharges Sharpz's React Native App Development
+                    <Link href="/blog-details">
+                      I Used The Web For A Day On A 50 MB Budget
                     </Link>
                   </h3>
                   <p>
-                  Sharpz is a sports betting social network, with a pre-existing iOS app. Their platform allows users to create an account, link to their online sports-books.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod...
                   </p>
 
-                  <Link href="/Supercharges-case-studies/" className="learn-more-btn">
+                  <Link href="/blog-details" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
@@ -92,7 +104,7 @@ const BlogPostsSection = () => {
             >
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/generative-ai-case-studies/">
+                  <Link href="/blog-details">
                     <img src="/images/blog/blog3.jpg" alt="image" />
                   </Link>
                 </div>
@@ -100,20 +112,24 @@ const BlogPostsSection = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>July 12, 2023</li>
+                      <li>
+                        <Link href="/blog">Admin</Link>
+                      </li>
+                      <li>March 12, 2020</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/generative-ai-case-studies/">
-                    Harnessing Generative AI In Custom Development Environments
+                    <Link href="/blog-details">
+                      Here are the 5 most telling signs of micromanagement
                     </Link>
                   </h3>
                   <p>
-                  Generative Artificial Intelligence (AI) is revolutionizing the way developers create custom solutions. This case study explores the success story of TechGen.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod...
                   </p>
 
-                  <Link href="/generative-ai-case-studies/" className="learn-more-btn">
+                  <Link href="/blog-details" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
@@ -161,4 +177,4 @@ const BlogPostsSection = () => {
   );
 };
 
-export default BlogPostsSection;
+export default BlogPost;

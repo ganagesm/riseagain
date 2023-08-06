@@ -10,8 +10,8 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog1.jpg" alt="image" />
+                  <Link href="/ultimate-guide-to-ai-trained-nearshore-software-development">
+                    <img src="/images/blog/blog8.jpg" alt="image" />
                   </Link>
                 </div>
 
@@ -21,29 +21,28 @@ const BlogThreeGrid = () => {
                       <li>
                         <Link href="#">Admin</Link>
                       </li>
-                      <li>March 10, 2020</li>
+                      <li>July 10, 2023</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/blog-details">
-                      Making Peace With The Feast Or Famine Of Freelancing
+                    <Link href="/ultimate-guide-to-ai-trained-nearshore-software-development">
+                    Ultimate Guide to AI-Trained Nearshore Software Development | TrioSource 
                     </Link>
                   </h3>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
+                  Discover the power of AI-trained nearshore software development teams in our comprehensive guide...
                   </p>
 
-                  <Link href="/blog-details" className="learn-more-btn">
+                  <Link href="/ultimate-guide-to-ai-trained-nearshore-software-development" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            {/* <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
                   <Link href="/blog-details">
@@ -216,11 +215,11 @@ const BlogThreeGrid = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Pagination */}
             <div className="col-lg-12 col-sm-12">
-              <div className="pagination-area">
+              {/* <div className="pagination-area">
                 <a href="#" className="prev page-numbers">
                   <i className="fas fa-angle-double-left"></i>
                 </a>
@@ -244,7 +243,7 @@ const BlogThreeGrid = () => {
                 <a href="#" className="next page-numbers">
                   <i className="fas fa-angle-double-right"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
