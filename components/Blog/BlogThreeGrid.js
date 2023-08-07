@@ -26,7 +26,7 @@ const BlogThreeGrid = () => {
                   </div>
 
                   <h3>
-                    <Link href="/ultimate-guide-to-ai-trained-nearshore-software-development">
+                    <Link href="/blog/ultimate-guide-to-ai-trained-nearshore-software-development">
                     Ultimate Guide to AI-Trained Nearshore Software Development | TrioSource 
                     </Link>
                   </h3>
@@ -35,7 +35,7 @@ const BlogThreeGrid = () => {
                   Discover the power of AI-trained nearshore software development teams in our comprehensive guide...
                   </p>
 
-                  <Link href="/ultimate-guide-to-ai-trained-nearshore-software-development" className="learn-more-btn">
+                  <Link href="/blog/ultimate-guide-to-ai-trained-nearshore-software-development" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>

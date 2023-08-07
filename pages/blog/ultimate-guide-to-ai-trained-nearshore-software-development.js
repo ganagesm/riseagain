@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../components/Live/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import BlogDetailsContentAITrainedNearshoreSoftware from "../components/Blog/BlogDetailsContentAITrainedNearshoreSoftware";
-import Footer from "../components/Live/Footer";
+import Navbar from "../../components/Live/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import BlogDetailsContentAITrainedNearshoreSoftware from "../../components/Blog/BlogDetailsContentAITrainedNearshoreSoftware";
+import Footer from "../../components/Live/Footer";
 
 const BlogDetails = () => {
   return (

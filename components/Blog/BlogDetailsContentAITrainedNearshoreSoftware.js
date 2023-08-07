@@ -32,103 +32,119 @@ const BlogDetailsContent = () => {
                   <h2>Ultimate Guide to AI-Trained Nearshore Software Development | TrioSource </h2>
 
                   <p>
-                  Discover the power of AI-trained nearshore software development teams in our comprehensive guide. Learn how TrioSource brings cutting-edge AI solutions to you. 
+                    Discover the power of AI-trained nearshore software development teams in our comprehensive guide. Learn how TrioSource brings cutting-edge AI solutions to you.
                   </p>
 
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took.
-                  </p>
+                  <h3>Introduction</h3>
 
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </p>
+                  <p> In the era of digital transformation, Artificial Intelligence (AI) has become an integral part of software development. Companies are leveraging AI-powered tools and practices to streamline the development lifecycle, improve efficiency, reduce errors, and deliver high-quality products at an accelerated pace. In this guide, we explore the concept of AI-enhanced nearshore software development teams and how they can bring unparalleled benefits to your business.  </p>
 
-                  <blockquote className="wp-block-quote">
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
+                  <h3>What is an AI-Enhanced Nearshore Software Development Team? </h3>
+                  <p>An AI-enhanced nearshore software development team is a group of skilled developers located in a nearby country who have expertise in applying AI technologies to software development. These teams utilize AI-driven tools and methodologies to automate repetitive tasks, detect and fix errors, predict project timelines, and optimize the overall software development process. </p>
 
-                    <cite>Tom Cruise</cite>
-                  </blockquote>
+                  <h3>Why Choose an AI-Enhanced Nearshore Software Development Team?  </h3>
+                  <section className="services-area bg-f2f6f9 ptb-50">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-lg-4 col-sm-6">
+                          <div className="single-services-box">
+                            <h3> Evaluate Skills  </h3>
+                            <p>
+                              Ensure that your potential nearshore team is proficient in the AI technologies relevant to your project. Look for teams with a successful track record in delivering AI-driven software development projects.
+                            </p>
+                          </div>
+                        </div>
 
-                  <p>
-                    Equidem impedit officiis quo te. Illud partem sententiae mel
-                    eu, euripidis urbanitas et sit. Mediocrem reprimique an vim,
-                    veniam tibique omittantur duo ut, agam graeci in vim. Quot
-                    appetere patrioque te mea, animal aliquip te pri. Ad vis
-                    animal ceteros percipitur, eos tollit civibus percipitur no.
-                  </p>
+                        <div className="col-lg-4 col-sm-6">
+                          <div className="single-services-box">
+                            <h3>
+                              Effective Communication and Collaboration
+                            </h3>
+                            <p>
+                              Strong communication skills and a collaborative approach are important qualities for the team. Regular updates, transparency, and responsiveness are key factors to consider.
+                            </p>
+                          </div>
+                        </div>
 
-                  <ul className="wp-block-gallery columns-3">
-                    <li className="blocks-gallery-item">
-                      <figure>
-                        <img src="/images/blog/blog1.jpg" alt="image" />
-                      </figure>
-                    </li>
+                        <div className="col-lg-4 col-sm-6">
+                          <div className="single-services-box">
+                            <h3>
+                              Data Security
+                            </h3>
+                            <p>
+                              Data security is paramount in any software development project. Make sure the team adheres to strict data protection protocols and respects intellectual property rights.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-                    <li className="blocks-gallery-item">
-                      <figure>
-                        <img src="/images/blog/blog2.jpg" alt="image" />
-                      </figure>
-                    </li>
+                    {/* Shape Images */}
+                    <div className="shape-img2">
+                      <img src="/images/shape/shape2.svg" alt="image" />
+                    </div>
+                    <div className="shape-img3">
+                      <img src="/images/shape/shape3.png" alt="image" />
+                    </div>
+                    <div className="shape-img4">
+                      <img src="/images/shape/shape4.svg" alt="image" />
+                    </div>
+                    <div className="shape-img5">
+                      <img src="/images/shape/shape5.svg" alt="image" />
+                    </div>
+                    <div className="shape-img3">
+                      <img src="/images/shape/shape3.png" alt="image" />
+                    </div>
+                    <div className="dot-shape1">
+                      <img src="/images/shape/dot1.png" alt="image" />
+                    </div>
+                    <div className="dot-shape2">
+                      <img src="/images/shape/dot3.png" alt="image" />
+                    </div>
+                    <div className="dot-shape2">
+                      <img src="/images/shape/dot4.png" alt="image" />
+                    </div>
+                    <div className="dot-shape2">
+                      <img src="/images/shape/dot5.png" alt="image" />
+                    </div>
+                    <div className="dot-shape2">
+                      <img src="/images/shape/dot6.png" alt="image" />
+                    </div>
+                  </section>
+                  <div className="pt-100">
+                    <h3 className="">Best Practices for AI-Enhanced Nearshore Software Development   </h3>
+                    <div className="main-services-area">
+                      <div className="container">
+                        <div className="row">
+                          <div className="col-lg-4 col-sm-6 col-md-6">
+                            <div className="single-main-services-box">
+                              <h3>Define Clear Goals </h3>
+                              <p>Establish and communicate your project goals clearly. This provides your AI-enhanced nearshore team with a clear understanding of your expectations and desired outcomes. </p>
+                            </div>
+                          </div>
+                          <div className="col-lg-4 col-sm-6 col-md-6">
+                            <div className="single-main-services-box">
+                              <h3>Regular Feedback  </h3>
+                              <p>Regularly assess the team's performance and provide constructive feedback to keep the project on track. Feedback plays a vital role in ensuring project success.  </p>
+                            </div>
+                          </div>
+                          <div className="col-lg-4 col-sm-6 col-md-6">
+                            <div className="single-main-services-box">
+                              <h3>Flexibility</h3>
+                              <p>AI technologies are constantly evolving. It is essential for the team to be adaptable to new technologies and methodologies in order to continuously optimize the development process.  </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                    <li className="blocks-gallery-item">
-                      <figure>
-                        <img src="/images/blog/blog3.jpg" alt="image" />
-                      </figure>
-                    </li>
-                  </ul>
+                  <p>In conclusion, leveraging an AI-enhanced nearshore software development team can bring transformative changes to your software development process. By combining the benefits of nearshore development - cost-effectiveness, improved communication, access to talent - with the efficiency and accuracy of AI, you can achieve high-quality, timely solutions for your software needs. Businesses that embrace this innovative approach are poised to gain a competitive edge in the market as the digital landscape continues to evolve. Start your journey towards efficient and productive software development with an AI-enhanced nearshore team today.</p>
 
-                  <h3>10 Tactics for marketing your company</h3>
-
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took.
-                  </p>
-
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </p>
-
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took.
-                  </p>
-
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </p>
                 </div>
 
                 <div className="article-footer">
-                  <div className="article-tags">
+                  {/* <div className="article-tags">
                     <span>
                       <i className="fas fa-bookmark"></i>
                     </span>
@@ -136,10 +152,10 @@ const BlogDetailsContent = () => {
                     <Link href="#">Fashion</Link>
                     <Link href="#">Games</Link>
                     <Link href="#">Travel</Link>
-                  </div>
+                  </div> */}
 
                   <div className="article-share">
-                  <ul className="social">
+                    <ul className="social">
                       <li>
                         <a href="https://www.facebook.com/TrioSource/" target="_blank" rel="noreferrer">
                           <i className="fab fa-facebook-f"></i>
@@ -170,7 +186,7 @@ const BlogDetailsContent = () => {
             </div>
 
             <div className="col-lg-4 col-md-12">
-              {/* <BlogSidebar /> */}
+              <BlogSidebar />
             </div>
           </div>
         </div>
