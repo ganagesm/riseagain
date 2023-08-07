@@ -68,6 +68,8 @@ const ServiceDetailsContent = () => {
                 <li>
                   <strong>PHP: </strong> Our skilled PHP developers craft dynamic and feature-rich back-end solutions that ensure seamless communication between your front-end and databases. 
                 </li>
+                <li> <strong>Java: </strong> Our expertise in Java enables us to build scalable, high-performance back-end solutions that cater to enterprise-level applications with complex requirements. </li>
+                <li> <strong>.NET: </strong> With our .NET expertise, we develop robust and feature-rich back-end systems, providing a strong foundation for your web applications and services. </li>
               </ul>
               <p></p>
               <Link href="/contact/" className="btn btn-primary mt-20">
