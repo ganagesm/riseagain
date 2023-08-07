@@ -27,12 +27,12 @@ const BlogThreeGrid = () => {
 
                   <h3>
                     <Link href="/blog/ultimate-guide-to-ai-trained-nearshore-software-development">
-                    Ultimate Guide to AI-Trained Nearshore Software Development | TrioSource 
+                      Ultimate Guide to AI-Trained Nearshore Software Development | TrioSource
                     </Link>
                   </h3>
 
                   <p>
-                  Discover the power of AI-trained nearshore software development teams in our comprehensive guide...
+                    Discover the power of AI-trained nearshore software development teams in our comprehensive guide...
                   </p>
 
                   <Link href="/blog/ultimate-guide-to-ai-trained-nearshore-software-development" className="learn-more-btn">
@@ -42,10 +42,10 @@ const BlogThreeGrid = () => {
               </div>
             </div>
 
-            {/* <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog-details">
+                  <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/">
                     <img src="/images/blog/blog2.jpg" alt="image" />
                   </Link>
                 </div>
@@ -56,21 +56,20 @@ const BlogThreeGrid = () => {
                       <li>
                         <Link href="#">Admin</Link>
                       </li>
-                      <li>March 11, 2020</li>
+                      <li>July 11, 2023</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/blog-details">
-                      I Used The Web For A Day On A 50 MB Budget
+                    <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/">
+                      How AI is Revolutionizing Nearshore Software Development: A Deep Dive
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
+                    Discover how Artificial Intelligence is transforming the landscape of nearshore software development with TrioSource. Dive deep into the AI revolution today...
                   </p>
 
-                  <Link href="/blog-details" className="learn-more-btn">
+                  <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
@@ -80,7 +79,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog-details">
+                  <Link href="/blog/future-of-software-development-ai-nearshore-teams/">
                     <img src="/images/blog/blog3.jpg" alt="image" />
                   </Link>
                 </div>
@@ -91,21 +90,20 @@ const BlogThreeGrid = () => {
                       <li>
                         <Link href="#">Admin</Link>
                       </li>
-                      <li>March 12, 2020</li>
+                      <li>July 07, 2023</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/blog-details">
-                      Here are the 5 most telling signs of micromanagement
+                    <Link href="/blog/future-of-software-development-ai-nearshore-teams/">
+                      The Future of Software Development: Benefits of AI-Trained Nearshore Teams
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
+                    The world of software development is evolving at a rapid pace...
                   </p>
 
-                  <Link href="/blog-details" className="learn-more-btn">
+                  <Link href="/blog/future-of-software-development-ai-nearshore-teams/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
@@ -115,7 +113,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog-details">
+                  <Link href="/blog/transforming-business-with-ai-nearshore-teams/">
                     <img src="/images/blog/blog4.jpg" alt="image" />
                   </Link>
                 </div>
@@ -126,21 +124,20 @@ const BlogThreeGrid = () => {
                       <li>
                         <Link href="#">Admin</Link>
                       </li>
-                      <li>March 13, 2020</li>
+                      <li>July 05, 2023</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/blog-details">
-                      Add And Show Image With Size From Elementor Widget
+                    <Link href="/blog/transforming-business-with-ai-nearshore-teams/">
+                      Transforming Business Operations with AI-Trained Nearshore Software Development Teams
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
+                    In an era where every business is essentially becoming a technology business, the ability to develop efficient, high-quality software has never been more critical...
                   </p>
 
-                  <Link href="/blog-details" className="learn-more-btn">
+                  <Link href="/blog/transforming-business-with-ai-nearshore-teams/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
@@ -150,7 +147,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog-details">
+                  <Link href="/blog/choosing-ai-trained-nearshore-software-team/">
                     <img src="/images/blog/blog5.jpg" alt="image" />
                   </Link>
                 </div>
@@ -161,28 +158,27 @@ const BlogThreeGrid = () => {
                       <li>
                         <Link href="#">Admin</Link>
                       </li>
-                      <li>March 14, 2020</li>
+                      <li>July 05, 2023</li>
                     </ul>
                   </div>
 
                   <h3>
-                    <Link href="/blog-details">
-                      How To The Active Menu Based On URL In Next.JS?
+                    <Link href="/blog/choosing-ai-trained-nearshore-software-team/">
+                    Choosing the Right AI-Trained Nearshore Software Development Team: A Comprehensive Guide
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
+                  In an era where technology drives business growth, choosing the right software development team is crucial..
                   </p>
 
-                  <Link href="/blog-details" className="learn-more-btn">
+                  <Link href="/blog/choosing-ai-trained-nearshore-software-team/" className="learn-more-btn">
                     Read More <i className="flaticon-add"></i>
                   </Link>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            {/* <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
                   <Link href="/blog-details">
