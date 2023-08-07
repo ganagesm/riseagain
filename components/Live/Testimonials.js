@@ -9,10 +9,7 @@ const Testimonials = () => {
         <div className="container">
           <div className="section-title">
             <h2>What Clients Say About Us</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <p> Exceptional service that exceeds expectations every time.  </p>
           </div>
 
           <Swiper
@@ -31,7 +28,7 @@ const Testimonials = () => {
                 <div className="client-info">
                   {/* <img src="/images/author3.jpg" alt="image" /> */}
                   <h1>VP </h1>
-                  <span>Food</span>
+                  <span>Food Industry</span>
                 </div>
                 <p>
                 Extremely impressed with TrioSource. Their team demonstrated exceptional expertise in Flutter app development, delivering a high-quality and seamless cross-platform application for our business. The intelligent features and predictive analysis they incorporated have significantly enhanced user engagement, making our app stand out in the market. With TrioSource, we experienced faster development and received a level of professionalism that exceeded our expectations.
@@ -51,7 +48,7 @@ const Testimonials = () => {
                 <div className="client-info">
                   {/* <img src="/images/author1.jpg" alt="image" /> */}
                   <h1>CTO</h1>
-                  <span>Education </span>
+                  <span>Education Industry</span>
                 </div>
                 <p>
                 We are thrilled with the front-end development services provided by TrioSource. Their expertise in crafting visually appealing and user-friendly interfaces has truly elevated our web application. The team's attention to detail, responsiveness, and timely delivery have made the development process seamless and enjoyable. With TrioSource help, we have successfully created a professional and engaging user experience for our customers.
@@ -129,7 +126,7 @@ const Testimonials = () => {
                 <div className="client-info">
                   {/* <img src="/images/author4.jpg" alt="image" /> */}
                   <h1>CMO</h1>
-                  <span>E-commerce</span>
+                  <span>E-commerce Industry</span>
                 </div>
                 <p>
                 We are immensely grateful to TriSource for their expertise in Generative AI. They played a pivotal role in setting up our entire website and marketing team with Generative AI capabilities. Their support has been instrumental in revolutionizing our marketing strategies, as our team is now fully AI-based. TrioSource innovative solutions and seamless integration have boosted our efficiency and effectiveness in reaching our target audience.

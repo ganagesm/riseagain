@@ -2,7 +2,7 @@ import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import HeroBanner from "../components/frontendDevelopment/HeroBanner";
 import AboutUs from "../components/frontendDevelopment/AboutUs";
-import Industries from "../components/frontendDevelopment/Industries";
+import Industries from "../components/Live/Industries";
 import Testimonials from "../components/Live/Testimonials";
 // import Testimonials from "../components/frontendDevelopment/Testimonials";
 import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";

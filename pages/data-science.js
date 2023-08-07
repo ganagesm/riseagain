@@ -1,7 +1,7 @@
 import Navbar from "../components/Live/Navbar";
 import Footer from "../components/Live/Footer";
 import HeroBanner from "../components/data-science/HeroBanner";
-import Industries from "../components/data-science/Industries";
+import Industries from "../components/Live/Industries";
 // import Testimonials from "../components/data-science/Testimonials";
 import Testimonials from "../components/Live/Testimonials";
 import CaseStudiesSlider from "../components/data-science/CaseStudiesSlider";
