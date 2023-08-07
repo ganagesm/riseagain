@@ -11,7 +11,7 @@ const ServiceDetailsContent = () => {
               {/* <h3> Empowering Your Business with AI-Driven Data Science Services  </h3>
               <p>At TrioSource, we believe that data is the cornerstone of every successful business. Leveraging the power of AI-driven data science, we offer a comprehensive suite of services designed to harness the full potential of your data.   </p> */}
 
-              <h5 className="pt-3 pb-3">Our Data Science Services</h5>
+              <h3 className="pt-3 pb-3">Our Data Science Services</h3>
               <ul>
                 <li> <strong> Business Intelligence & Analytics:</strong>
                   Our Business Intelligence (BI) and Analytics solutions provide you with real-time, interactive dashboards and reports that give you a clear and comprehensive view of your business performance. With data visualization and advanced analytics, you can identify trends, patterns, and opportunities, empowering you to respond swiftly to changing market dynamics.

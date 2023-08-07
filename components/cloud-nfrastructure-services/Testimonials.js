@@ -9,7 +9,10 @@ const Testimonials = () => {
         <div className="container">
           <div className="section-title">
             <h2>What Clients Say About Us</h2>
-            <p> Exceptional service that exceeds expectations every time.  </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </div>
 
           <Swiper
@@ -26,9 +29,9 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author3.jpg" alt="image" /> */}
-                  <h1>VP </h1>
-                  <span>Food Industry</span>
+                  <img src="/images/author3.jpg" alt="image" />
+                  <h3>VP </h3>
+                  <span>Food & Beverages</span>
                 </div>
                 <p>
                 Extremely impressed with TrioSource. Their team demonstrated exceptional expertise in Flutter app development, delivering a high-quality and seamless cross-platform application for our business. The intelligent features and predictive analysis they incorporated have significantly enhanced user engagement, making our app stand out in the market. With TrioSource, we experienced faster development and received a level of professionalism that exceeded our expectations.
@@ -46,10 +49,10 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author1.jpg" alt="image" /> */}
-                  <h1>CTO</h1>
-                  <span>Education</span>
-                  <span>Industry</span>
+                  <img src="/images/author1.jpg" alt="image" />
+                  <h3>CTO</h3>
+                  <span>Education </span>
+                  <span>E-Learning</span>
                 </div>
                 <p>
                 We are thrilled with the front-end development services provided by TrioSource. Their expertise in crafting visually appealing and user-friendly interfaces has truly elevated our web application. The team's attention to detail, responsiveness, and timely delivery have made the development process seamless and enjoyable. With TrioSource help, we have successfully created a professional and engaging user experience for our customers.
@@ -67,9 +70,10 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author2.jpg" alt="image" /> */}
-                  <h1>CEO, </h1>
-                  <span>Travel Industry</span>
+                  <img src="/images/author2.jpg" alt="image" />
+                  <h3>CEO, </h3>
+                  <span>Travel </span>
+                  <span>Hospitality Industry </span>
                 </div>
                 <p>
                 We are incredibly satisfied with TrioSource backend development services. Their proficiency in building robust and scalable server-side solutions has been instrumental in optimizing our web application's performance. The team's deep understanding of databases, APIs, and security protocols ensured a smooth and secure user experience. Their dedication to meeting project deadlines and providing top-notch support has been commendable. We confidently recommend TrioSource for anyone seeking reliable and efficient backend development expertise.
@@ -87,7 +91,7 @@ const Testimonials = () => {
               <div className="single-testimonials-item">
                 <div className="client-info">
                   <img src="/images/author3.jpg" alt="image" />
-                  <h1>CTO,  </h1>
+                  <h3>CTO,  </h3>
                   <span>Finance</span>
                   <span>Banking</span>
                 </div>
@@ -106,9 +110,10 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author5.jpg" alt="image" /> */}
-                  <h1>COO </h1>
+                  <img src="/images/author3.jpg" alt="image" />
+                  <h3>CMO,  </h3>
                   <span>Startup</span>
+                  <span>Banking</span>
                 </div>
                 <p>
                 We are thrilled to have TrioSource nearshore team of 7 people working with us. They assembled the team very quickly, which allowed us to kickstart our project promptly. Their expertise, dedication, and collaborative approach have been invaluable in delivering outstanding results. The team's seamless integration into our workflow has made the entire development process efficient and productive. We are delighted with TrioSource performance and look forward to continued success with their talented team. 
@@ -125,10 +130,10 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author4.jpg" alt="image" /> */}
-                  <h1>CMO</h1>
+                  <img src="/images/author3.jpg" alt="image" />
+                  <h3>CMO</h3>
                   <span>E-commerce</span>
-                  <span>Industry</span>
+                  <span>Retail</span>
                 </div>
                 <p>
                 We are immensely grateful to TriSource for their expertise in Generative AI. They played a pivotal role in setting up our entire website and marketing team with Generative AI capabilities. Their support has been instrumental in revolutionizing our marketing strategies, as our team is now fully AI-based. TrioSource innovative solutions and seamless integration have boosted our efficiency and effectiveness in reaching our target audience.

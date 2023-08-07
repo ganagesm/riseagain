@@ -19,11 +19,13 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/banners/backend-hero.jpeg)` }}
+            style={{ backgroundImage: `url(/images/banners/cloud2.jpg)` }}
           >
             <div className="container">
               <div className="main-banner-content">
-                <h1>Empowering Your Business with Advanced Back-end Development </h1>
+                <h1>Empowering Your Business with Cutting-Edge Cloud Infrastructure Services </h1>
+                {/* <p> Faster Development with AI Integration, High-Quality Apps with Intelligent Features, Enhanced Security with AI-Driven Solutions, AI for Predictive Analysis and Smart Decision-Making </p> */}
+
                 <div className="btn-box">
                   <Link href="/contact/" className="btn btn-primary">
                     Schedule a Call

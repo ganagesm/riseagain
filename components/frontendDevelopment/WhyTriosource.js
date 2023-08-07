@@ -14,7 +14,7 @@ const WhyTriosource = () => {
 
               </p>
 
-              <Link href="/conact/" className="btn btn-primary">
+              <Link href="/contact/" className="btn btn-primary">
                 Know More
               </Link>
             </div>

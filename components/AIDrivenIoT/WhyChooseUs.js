@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
                   </div>
                 </div>
 
-                <Link href="/conact/" className="btn btn-primary">
+                <Link href="/contact/" className="btn btn-primary">
                   More IoT
                 </Link>
               </div>

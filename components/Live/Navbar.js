@@ -83,7 +83,8 @@ const Navbar = () => {
                     <Link
                       href="#"
                       className={`nav-link ${
-                        currentPath == "/aifirst" && "active"
+                        currentPath == "/generativeAi" || currentPath === "/mobile-app-development" ||  currentPath === "/frontend-development" || currentPath === "/back-end-development-service" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" ? "active"
+                        : ""
                       }`}
                     >
                       AI First
@@ -91,9 +92,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/generativeAi/"
+                          href="/generativeAi"
                           className={`nav-link ${
-                            currentPath == "/generativeAi/" && "active"
+                            currentPath == "/generativeAi" && "active"
                           }`}
                         >
                          Generative Ai
@@ -101,9 +102,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/mobile-app-development/"
+                          href="/mobile-app-development"
                           className={`nav-link ${
-                            currentPath == "/mobile-app-development/" && "active"
+                            currentPath == "/mobile-app-development" && "active"
                           }`}
                         >
                           Mobile Development
@@ -111,9 +112,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/frontend-development/"
+                          href="/frontend-development"
                           className={`nav-link ${
-                            currentPath == "/frontend-development/" && "active"
+                            currentPath == "/frontend-development" && "active"
                           }`}
                         >
                        Frontend Development
@@ -121,9 +122,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/back-end-development-service/"
+                          href="/back-end-development-service"
                           className={`nav-link ${
-                            currentPath == "/back-end-development-service/" && "active"
+                            currentPath == "/back-end-development-service" && "active"
                           }`}
                         >
                         Back-end Development
@@ -131,9 +132,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/ai-driven-iot/"
+                          href="/ai-driven-iot"
                           className={`nav-link ${
-                            currentPath == "/ai-driven-iot/" && "active"
+                            currentPath == "/ai-driven-iot" && "active"
                           }`}
                         >
                        IoT And App Development
@@ -141,9 +142,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/ai-machine-learning-services/"
+                          href="/ai-machine-learning-services"
                           className={`nav-link ${
-                            currentPath == "/ai-machine-learning-services/" && "active"
+                            currentPath == "/ai-machine-learning-services" && "active"
                           }`}
                         >
                           AI Machine Learning
@@ -152,12 +153,22 @@ const Navbar = () => {
                       
                       <li className="nav-item">
                         <Link
-                          href="/data-science/"
+                          href="/data-science"
                           className={`nav-link ${
-                            currentPath == "/data-science/" && "active"
+                            currentPath == "/data-science" && "active"
                           }`}
                         >
                        Data Science
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/cloud-infrastructure-services"
+                          className={`nav-link ${
+                            currentPath == "/cloud-infrastructure-services" && "active"
+                          }`}
+                        >
+                       Cloud Infrastructure
                         </Link>
                       </li>
                       
@@ -167,7 +178,8 @@ const Navbar = () => {
                     <Link
                       href="#"
                       className={`nav-link ${
-                        currentPath == "/engagement-models" && "active"
+                        currentPath == "/nearshore" || currentPath === "/offshore" ||  currentPath === "/onsite" ? "active"
+                        : ""
                       }`}
                     >
                       Engagement Models
@@ -175,9 +187,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/nearshore/"
+                          href="/nearshore"
                           className={`nav-link ${
-                            currentPath == "/nearshore/" && "active"
+                            currentPath == "/nearshore" && "active"
                           }`}
                         >
                           Nearshore
@@ -186,9 +198,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/offshore/"
+                          href="/offshore"
                           className={`nav-link ${
-                            currentPath == "/offshore/" && "active"
+                            currentPath == "/offshore" && "active"
                           }`}
                         >
                           Offshore
@@ -197,9 +209,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/onsite/"
+                          href="/onsite"
                           className={`nav-link ${
-                            currentPath == "/onsite/" && "active"
+                            currentPath == "/onsite" && "active"
                           }`}
                         >
                           Onsite
@@ -211,7 +223,8 @@ const Navbar = () => {
                     <Link
                       href=""
                       className={`nav-link ${
-                        currentPath == "/technologies" && "active"
+                        currentPath == "/kubernetes" || currentPath === "/react" ||  currentPath === "/net" || currentPath === "/python" || currentPath === "/c-sharp" || currentPath === "/rails" || currentPath === "/angular" || currentPath === "/android" ? "active"
+                        : ""
                       }`}
                     >
                       Technologies
@@ -219,9 +232,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/kubernetes/"
+                          href="/kubernetes"
                           className={`nav-link ${
-                            currentPath == "/kubernetes/" && "active"
+                            currentPath == "/kubernetes" && "active"
                           }`}
                         >
                           Kubernetes
@@ -230,9 +243,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/react/"
+                          href="/react"
                           className={`nav-link ${
-                            currentPath == "/react/" && "active"
+                            currentPath == "/react" && "active"
                           }`}
                         >
                           React
@@ -241,9 +254,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/net/"
+                          href="/net"
                           className={`nav-link ${
-                            currentPath == "/net/" && "active"
+                            currentPath == "/net" && "active"
                           }`}
                         >
                           .NET
@@ -252,9 +265,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/python/"
+                          href="/python"
                           className={`nav-link ${
-                            currentPath == "/python/" && "active"
+                            currentPath == "/python" && "active"
                           }`}
                         >
                           Python
@@ -263,9 +276,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/c-sharp/"
+                          href="/c-sharp"
                           className={`nav-link ${
-                            currentPath == "/c-sharp/" && "active"
+                            currentPath == "/c-sharp" && "active"
                           }`}
                         >
                           C#
@@ -274,9 +287,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/rails/"
+                          href="/rails"
                           className={`nav-link ${
-                            currentPath == "/rails/" && "active"
+                            currentPath == "/rails" && "active"
                           }`}
                         >
                           Rails
@@ -285,9 +298,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/angular/"
+                          href="/angular"
                           className={`nav-link ${
-                            currentPath == "/angular/" && "active"
+                            currentPath == "/angular" && "active"
                           }`}
                         >
                           Angular
@@ -296,9 +309,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/android/"
+                          href="/android"
                           className={`nav-link ${
-                            currentPath == "/android/" && "active"
+                            currentPath == "/android" && "active"
                           }`}
                         >
                           Android
@@ -308,9 +321,9 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/case-studies/"
+                      href="/case-studies"
                       className={`nav-link ${
-                        currentPath == "/case-studies/" && "active"
+                        currentPath == "/case-studies" && "active"
                       }`}
                     >
                       Case Studies
@@ -330,7 +343,7 @@ const Navbar = () => {
                     <Link
                       href="/about"
                       className={`nav-link ${
-                        currentPath == "/about/" && "active"
+                        currentPath == "/about" && "active"
                       }`}
                     >
                       About Us
