@@ -6,7 +6,7 @@ const BlogSidebar = () => {
     <>
       <div className="widget-area" id="secondary">
         {/* Search form */}
-        <div className="widget widget_search">
+        {/* <div className="widget widget_search">
           <form className="search-form">
             <label>
               <input
@@ -19,21 +19,21 @@ const BlogSidebar = () => {
               <i className="fas fa-search"></i>
             </button>
           </form>
-        </div>
+        </div> */}
 
         {/* Popular posts */}
         <div className="widget widget_posts_thumb">
           <h3 className="widget-title">Popular posts</h3>
 
           <article className="item">
-            <Link href="/blog-details" className="thumb">
+            <Link href="blog/ultimate-guide-to-ai-trained-nearshore-software-development/" className="thumb">
               <span className="fullimage cover bg1" role="img"></span>
             </Link>
             <div className="info">
-              <time>March 15, 2020</time>
+              <time>July 10, 2023</time>
               <h4 className="title usmall">
-                <Link href="/blog-details">
-                  The Best Marketing top use Management Tools
+                <Link href="blog/ultimate-guide-to-ai-trained-nearshore-software-development/">
+                Ultimate Guide To AI-Trained Nearshore Software Development
                 </Link>
               </h4>
             </div>
@@ -42,14 +42,14 @@ const BlogSidebar = () => {
           </article>
 
           <article className="item">
-            <Link href="/blog-details" className="thumb">
+            <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/" className="thumb">
               <span className="fullimage cover bg2" role="img"></span>
             </Link>
             <div className="info">
-              <time>March 16, 2020</time>
+              <time>July 11, 2023</time>
               <h4 className="title usmall">
-                <Link href="/blog-details">
-                  Top 21 Must-Read Blogs For Creative Agencies
+                <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/">
+                How AI Is Revolutionizing Nearshore Software Development: A Deep Dive
                 </Link>
               </h4>
             </div>
@@ -58,14 +58,44 @@ const BlogSidebar = () => {
           </article>
 
           <article className="item">
-            <Link href="/blog-details" className="thumb">
+            <Link href="/blog/future-of-software-development-ai-nearshore-teams/" className="thumb">
               <span className="fullimage cover bg3" role="img"></span>
             </Link>
             <div className="info">
-              <time>March 17, 2020</time>
+              <time>July 07, 2023</time>
               <h4 className="title usmall">
-                <Link href="/blog-details">
-                  Protect your workplace from cyber attacks
+                <Link href="/blog/future-of-software-development-ai-nearshore-teams/">
+                The Future Of Software Development: Benefits Of AI-Trained Nearshore Teams
+                </Link>
+              </h4>
+            </div>
+
+            <div className="clear"></div>
+          </article>
+          <article className="item">
+            <Link href="/blog/transforming-business-with-ai-nearshore-teams/" className="thumb">
+              <span className="fullimage cover bg3" role="img"></span>
+            </Link>
+            <div className="info">
+              <time>July 05, 2023</time>
+              <h4 className="title usmall">
+                <Link href="/blog/transforming-business-with-ai-nearshore-teams/">
+                Transforming Business Operations With AI-Trained Nearshore Software Development Teams
+                </Link>
+              </h4>
+            </div>
+
+            <div className="clear"></div>
+          </article>
+          <article className="item">
+            <Link href="/blog/choosing-ai-trained-nearshore-software-team/" className="thumb">
+              <span className="fullimage cover bg3" role="img"></span>
+            </Link>
+            <div className="info">
+              <time>July 05, 2023</time>
+              <h4 className="title usmall">
+                <Link href="/blog/choosing-ai-trained-nearshore-software-team/">
+                Choosing The Right AI-Trained Nearshore Software Development Team: A Comprehensive Guide
                 </Link>
               </h4>
             </div>
@@ -75,7 +105,7 @@ const BlogSidebar = () => {
         </div>
 
         {/* Recent posts */}
-        <div className="widget widget_recent_entries">
+        {/* <div className="widget widget_recent_entries">
           <h3 className="widget-title">Recent posts</h3>
 
           <ul>
@@ -110,10 +140,10 @@ const BlogSidebar = () => {
               <span className="post-date">March 19, 2020</span>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Categories */}
-        <div className="widget widget_categories">
+        {/* <div className="widget widget_categories">
           <h3 className="widget-title">Categories</h3>
 
           <ul>
@@ -133,10 +163,10 @@ const BlogSidebar = () => {
               <Link href="#">Uncategorized</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Tags */}
-        <div className="widget widget_tag_cloud">
+        {/* <div className="widget widget_tag_cloud">
           <h3 className="widget-title">Tags</h3>
 
           <div className="tagcloud">
@@ -172,7 +202,7 @@ const BlogSidebar = () => {
               Tips <span className="tag-link-count">(2)</span>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

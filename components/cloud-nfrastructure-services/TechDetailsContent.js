@@ -27,6 +27,9 @@ const ServiceDetailsContent = () => {
                 <li>
                   <strong>Disaster Recovery and Backup: </strong> Prepare for the unexpected with our disaster recovery and backup solutions, ensuring your data remains safe and recoverable in any situation.
                 </li>
+                <li>
+                  <strong>Cloud Managed Services: </strong> Experience cloud excellence with our managed services. We handle monitoring, optimization, and support for your cloud infrastructure, ensuring top-notch performance. Devote your energy to innovation while we manage the technical intricacies.
+                </li>
               </ul>
               <p></p>
               <Link href="/contact/" className="btn btn-primary mt-20">
