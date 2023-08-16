@@ -9,6 +9,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
 import "swiper/css/bundle";
 import ReactGA from 'react-ga';
+import Script from 'next/script'
 
 // Global Styles
 import "../styles/style.css";
