@@ -38,16 +38,28 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <title>Triosource - Technology Consulting & Outsourcing Company</title>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=UA-91820466-2" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-LM3FMPTWHX" />
+        {/* <Script src="https://www.googletagmanager.com/gtag/js?id=UA-91820466-2" /> */}
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'UA-91820466-2');
+          gtag('config', 'G-LM3FMPTWHX');
         `}
         </Script>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LM3FMPTWHX"></Script>
+        <Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-LM3FMPTWHX');
+          `}
+        </Script>
+        
         {/* Using analytics.js (legacy)
         If you are using the analytics.js script to add analytics: */}
         {/* <Script id="google-analytics">
