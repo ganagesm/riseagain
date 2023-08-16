@@ -26,7 +26,7 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author3.jpg" alt="image" /> */}
+                  <img src="/images/author13.png" alt="image" />
                   <h1>VP </h1>
                   <span>Food Industry</span>
                 </div>
@@ -46,7 +46,7 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author1.jpg" alt="image" /> */}
+                  <img src="/images/author10.jpg" alt="image" />
                   <h1>CTO</h1>
                   <span>Education</span>
                   <span>Industry</span>
@@ -67,7 +67,7 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author2.jpg" alt="image" /> */}
+                  <img src="/images/author12.png" alt="image" />
                   <h1>CEO, </h1>
                   <span>Travel Industry</span>
                 </div>
@@ -106,7 +106,7 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author5.jpg" alt="image" /> */}
+                  <img src="/images/author11.png" alt="image" />
                   <h1>COO </h1>
                   <span>Startup</span>
                 </div>
@@ -125,7 +125,7 @@ const Testimonials = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <div className="client-info">
-                  {/* <img src="/images/author4.jpg" alt="image" /> */}
+                  <img src="/images/author10.jpg" alt="image" />
                   <h1>CMO</h1>
                   <span>E-commerce</span>
                   <span>Industry</span>
