@@ -164,11 +164,11 @@ const BlogThreeGrid = () => {
 
                   <h3>
                     <Link href="/blog/choosing-ai-trained-nearshore-software-team/">
-                    Choosing the Right AI-Trained Nearshore Software Development Team: A Comprehensive Guide
+                      Choosing the Right AI-Trained Nearshore Software Development Team: A Comprehensive Guide
                     </Link>
                   </h3>
                   <p>
-                  In an era where technology drives business growth, choosing the right software development team is crucial..
+                    In an era where technology drives business growth, choosing the right software development team is crucial..
                   </p>
 
                   <Link href="/blog/choosing-ai-trained-nearshore-software-team/" className="learn-more-btn">
