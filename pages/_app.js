@@ -8,7 +8,6 @@ import "../styles/fontawesome.min.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
 import "swiper/css/bundle";
-import ReactGA from 'react-ga';
 import Script from 'next/script'
 
 // Global Styles
@@ -18,17 +17,11 @@ import "../styles/responsive.css";
 import Head from "next/head";
 import GoTop from "../components/Shared/GoTop";
 
-// Initialize Google Analytics
-
-ReactGA.initialize('UA-91820466-2');
-
 function MyApp({ Component, pageProps }) {
 
   React.useEffect(() => {
     AOS.init();
-    // Track pageview using Google Analytics
-    // ReactGA.pageview(window.location.pathname + window.location.search);
-    ReactGA.pageview('/');
+
   }, []);
   return (
     <>
