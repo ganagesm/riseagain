@@ -42,7 +42,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="google-site-verification" content="3HUJeVYK92s3RflIJ2jyappEwuqAzAioHiGbRGAcjpk" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <title>Triosource - Technology Consulting & Outsourcing Company</title>
+        <title>TrioSource - Pioneering Digital Solutions with Advanced Tech & Expertise! </title>
+        <meta property="og:title" content="TrioSource - Pioneering Digital Solutions with Advanced Tech & Expertise!" key="title" />
+        <meta name="description" content="Navigate the digital future with TrioSource! Specializing in AI, IoT, Data Science, Cloud Infrastructure, and more, we turn your tech goals into reality. Engage with us to explore innovative solutions, tailored just for your business, and drive transformative results together." key="description" />
 
 
       </Head>

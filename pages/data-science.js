@@ -8,10 +8,17 @@ import CaseStudiesSlider from "../components/data-science/CaseStudiesSlider";
 import WhyTriosource from "../components/data-science/WhyTriosource";
 import ComputerVisionAI from "../components/data-science/ComputerVisionAI";
 import TechDetailsContent from "../components/data-science/TechDetailsContent";
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <>
+    <Head>
+        <title>Data Science Expertise by TrioSource  for Actionable Insights  </title>
+        <meta property="og:title" content="Data Science Expertise by TrioSource  for Actionable Insights " key="title" />
+        <meta name="description" content="Turn big data into actionable insights. TrioSource  data science solutions drive decisions powered by analytics." key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       <ComputerVisionAI />

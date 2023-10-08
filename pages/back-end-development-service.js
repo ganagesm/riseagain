@@ -8,10 +8,17 @@ import Testimonials from "../components/Live/Testimonials";
 import ComputerVisionAI from "../components/back-end-development-service/ComputerVisionAI";
 import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import TechDetailsContent from "../components/back-end-development-service/TechDetailsContent";
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <>
+      <Head>
+        <title>Power Your Platforms with TrioSource  Back-End Development </title>
+        <meta property="og:title" content="Power Your Platforms with TrioSource  Back-End Development" key="title" />
+        <meta name="description" content="Power your digital platforms with TrioSource  back-end development. Ensure seamless, secure, and scalable operations." key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       <ComputerVisionAI />
