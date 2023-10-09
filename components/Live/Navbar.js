@@ -83,7 +83,7 @@ const Navbar = () => {
                     <Link
                       href="#"
                       className={`nav-link ${
-                        currentPath == "/generativeAi" || currentPath === "/mobile-app-development" ||  currentPath === "/frontend-development" || currentPath === "/back-end-development-service" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" ? "active"
+                        currentPath == "/generative-ai" || currentPath === "/mobile-app-development" ||  currentPath === "/frontend-development" || currentPath === "/back-end-development-service" || currentPath === "/ai-driven-iot" || currentPath === "/ai-machine-learning-services" || currentPath === "/data-science" || currentPath === "/cloud-infrastructure-services" ? "active"
                         : ""
                       }`}
                     >
@@ -92,9 +92,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/generativeAi"
+                          href="/generative-ai"
                           className={`nav-link ${
-                            currentPath == "/generativeAi" && "active"
+                            currentPath == "/generative-ai" && "active"
                           }`}
                         >
                          Generative Ai
