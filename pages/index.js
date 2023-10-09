@@ -15,9 +15,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Pioneering Digital Solutions with Advanced Tech & Expertise! </title>
-        <meta property="og:title" content="Pioneering Digital Solutions with Advanced Tech & Expertise!" key="title" />
-        <meta name="description" content="Navigate the digital future with TrioSource! Specializing in AI, IoT, Data Science, Cloud Infrastructure, and more, we turn your tech goals into reality. Engage with us to explore innovative solutions, tailored just for your business, and drive transformative results together." key="description" />
+        <title>TrioSource - Your Nearshore AI & Software Development Experts! </title>
+        <meta property="og:title" content="TrioSource - Your Nearshore AI & Software Development Experts!" key="title" />
+        <meta name="description" content="Unleash technological excellence with TrioSource ! Hire skilled talent anywhere - be it nearshore, offshore, or onsite. Embark on a transformative journey with us, navigating toward a future where technology and innovation converge Let our experts amplify your business value, deploying cutting-edge technologies and innovative AI solutions tailored just for you. !" key="description" />
       </Head>
       <Navbar />
       <HeroBanner />
