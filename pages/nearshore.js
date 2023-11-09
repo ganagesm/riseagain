@@ -11,9 +11,9 @@ const ServiceDetails = () => {
   return (
     <>
     <Head>
-        <title>Nearshore Engagement with TrioSource  for Localized Expertise  </title>
-        <meta property="og:title" content="Nearshore Engagement with TrioSource  for Localized Expertise " key="title" />
-        <meta name="description" content=" Collaborate closer to home with TrioSource  Nearshore services. Benefit from cultural proximity and time zone alignment." key="description" />
+        <title>Explore the Benefits of Nearshore IT Services | TrioSource  </title>
+        <meta property="og:title" content="Explore the Benefits of Nearshore IT Services | TrioSource " key="title" />
+        <meta name="description" content="Triosource offers top-tier nearshore IT Services for cost-effective and efficient software development solutions. Contact Us" key="description" />
       </Head>
 
       <Navbar />
