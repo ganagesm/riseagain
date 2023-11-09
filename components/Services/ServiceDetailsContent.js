@@ -9,7 +9,7 @@ const ServiceDetailsContent = () => {
             <div className="services-details-desc mb-30">
               <h3>Seamless Collaboration Made Easy</h3>
               <p>
-              Triosource's nearshore teams, with overlapping time zones, enable seamless collaboration and effortless communication. With real-time communication, improved collaboration and coordination, agile decision-making, faster turnaround times, enhanced project visibility, and improved client satisfaction, Triosource ensures that geographic boundaries do not hinder the success of your tech projects. Embrace the power of overlapping time zones with Triosource's nearshore teams and experience a new level of seamless collaboration in your organization.
+              <a href="/">Triosource's</a> nearshore teams, with overlapping time zones, enable seamless collaboration and effortless communication. With real-time communication, improved collaboration and coordination, agile decision-making, faster turnaround times, enhanced project visibility, and improved client satisfaction, Triosource ensures that geographic boundaries do not hinder the success of your tech projects. Embrace the power of overlapping time zones with Triosource's nearshore teams and experience a new level of seamless collaboration in your organization.
               </p>
 
               <p>Seamless collaboration facilitated by Triosource's nearshore teams contributes to improved client satisfaction. By providing direct access to your team during your working hours, you can address client queries, provide timely updates, and ensure effective communication, enhancing the overall client experience.
