@@ -19,7 +19,7 @@ const ServiceDetailsContent = () => {
             <div className="services-details-image">
               <img
                 src="/images/services-details/service-details1.jpg"
-                alt="image"
+                alt="Professional IT team collaborating on software development in a nearshore office environment."
               />
             </div>
           </div>
@@ -28,7 +28,7 @@ const ServiceDetailsContent = () => {
             <div className="services-details-image mb-30">
               <img
                 src="/images/services-details/service-details2.jpg"
-                alt="image"
+                alt="Nearshore development team using computers to code and collaborate on a project in a tech company setting."
               />
             </div>
 
