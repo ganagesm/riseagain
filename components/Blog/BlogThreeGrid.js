@@ -10,6 +10,99 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
+                  <Link href="/understanding-the-power-of-nearshore-development-proximity-matters">
+                    <img src="/images/blog/proximity-matters-thumb.jpeg" alt="Proximity Matters: Advantages of Nearshore Development" />
+                  </Link>
+                </div>
+
+                <div className="entry-post-content">
+                  <div className="entry-meta">
+                    <ul>
+                      <li>Nov 20, 2023</li>
+                    </ul>
+                  </div>
+
+                  <h3>
+                    <Link href="/blog/understanding-the-power-of-nearshore-development-proximity-matters">
+                      Proximity Matters: Advantages of Nearshore Development
+                    </Link>
+                  </h3>
+                  <p>
+                    Discover how proximity in nearshore development boosts collaboration, cuts costs, and accelerates projects. Unlock global success with Triosource.
+                  </p>
+
+                  <Link href="/blog/understanding-the-power-of-nearshore-development-proximity-matters" className="learn-more-btn">
+                    Read More <i className="flaticon-add"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-post">
+                <div className="entry-thumbnail">
+                  <Link href="/nearshore-vs-offshore-outsourcing">
+                    <img src="/images/blog/nearshore-vs-offshore-outsourcing-thumb.jpeg" alt="Nearshore vs. Offshore: Optimal Outsourcing Choice?" />
+                  </Link>
+                </div>
+
+                <div className="entry-post-content">
+                  <div className="entry-meta">
+                    <ul>
+                      <li>Nov 10, 2023</li>
+                    </ul>
+                  </div>
+
+                  <h3>
+                    <Link href="/blog/nearshore-vs-offshore-outsourcing">
+                      Nearshore vs. Offshore Outsourcing: Finding the Right Fit for Your Business
+                    </Link>
+                  </h3>
+                  <p>
+                    Explore the differences between nearshore and offshore outsourcing to find the perfect fit for your...
+                  </p>
+
+                  <Link href="/blog/nearshore-vs-offshore-outsourcing" className="learn-more-btn">
+                    Read More <i className="flaticon-add"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-post">
+                <div className="entry-thumbnail">
+                  <Link href="/the-advantages-of-nearshore-development-why-proximity-matters">
+                    <img src="/images/blog/the-advantages-of-nearshore-development-why-proximity-matters-thumb.jpeg" alt="Proximity Matters: Nearshore Development Benefits" />
+                  </Link>
+                </div>
+
+                <div className="entry-post-content">
+                  <div className="entry-meta">
+                    <ul>
+                      <li>Nov 01, 2023</li>
+                    </ul>
+                  </div>
+
+                  <h3>
+                    <Link href="/blog/the-advantages-of-nearshore-development-why-proximity-matters">
+                    The Advantages of Nearshore Development: Why Proximity Matters
+                    </Link>
+                  </h3>
+                  <p>
+                  Discover nearshore development's edge with proximity advantages. Explore how Triosource optimizes global collaboration for your business...
+                  </p>
+
+                  <Link href="/blog/the-advantages-of-nearshore-development-why-proximity-matters" className="learn-more-btn">
+                    Read More <i className="flaticon-add"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-post">
+                <div className="entry-thumbnail">
                   <Link href="/ultimate-guide-to-ai-trained-nearshore-software-development">
                     <img src="/images/blog/blog8.jpg" alt="image" />
                   </Link>
@@ -18,9 +111,6 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>
-                        <Link href="#">Admin</Link>
-                      </li>
                       <li>July 10, 2023</li>
                     </ul>
                   </div>
@@ -53,9 +143,6 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>
-                        <Link href="#">Admin</Link>
-                      </li>
                       <li>July 11, 2023</li>
                     </ul>
                   </div>
@@ -87,9 +174,6 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>
-                        <Link href="#">Admin</Link>
-                      </li>
                       <li>July 07, 2023</li>
                     </ul>
                   </div>
@@ -121,9 +205,6 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>
-                        <Link href="#">Admin</Link>
-                      </li>
                       <li>July 05, 2023</li>
                     </ul>
                   </div>
@@ -155,9 +236,6 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>
-                        <Link href="#">Admin</Link>
-                      </li>
                       <li>July 05, 2023</li>
                     </ul>
                   </div>
@@ -177,41 +255,6 @@ const BlogThreeGrid = () => {
                 </div>
               </div>
             </div>
-
-            {/* <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="entry-thumbnail">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog6.jpg" alt="image" />
-                  </Link>
-                </div>
-
-                <div className="entry-post-content">
-                  <div className="entry-meta">
-                    <ul>
-                      <li>
-                        <Link href="#">Admin</Link>
-                      </li>
-                      <li>March 14, 2020</li>
-                    </ul>
-                  </div>
-
-                  <h3>
-                    <Link href="/blog-details">
-                      Instagram Feed Add To Your WordPress Site
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
-                  </p>
-
-                  <Link href="/blog-details" className="learn-more-btn">
-                    Read More <i className="flaticon-add"></i>
-                  </Link>
-                </div>
-              </div>
-            </div> */}
 
             {/* Pagination */}
             <div className="col-lg-12 col-sm-12">
