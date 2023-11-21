@@ -46,7 +46,7 @@ const BlogDetailsContent = () => {
 
                   <h3>Conclusion:  </h3>
                   <p>Proximity plays a pivotal role in nearshore development, transforming how businesses operate and collaborate globally. Leveraging nearshore strategies enhances efficiency, communication, and cost-effectiveness, driving success in the ever-evolving business landscape.
-                    Proximity matters in nearshore development. Unlock its advantages for your business and explore the potential of collaborative success. <a href="https://triosource.com/">Triosource</a>stands ready to guide your journey into maximizing the benefits of nearshore development.</p>
+                    Proximity matters in nearshore development. Unlock its advantages for your business and explore the potential of collaborative success. <a href="https://triosource.com/">Triosource</a> stands ready to guide your journey into maximizing the benefits of nearshore development.</p>
                 </div>
 
                 <div className="article-footer">
