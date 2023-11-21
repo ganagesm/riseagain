@@ -10,9 +10,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/understanding-the-power-of-nearshore-development-proximity-matters">
-                    <img src="/images/blog/proximity-matters-thumb.jpeg" alt="Proximity Matters: Advantages of Nearshore Development" />
-                  </Link>
+                  <img src="/images/blog/proximity-matters-thumb.jpeg" alt="Proximity Matters: Advantages of Nearshore Development" />
                 </div>
 
                 <div className="entry-post-content">
@@ -41,9 +39,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/nearshore-vs-offshore-outsourcing">
-                    <img src="/images/blog/nearshore-vs-offshore-outsourcing-thumb.jpeg" alt="Nearshore vs. Offshore: Optimal Outsourcing Choice?" />
-                  </Link>
+                  <img src="/images/blog/nearshore-vs-offshore-outsourcing-thumb.jpeg" alt="Nearshore vs. Offshore: Optimal Outsourcing Choice?" />
                 </div>
 
                 <div className="entry-post-content">
@@ -72,9 +68,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/the-advantages-of-nearshore-development-why-proximity-matters">
-                    <img src="/images/blog/the-advantages-of-nearshore-development-why-proximity-matters-thumb.jpeg" alt="Proximity Matters: Nearshore Development Benefits" />
-                  </Link>
+                  <img src="/images/blog/the-advantages-of-nearshore-development-why-proximity-matters-thumb.jpeg" alt="Proximity Matters: Nearshore Development Benefits" />
                 </div>
 
                 <div className="entry-post-content">
@@ -86,11 +80,11 @@ const BlogThreeGrid = () => {
 
                   <h3>
                     <Link href="/blog/the-advantages-of-nearshore-development-why-proximity-matters">
-                    The Advantages of Nearshore Development: Why Proximity Matters
+                      The Advantages of Nearshore Development: Why Proximity Matters
                     </Link>
                   </h3>
                   <p>
-                  Discover nearshore development's edge with proximity advantages. Explore how Triosource optimizes global collaboration for your business...
+                    Discover nearshore development's edge with proximity advantages. Explore how Triosource optimizes global collaboration for your business...
                   </p>
 
                   <Link href="/blog/the-advantages-of-nearshore-development-why-proximity-matters" className="learn-more-btn">
@@ -103,9 +97,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/ultimate-guide-to-ai-trained-nearshore-software-development">
-                    <img src="/images/blog/blog8.jpg" alt="image" />
-                  </Link>
+                  <img src="/images/blog/blog8.jpg" alt="image" />
                 </div>
 
                 <div className="entry-post-content">
@@ -135,9 +127,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog/how-ai-is-revolutionizing-nearshore-software-development/">
-                    <img src="/images/blog/blog2.jpg" alt="image" />
-                  </Link>
+                  <img src="/images/blog/blog2.jpg" alt="image" />
                 </div>
 
                 <div className="entry-post-content">
@@ -166,9 +156,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog/future-of-software-development-ai-nearshore-teams/">
-                    <img src="/images/blog/blog3.jpg" alt="image" />
-                  </Link>
+                  <img src="/images/blog/blog3.jpg" alt="image" />
                 </div>
 
                 <div className="entry-post-content">
@@ -197,9 +185,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog/transforming-business-with-ai-nearshore-teams/">
-                    <img src="/images/blog/blog4.jpg" alt="image" />
-                  </Link>
+                  <img src="/images/blog/blog4.jpg" alt="image" />
                 </div>
 
                 <div className="entry-post-content">
@@ -228,9 +214,7 @@ const BlogThreeGrid = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-thumbnail">
-                  <Link href="/blog/choosing-ai-trained-nearshore-software-team/">
-                    <img src="/images/blog/blog5.jpg" alt="image" />
-                  </Link>
+                  <img src="/images/blog/blog5.jpg" alt="image" />
                 </div>
 
                 <div className="entry-post-content">
