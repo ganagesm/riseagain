@@ -20,11 +20,7 @@ const BlogDetailsContent = () => {
                     <ul>
                       <li>
                         <span>Posted On:</span>
-                        July 11, 2023
-                      </li>
-                      <li>
-                        <span>Posted By:</span>
-                        <Link href="#">John Anderson</Link>
+                        September 02, 2023
                       </li>
                     </ul>
                   </div>

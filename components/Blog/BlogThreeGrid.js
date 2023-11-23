@@ -111,7 +111,7 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>July 10, 2023</li>
+                      <li>October 23, 2023</li>
                     </ul>
                   </div>
 
@@ -143,7 +143,7 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>July 11, 2023</li>
+                      <li>October 14, 2023</li>
                     </ul>
                   </div>
 
@@ -174,7 +174,7 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>July 07, 2023</li>
+                      <li>September 02, 2023</li>
                     </ul>
                   </div>
 
@@ -205,7 +205,7 @@ const BlogThreeGrid = () => {
                 <div className="entry-post-content">
                   <div className="entry-meta">
                     <ul>
-                      <li>July 05, 2023</li>
+                      <li>August 17, 2023</li>
                     </ul>
                   </div>
 
