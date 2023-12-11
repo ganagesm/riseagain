@@ -4,14 +4,12 @@ import Link from "next/link";
 const FunFacts = () => {
   return (
     <>
-      <div className="fun-facts-area ptb-110">
+      <div className="fun-facts-area pt-100 pt-110 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Kubernetes to Kotlin.</h2>
-            <h2>Triosource has you covered.</h2>
-            <p>
-            Engineers across any stack and any scale. Just chose an engagement model and share your requirements. We'll take care of the rest.
-            </p>
+            <h2>Empowering Women</h2>
+            <h2> for a Brighter Tomorrow.</h2>
+            <p> At Rise Again, we believe that every woman deserves the chance to rise, grow, and succeed in her career. Our mission is to empower women by providing exclusive job opportunities in both the IT and non-IT sectors. We are not just a Staffing Firm we are a movement dedicated to women’s professional growth and success.             </p>
           </div>
           <div className="contact-cta-box">
                 <h3>Get in touch now</h3>

@@ -17,17 +17,10 @@ import "../styles/responsive.css";
 import Head from "next/head";
 import GoTop from "../components/Shared/GoTop";
 
-// Initialize Google Analytics
-
-ReactGA.initialize('UA-91820466-2');
-
 function MyApp({ Component, pageProps }) {
 
   React.useEffect(() => {
     AOS.init();
-    // Track pageview using Google Analytics
-    // ReactGA.pageview(window.location.pathname + window.location.search);
-    ReactGA.pageview('/');
   }, []);
   return (
     <>
@@ -35,21 +28,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="google-site-verification" content="3HUJeVYK92s3RflIJ2jyappEwuqAzAioHiGbRGAcjpk" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <title>Triosource - Technology Consulting & Outsourcing Company</title>
-        
-        <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-L4CMTB5TYP`}
-      />
+        <title>RiseAgain - Technology Consulting & Outsourcing Company</title>
 
-      <Script strategy="lazyOnload">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-L4CMTB5TYP');
-                `}
-      </Script>
       </Head>
 
       <Component {...pageProps} />

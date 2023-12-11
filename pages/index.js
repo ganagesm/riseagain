@@ -1,44 +1,71 @@
-
-// import Navbar from "../components/Layouts/Navbar";
-// import NavbarSeven from "../components/Layouts/NavbarSeven";
-// import Footer from "../components/Layouts/Footer";
-
-// import HeroBanner from "../components/nearshore/HeroBanner";
-// import Outpartnerships from "../components/HomeEight/Outpartnerships";
-// import AboutUs from "../components/nearshore/AboutUs";
-// import Services from "../components/nearshore/Services";
-// import Testimonials from "../components/HomeThree/Testimonials";
-// import BlogPost from "../components/Common/BlogPost";
-// import FunFacts from "../components/nearshore/FunFacts";
-// import MainBanner from "../components/nearshore/MainBanner";
-
+import Link from "next/link";
 import Navbar from "../components/Live/Navbar";
-import Footer from "../components/Live/Footer";
 import HeroBanner from "../components/Live/HeroBanner";
 import Services from "../components/Live/Services";
-import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import FunFacts from "../components/Live/FunFacts";
-import PartnerContent from "../components/Live/PartnerContent";
-import Testimonials from "../components/Live/Testimonials";
+import Footer from "../components/Live/Footer";
+import OurFeaturedSolutions from "../components/Live/OurFeaturedSolutions";
 import TechSlider from "../components/Live/TechSlider";
+import Testimonials from "../components/Live/Testimonials";
+import PartnerContent from "../components/Live/PartnerContent";
+import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
 
 
 const Index = () => {
-    return (
-        <>
-            <Navbar />
-            <HeroBanner />
-            <PartnerContent />
-            <Services />
-            <FunFacts />
-            <Testimonials />
-            <TechSlider />
-            <BlogPostSlider />
-            <CaseStudiesPost />
-            <Footer />
+  return (
+    <>
+      <Navbar />
+      <HeroBanner />
+      {/* <PartnerContent /> */}
+      <Services />
+      <FunFacts />
+      {/* <Testimonials />
+      <TechSlider />
+      <BlogPostSlider />
+      <CaseStudiesPost /> */}
+      <div className="main-services-area pt-50">
+        <div className="container">
+          <div className="row d-flex">
+            <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
+              <div className="single-main-services-box flex-fill">
+                <div className="icon">
+                  <i className="flaticon-robot-1"></i>
+                </div>
+                <h3>
+                  <Link href="/service-details">
+                    DEI Solutions
+                  </Link>
+                </h3>
+                <p>We focus on quality and authentic connections to help you save time, stand out, and attract the best people for your open positions.</p>
 
-        </>
-    )
+                <Link href="/service-details" className="link-btn">
+                  Read More
+                </Link>
+              </div>
+            </div>
+
+            <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
+              <div className="single-main-services-box flex-fill">
+                <div className="icon">
+                  <i className="flaticon-neural"></i>
+                </div>
+                <h3>
+                  <Link href="/service-details">Employer</Link>
+                </h3>
+                <p>Elevate your workforce with highly skilled workers that are often automatically dismissed due to a career gap. This pool of talent is just what you need to enhance your culture and productivity.</p>
+
+                <Link href="/service-details" className="link-btn">
+                  Read More
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <OurFeaturedSolutions />
+      <Footer />
+    </>
+  )
 }
 export default Index;

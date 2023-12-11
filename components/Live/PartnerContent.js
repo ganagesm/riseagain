@@ -8,7 +8,7 @@ const PartnerContent = () => {
         <div className="container">
           <div className="section-title">
             <h2>
-              Over 500 clients in our 20 years of consulting & outsourcing
+            Our Offerings
             </h2>
             <p>
               Our history is in the enterprise. We've spent the last 20 years
