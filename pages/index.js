@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Navbar from "../components/Live/Navbar";
 import HeroBanner from "../components/Live/HeroBanner";
@@ -10,6 +11,7 @@ import Testimonials from "../components/Live/Testimonials";
 import PartnerContent from "../components/Live/PartnerContent";
 import CaseStudiesPost from "../components/Live/CaseStudiesPost";
 import BlogPostSlider from "../components/Live/BlogPostSlider";
+import Head from 'next/head';
 
 
 const Index = () => {
