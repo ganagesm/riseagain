@@ -59,8 +59,8 @@ const Footer = () => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="/images/white-triosource.png"
-                      alt="triosource logo"
+                      src="/images/riseagain-white.png"
+                      alt="riseagain logo"
                       width={200}
                     />
                   </Link>
@@ -72,10 +72,10 @@ const Footer = () => {
                   </p>
                 </div>
 
-                <ul className="social">
+                {/* <ul className="social">
                   <li>
                     <a
-                      href="https://www.linkedin.com/company/triosource/"
+                      href="https://www.linkedin.com/company/riseagain/"
                       target="_blank"
                     >
                       <svg
@@ -90,16 +90,16 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/TrioSource/" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/riseagain/" target="_blank" rel="noreferrer">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/TrioSource" target="_blank" rel="noreferrer">
+                    <a href="https://twitter.com/riseagain" target="_blank" rel="noreferrer">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
 
@@ -110,17 +110,23 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                <h3>Engagement Models</h3>
+                <h3>Explore</h3>
 
                 <ul className="footer-services-list">
                   <li>
-                    <Link href="/nearshore">Nearshoring</Link>
+                    <Link href="/returnships">Returnships</Link>
                   </li>
                   <li>
-                    <Link href="/offshore">Offshoring</Link>
+                    <Link href="/contingent-staffing">Contingent Staffing</Link>
                   </li>
                   <li>
-                    <Link href="/onsite">Onsite Hiring</Link>
+                    <Link href="/direct-hire">Direct Hire</Link>
+                  </li>
+                  <li>
+                    <Link href="/leave-of-absence">Leave of Absence</Link>
+                  </li>
+                  <li>
+                    <Link href="/join-returner-network">Join Returner Network</Link>
                   </li>
                 </ul>
               </div>
@@ -144,16 +150,16 @@ const Footer = () => {
                     <Link href="/technologies">Technologies</Link>{" "}
                   </li> */}
                   <li>
-                    <Link href="/generativeAi/">
-                      Generative Ai
+                    <Link href="/contact/">
+                      Contact Us
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/case-studies/">Case Studies </Link>
                   </li>
                   <li>
                     <Link href="/blog/">Blog</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -170,14 +176,15 @@ const Footer = () => {
                 <ul className="footer-contact-list">
                   <li>
                     <span>Address:</span>
-                    3031 Tisch Way, 110 Plaza West <br /> San Jose, CA
+                    <p><strong>USA</strong> 5665 W. Wilshire Blvd #1306 Los Angeles, CA 90036</p>
+                    <p><strong>India</strong> 613/A, 2nd Floor,15th Cross Ring Road, 33rd Main, J P nagar 1st Phase, Bangalore – 560078</p>
                   </li>
-                  <li>
-                    <span>Email:</span> <a href="mailto:hello@triosource.com">hello@triosource.com</a>
-                  </li>
-                  <li>
+                  {/* <li>
+                    <span>Email:</span> <a href="mailto:info@riseagain.com">info@riseagain.com</a>
+                  </li> */}
+                  {/* <li>
                     <span>Phone:</span> <a href="tel:(408)4007043">(408) 400-7043</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -189,7 +196,7 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <p>
-                  @ Copyright &copy;{currentYear} Triosource. All Rights
+                  @ Copyright &copy;{currentYear} Rise Again. All Rights
                   Reserved .
                 </p>
               </div>
@@ -219,9 +226,9 @@ const Footer = () => {
         </div>
       </footer>
 
-      <React.Fragment>
+      {/* <React.Fragment>
         {useScript('https://salesiq.zoho.in/widget', 'siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c')}
-      </React.Fragment>
+      </React.Fragment> */}
 
       <Helmet>
         {/* <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siqed6b1d489c04455fb0ed606f0cf924d5fc10486201b13b1557662d1e9206aa3c", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script> */}

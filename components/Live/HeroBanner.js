@@ -24,13 +24,9 @@ const HeroBanner = () => {
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}>
-                AI trained nearshore software development teams.
+                Reignite, Reimagine, Rise Again
                 </h1>
-                <p>
-                  Nearshore, offshore, onsite. Hire talent anywhere or let our
-                  experts unlock business value for you with bleeding edge
-                  technologies.
-                </p>
+                <p>Search your career opportunity through 12,800 jobs</p>
 
                 <div className="btn-box">
                   <Link href="/contact" className="btn btn-primary">

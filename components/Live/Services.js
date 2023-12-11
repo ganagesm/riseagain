@@ -7,19 +7,14 @@ const Services = () => {
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Flexible engagements.</h2>
-            <h2> we'll work how you work.</h2>
-            <p>
-              Our outsourced engineers can plug directly into your teams.
-              Triosource also creates dedicated teams of engineers with a
-              project based approach. Our consulting approach allows for a
-              hybrid. We can work however you work.
-            </p>
+            <h2>Our Offerings</h2>
+            {/* <h2> we'll work how you work.</h2> */}
+            <p>Empowering women  to re-enter the professional Arena</p>
           </div>
 
           <div className="row">
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <div className="icon">
                   <img
                     src="/images/software-engineer.svg"
@@ -31,23 +26,17 @@ const Services = () => {
                     }}
                   />
                 </div>
-                <h2>
-                  <Link href="/nearshore">
-                    Nearshoring
-                    <h3 style={{ color: "darkgray" }}>
-                      Talent in your time zone
-                    </h3>
-                  </Link>
-                </h2>
+                <h3 style={{ color: "darkgray" }}>
+                  Returnship Programs
+                </h3>
                 <p>
-                  Engineers online when you are. On contract, full time, or
-                  project based work.
+                  Our Returnship Programs offer tailored professional development, mentorship, and hands-on experience for women re-entering the workforce. Designed to bridge career breaks, these programs ease the transition back into a thriving professional environment.
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <div className="icon">
                   <img
                     src="/images/offshore.svg"
@@ -59,21 +48,14 @@ const Services = () => {
                     }}
                   />
                 </div>
-                <h2>
-                  <Link href="/offshore">
-                    Offshore
-                    <h3 style={{ color: "darkgray" }}>Talent at scale</h3>
-                  </Link>
-                </h2>
-                <p>
-                  Build out teams by the hundreds. Vetted technology talent and
-                  hyper competitive rates.
+                <h3 style={{ color: "darkgray" }}>Career Coaching and Guidance</h3>
+                <p>Access personalized career coaching and guidance from expert coaches to reignite your professional journey. Benefit from one-on-one sessions, resume reviews, interview preparation, and skill-building workshops. Gain the tools and confidence for a successful career relaunch.
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-services-box">
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
                 <div className="icon">
                   <img
                     src="/images/clipboard-list.svg"
@@ -85,15 +67,72 @@ const Services = () => {
                     }}
                   />
                 </div>
-                <h2>
-                  <Link href="/onsite">
-                    Onsite
-                    <h3 style={{ color: "darkgray" }}>Talent at home</h3>
-                  </Link>
-                </h2>
-                <p>
-                  Let our teams focus on the vetting process while you deliver
-                  for your customers
+                <h3 style={{ color: "darkgray" }}>Skill Enhancement Workshops
+                </h3>
+                <p>Stay updated and enhance your skills through our specialized workshops. Covering technology proficiency and leadership training, our curated sessions ensure you’re equipped with the latest industry trends, preparing you for the competitive job market.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <div className="icon">
+                  <img
+                    src="/images/clipboard-list.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </div>
+                <h3 style={{ color: "darkgray" }}>Networking and Community Support
+
+                </h3>
+                <p>Join a vibrant community of returning professionals to access exclusive networking events, peer support groups, and forums. Connect, share experiences, and expand your professional network. Forge meaningful connections with like-minded individuals and industry experts.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <div className="icon">
+                  <img
+                    src="/images/clipboard-list.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </div>
+                <h3 style={{ color: "darkgray" }}>Employer Partnerships and Opportunities
+
+
+                </h3>
+                <p>Collaborate with leading companies committed to diversity and inclusion. Access our network of employers offering return-to-work opportunities, including job openings, internships, and returnship placements tailored to your skills and aspirations.
+
+
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 d-flex">
+              <div className="single-services-box flex-fill">
+                <div className="icon">
+                  <img
+                    src="/images/clipboard-list.svg"
+                    alt="image"
+                    style={{
+                      width: "75%",
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  />
+                </div>
+                <h3 style={{ color: "darkgray" }}>Return-to-Work Resources and Tools
+                </h3>
+                <p>Access a range of valuable resources and tools tailored to facilitate your return to the workforce. Benefit from online resources, industry insights, and best practices, along with childcare support and flexible work arrangements. Receive comprehensive assistance at every step of your journey.
                 </p>
               </div>
             </div>
