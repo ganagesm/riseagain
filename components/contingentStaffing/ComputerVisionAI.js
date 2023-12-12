@@ -4,19 +4,25 @@ import Link from "next/link";
 const ComputerVisionAI = () => {
   return (
     <>
-      <div className="computer-vision-ai-area pt-50">
+      <div className="computer-vision-ai-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-12 col-md-12">
-            <div className="section-title">
-            {/* <h2>Mobile Development</h2> */}
-            <h2>We are using AI Technology for faster development, intelligent features, predictive analysis, and quality work for Mobile App Development </h2>
-          </div>
-              {/* <div className="computer-vision-ai-content">
-                <h3> Mobile Development </h3>
-                <p>We are using AI Technology for faster development, intelligent features, predictive analysis, and quality work for Mobile App Development </p> */}
+          {/* <div className="col-lg-6 col-md-12">
+              <div className="computer-vision-ai-image">
+                <img
+                  src="/images/home-six/computer-vision/computer-vision-ai.png"
+                  alt="image"
+                />
+              </div>
+            </div> */}
+            <div className="col-lg-6 col-md-6">
+              <div className="computer-vision-ai-content">
+                <h3>
+                Rails services
+                </h3>
+                <p>They serve as a way to extract and isolate business logic from the controllers or models of a Rails application, promoting cleaner code organization, reusability, and testability.</p>
 
-                {/* <div className="row justify-content-center">
+                <div className="row justify-content-center">
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
                       <div className="">
@@ -37,6 +43,7 @@ const ComputerVisionAI = () => {
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
                       <div className="">
                         <h4>Single Responsibility Principle (SRP)</h4>
                       </div>
@@ -45,15 +52,16 @@ const ComputerVisionAI = () => {
                   </div>
                   <div className="col-lg-6 col-sm-6">
                     <div className="vision-ai-inner-card">
+                      {/* <div className="content"> */}
                       <div className="">
                         <h4>Flexibility and Extensibility</h4>
                       </div>
                       <p> With services, it becomes easier to introduce changes or modifications to the application's behavior. Services can be modified or extended without affecting other parts of the application, providing flexibility and ease of maintenance.</p>
                     </div>
                   </div>
-                </div> */}
+                </div>
 
-              {/* </div> */}
+              </div>
             </div>
             
           </div>
