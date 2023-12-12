@@ -207,6 +207,13 @@ const BlogPostSlider = () => {
               </SwiperSlide>
             </div>
           </Swiper>
+          <div className="col-lg-12 col-md-12">
+            <div className="ai-all-services-btn">
+              <Link href="/blog/" className="btn btn-primary">
+                Read More Blog
+              </Link>
+            </div>
+          </div>
         </div>
 
         <div className="dot-shape1">

@@ -8,10 +8,17 @@ import WhyTriosource from "../components/ai-machine-learning-services/WhyTriosou
 import ComputerVisionAI from "../components/ai-machine-learning-services/ComputerVisionAI";
 import CaseStudiesSlider from "../components/Live/CaseStudiesSlider";
 import TechDetailsContent from "../components/ai-machine-learning-services/TechDetailsContent";
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <>
+    <Head>
+        <title>Machine Learning Solutions by TrioSource  for AI-Powered Excellence  </title>
+        <meta property="og:title" content="Machine Learning Solutions by TrioSource  for AI-Powered Excellence " key="title" />
+        <meta name="description" content="Maximize business outcomes with TrioSource  AI & ML expertise. Harness data for smarter decisions and transformative insights" key="description" />
+      </Head>
+
       <Navbar />
       <HeroBanner />
       <ComputerVisionAI />

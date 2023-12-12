@@ -26,7 +26,7 @@ const BlogSidebar = () => {
           <h3 className="widget-title">Popular posts</h3>
 
           <article className="item">
-            <Link href="blog/ultimate-guide-to-ai-trained-nearshore-software-development/" className="thumb">
+            <Link href="/blog/ultimate-guide-to-ai-trained-nearshore-software-development/" className="thumb">
               {/* <span className="fullimage cover bg1" role="img"></span>
                */}
               <span className="fullimage">
@@ -36,7 +36,7 @@ const BlogSidebar = () => {
             <div className="info">
               <time>July 10, 2023</time>
               <h4 className="title usmall">
-                <Link href="blog/ultimate-guide-to-ai-trained-nearshore-software-development/">
+                <Link href="/blog/ultimate-guide-to-ai-trained-nearshore-software-development/">
                   Ultimate Guide To AI-Trained Nearshore Software Development
                 </Link>
               </h4>
@@ -118,6 +118,11 @@ const BlogSidebar = () => {
             </div>
 
             <div className="clear"></div>
+            <div style={{ textAlign: "end", padding: '17px', borderBottom: "1px solid #eeeeee" }}>
+              <Link href="/blog/" className="learn-more-btn">
+                Read More <i className="flaticon-add"></i>
+              </Link>
+            </div>
           </article>
         </div>
 
@@ -128,19 +133,19 @@ const BlogSidebar = () => {
           <ul>
             <li>
               <Link href="/swiftly-case-studies">
-              Triosource's Successful Near Shoring Services For Swiftly
+                Triosource's Successful Near Shoring Services For Swiftly
               </Link>
               <span className="post-date">July 14, 2023</span>
             </li>
             <li>
               <Link href="/Supercharges-case-studies/">
-              Triosource Supercharges Sharpz's React Native App Development
+                Triosource Supercharges Sharpz's React Native App Development
               </Link>
               <span className="post-date">July 11, 2023</span>
             </li>
             <li>
               <Link href="/generative-ai-case-studies/">
-              Harnessing Generative AI In Custom Development Environments
+                Harnessing Generative AI In Custom Development Environments
               </Link>
               <span className="post-date">July 12, 2023</span>
             </li>
