@@ -8,11 +8,14 @@ const MainBanner = () => {
         <div className="startup-banner-inner">
           <div className="container">
             <div className="startup-banner-content">
-              <h1>Embracing flexible workforce strategies. Empowering Every Hiring Decision
+              <h1>Assisting Employee Leave
+                Scenarios
 
               </h1>
               <p>
-              In the modern business landscape, forward-thinking companies grasp the critical role of diversity, equity, inclusion, and a sense of belonging in their success. Enlightened leaders understand that a diverse workforce is not just a desirable quality; it’s a proven catalyst for innovation and heightened productivity.
+                Rise Again places a strong emphasis on supporting our employees during various life transitions. We acknowledge that events like childbirth, adoption, significant health issues, or military service may require a valued employee to request a leave of absence. Demonstrating our commitment to compassion and understanding, we work to accommodate these circumstances, ultimately contributing to enhanced employee retention rates.
+
+
               </p>
 
               <div className="btn-box">

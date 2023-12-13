@@ -130,7 +130,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="#"
-                      className={`nav-link ${currentPath == "/nearshore" || currentPath === "/offshore" || currentPath === "/onsite" ? "active"
+                      className={`nav-link ${currentPath == "/partnerships" || currentPath === "/returnship-guide" || currentPath === "/critical-considerations" || currentPath === "/success-stories" ? "active"
                         : ""
                         }`}
                     >
@@ -139,8 +139,8 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/nearshore"
-                          className={`nav-link ${currentPath == "/nearshore" && "active"
+                          href="/partnerships"
+                          className={`nav-link ${currentPath == "/partnerships" && "active"
                             }`}
                         >
                           Partnerships
@@ -149,8 +149,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/offshore"
-                          className={`nav-link ${currentPath == "/offshore" && "active"
+                          href="/returnship-guide"
+                          className={`nav-link ${currentPath == "/returnship-guide" && "active"
                             }`}
                         >
                           Returnship Guide
@@ -159,8 +159,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/onsite"
-                          className={`nav-link ${currentPath == "/onsite" && "active"
+                          href="/critical-considerations"
+                          className={`nav-link ${currentPath == "/critical-considerations" && "active"
                             }`}
                         >
                           Critical Considerations
@@ -168,8 +168,8 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/onsite"
-                          className={`nav-link ${currentPath == "/onsite" && "active"
+                          href="/success-stories"
+                          className={`nav-link ${currentPath == "/success-stories" && "active"
                             }`}
                         >
                           Success Stories
