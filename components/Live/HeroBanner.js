@@ -19,12 +19,19 @@ const HeroBanner = () => {
         <SwiperSlide>
           <div
             className="main-banner"
-            style={{ backgroundImage: `url(/images/main-banner-bg1.jpg)` }}
+            style={{
+              background:"#000000",
+              background: `url(/images/background-home-1.jpeg) no-repeat center center fixed`,
+              WebkitBackgroundSize: 'cover',
+              MozBackgroundSize: 'cover',
+              OBackgroundSize: 'cover',
+              backgroundSize: 'cover',
+            }}
           >
             <div className="container">
               <div className="main-banner-content">
                 <h1 style={{ color: "#fff" }}>
-                Reignite, Reimagine, Rise Again
+                  Reignite, Reimagine, Rise Again
                 </h1>
                 <p>Search your career opportunity through 12,800 jobs</p>
 
@@ -36,6 +43,7 @@ const HeroBanner = () => {
               </div>
             </div>
           </div>
+
         </SwiperSlide>
       </Swiper>
     </>

@@ -9,9 +9,9 @@ const Contact = () => {
   return (
     <>
      <Head>
-        <title>Connect with TrioSource Professionals | Reach Out to Us Now  </title>
-        <meta property="og:title" content="Connect with TrioSource Professionals | Reach Out to Us Now  " key="title" />
-        <meta name="description" content="Seeking expert solutions or have inquiries? Engage with TrioSource today. Let's navigate the path to your business success together, providing specialized solutions tailored just for you. " key="description" />
+        <title>Connect with RiseAgain Professionals | Reach Out to Us Now  </title>
+        <meta property="og:title" content="Connect with RiseAgain Professionals | Reach Out to Us Now  " key="title" />
+        <meta name="description" content="Seeking expert solutions or have inquiries? Engage with RiseAgain today. Let's navigate the path to your business success together, providing specialized solutions tailored just for you. " key="description" />
       </Head>
 
       <Navbar />
