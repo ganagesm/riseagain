@@ -6,7 +6,7 @@ import { Navigation, Autoplay } from "swiper";
 const HeroBanner = () => {
   return (
     <>
-      <Swiper
+      {/* <Swiper
         navigation={true}
         autoplay={{
           delay: 5000,
@@ -45,7 +45,60 @@ const HeroBanner = () => {
           </div>
 
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
+
+      <div className="ml-main-banner-area ai-main-banner-area">
+        <div className="container-fluid">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12">
+              <div className="ml-main-banner-content">
+                {/* <span className="sub-title">
+                  Analysis & Deep Machine Learning With <b>Ai</b>
+                </span> */}
+                <h1>
+                  Reignite, Reimagine, <span>Rise Again</span>
+                </h1>
+                <p>
+                Search your career opportunity through 12,800 jobs
+                </p>
+
+                <div className="btn-box" style={{marginTop:"20px"}}>
+                  <Link href="/contact" className="btn btn-primary">
+                    Get in touch now
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6 col-md-12">
+              <div className="ml-main-banner-image">
+                <img src="/images/banners/riseagain.png" alt="image" />
+
+                <div className="circle-shape"></div>
+
+                <div className="wrap-shape">
+                  <img src="/images/home-seven/banner/shape3.png" alt="image" />
+                </div>
+
+                <div className="wrap-text">
+                  <i className="fa-solid fa-check"></i>
+                  <span>Jobs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="ai-main-banner-shape1">
+          <img src="/images/home-seven/banner/shape1.png" alt="image" />
+        </div>
+        <div className="ai-main-banner-shape2">
+          <img src="/images/home-seven/banner/shape2.png" alt="image" />
+        </div>
+        <div className="ai-main-banner-shape3">
+          <img src="/images/home-seven/banner/shape4.png" alt="image" />
+        </div>
+      </div>
     </>
   );
 };
