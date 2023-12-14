@@ -3,7 +3,7 @@ import React from "react";
 const AboutContact = () => {
   return (
     <>
-      <section className="about-area ptb-110">
+      <section className="about-area ptb-50">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -15,38 +15,51 @@ const AboutContact = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <h2>Engaging New Audiences Through Smart Approach</h2>
-                <p> Welcome to TrioSource! We are a leading technology company specializing in innovative software solutions for businesses in various industries. With a passion for delivering excellence, our team of talented engineers and developers is dedicated to creating cutting-edge products that empower organizations to thrive in the digital age. At TrioSource, we combine our technical expertise with a deep understanding of our clients' needs to develop tailored solutions that drive growth, efficiency, and customer satisfaction. Join us on this exciting journey as we transform businesses through technology. </p>
-                <p> TrioSource is built on the foundation of innovation and collaboration. Our story began with a group of visionary entrepreneurs who recognized the potential of technology to revolutionize the way businesses operate. Since our inception, we have been committed to delivering exceptional software solutions that empower our clients to stay ahead in a rapidly changing landscape. With a diverse team of industry experts and thought leaders, we bring together the best minds to develop robust, scalable, and user-friendly applications. Join us as we harness the power of technology to shape a brighter future for businesses around the world.</p>
+                <h2>Welcome to Rise Again - Empowering Women in IT and Beyond</h2>
+                <p> At Rise Again, we believe that every woman deserves the chance to rise, grow, and succeed in her career. Our mission is to empower women by providing exclusive job opportunities in both the IT and non-IT sectors. We are not just a Staffing Firm we are a movement dedicated to women’s professional growth and success. </p>
+
               </div>
             </div>
           </div>
 
           <div className="about-inner-area">
             <div className="row">
-              <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Our History</h3>
+                  <h3>Search Millions of Jobs
+                  </h3>
                   <p>
-                  We have over 2 decades of experience in the IT consulting and staffing industry. We began focusing on outsourcing development to India, and have since helped 100+ companies in the US and Canada achieve digital transformations, launch new products, and recruit globally.
+                    IT and Beyond: Whether you're looking for a career in Information Technology or exploring opportunities outside the tech world, we have a diverse range of job options to match your skills and aspirations.
                   </p>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Our Mission</h3>
+                  <h3>Endless Possibilities
+                  </h3>
                   <p>
-                  We help companies solve their most crucial problem: hiring and staffing. We find world class people in any time zone, with any expertise, and at many price points.
+                    From software development to project management, from marketing to finance, we connect you with exciting roles across various industries.
                   </p>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+              <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Who we are</h3>
+                  <h3>Dedicated Support
+                  </h3>
                   <p>
-                  We are a globally distributed team with offices in California, New York, India and Mexico. We collectively bring expertise in outsourcing, nearshoring, machine learning infrastructure, startups, enterprise, Flutter/Android/React Native/iOS/Ionic development, engineering management, Kubernetes and privately hosted LLMs. If you can name it, one of us has probably done it.
+                    Our team is here to support you throughout your job search journey. We provide guidance, resources, and training to help you achieve your professional goals.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6">
+                <div className="about-text">
+                  <h3>Inclusive Partnerships
+
+                  </h3>
+                  <p>
+                  We collaborate with organizations that share our vision of women's empowerment. These partnerships create a network of opportunities for you to thrive in your chosen field.
                   </p>
                 </div>
               </div>
