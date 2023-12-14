@@ -408,8 +408,10 @@ Navbar Area CSS
                     font: {
                         size: 18px;
                         weight: 600;
-                    }
-                    color: $white-color;
+                        color: $black-color;
+                      }
+                      // color: $white-color;
+                      color: $black-color;
                     text-transform: capitalize;
                     padding: {
                         left: 0;
