@@ -5,13 +5,13 @@ const ContactFormContent = () => {
   const executeFunction = () => {
       try{
       var f = document.createElement("iframe");
-      f.src = 'https://forms.zohopublic.in/satechsoftwareipvtltd/form/Triosource/formperma/Yd6FLG9ozg5icmdah2YR8Dmh3WZ9gw8RHBd3D1sbPJs?zf_rszfm=1';
+      f.src = 'https://forms.zohopublic.in/satechsoftwareipvtltd/form/RiseAgain/formperma/PZ3N6fZuvexZnMONkwl-Ufjq1osaaGXhMS8fvEpQ_8g?zf_rszfm=1';
       f.style.border="none";
       f.style.height="576px";
       f.style.width="90%";
       f.style.transition="all 0.5s ease";
       
-      var d = document.getElementById("zf_div_Yd6FLG9ozg5icmdah2YR8Dmh3WZ9gw8RHBd3D1sbPJs");
+      var d = document.getElementById("zf_div_PZ3N6fZuvexZnMONkwl-Ufjq1osaaGXhMS8fvEpQ_8g");
       d.appendChild(f);
       window.addEventListener('message', function (){
       var evntData = event.data;
@@ -20,7 +20,7 @@ const ContactFormContent = () => {
       if ( zf_ifrm_data.length == 2 ) {
       var zf_perma = zf_ifrm_data[0];
       var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
-      var iframe = document.getElementById("zf_div_Yd6FLG9ozg5icmdah2YR8Dmh3WZ9gw8RHBd3D1sbPJs").getElementsByTagName("iframe")[0];
+      var iframe = document.getElementById("zf_div_PZ3N6fZuvexZnMONkwl-Ufjq1osaaGXhMS8fvEpQ_8g").getElementsByTagName("iframe")[0];
       if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
       var prevIframeHeight = iframe.style.height;
       if ( prevIframeHeight != zf_ifrm_ht_nw ) {
@@ -43,7 +43,7 @@ const ContactFormContent = () => {
             <span>Message Us</span>
             <h2>Drop us a Message with any inquiry</h2>
             <p>
-              Thank you for your interest in TrioSource. We’d like to ask you a
+              Thank you for your interest in RiseAgain. We’d like to ask you a
               few questions to get to know you and your requirements better.
             </p>
           </div>
@@ -58,7 +58,7 @@ const ContactFormContent = () => {
 
               <div className="col-lg-7 col-md-12">
                 {/* <ContactForm /> */}
-                <div id="zf_div_Yd6FLG9ozg5icmdah2YR8Dmh3WZ9gw8RHBd3D1sbPJs"></div>
+                <div id="zf_div_PZ3N6fZuvexZnMONkwl-Ufjq1osaaGXhMS8fvEpQ_8g"></div>
                 
               </div>
             </div>
@@ -69,9 +69,11 @@ const ContactFormContent = () => {
             <div className="contact-info-content">
               <h3>Contact us by Phone Number or Email Address</h3>
               <h2>
-                <span className="number">(408) 400-7043</span>
+                <span className="number"> India: <a href="tel:+91-95884999140">+91-95884999140</a></span>  
+                <span className="or"></span>
+                <span className="number"> USA: <a href="tel:(+1)–408-833-6257">(+1) – 408-833-6257</a></span>
                 <span className="or">OR</span>
-                <span className="email">hello@triosource.com</span>
+                <span className="email">info@riseagain.us</span>
               </h2>
 
               {/* <ul className="social">
