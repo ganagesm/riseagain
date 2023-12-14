@@ -5,10 +5,8 @@
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
-        // "build": "NODE_ENV=production next build && npm run copy-robots",
-        "build": "NODE_ENV=production next build --verbose && npm run copy-robots",
-        "start": "next start",
-        "copy-robots": "if [ \"$NODE_ENV\" = \"production\" ]; then cp ./robots.txt ./public/; else rm -f ./public/robots.txt; fi"
+        "build": "next build",
+        "start": "next start"
     },
     "author": "Sopan Ganage",
     "license": "ISC",
