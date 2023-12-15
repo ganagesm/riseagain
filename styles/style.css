@@ -8240,4 +8240,9 @@ Footer Wrap Area CSS
     padding-top: 50px;
 }
 
+@media only screen and (max-width: 767px) {
+    .ml-main-banner-area {
+        padding-top: 110px !important;
+    }
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/
