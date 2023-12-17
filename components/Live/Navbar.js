@@ -51,14 +51,14 @@ const Navbar = () => {
                   src="/images/riseagain-white.png"
                   className="main-logo"
                   alt="logo"
-                  width={200}
+                  width={150}
                 />
                 <img
                   src="/images/riseagain-white.png"
                   className="optional-logo"
                   alt="logo"
                   height={30}
-                  width={200}
+                  width={150}
                 />
               </Link>
 
