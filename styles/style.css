@@ -372,7 +372,7 @@ Navbar Area CSS
 .main-nav .navbar .navbar-nav .nav-item a {
     font-size: 18px;
     font-weight: 600;
-    color: #ffffff;
+    color: #212529;
     text-transform: capitalize;
     padding-left: 0;
     padding-right: 0;
@@ -8240,4 +8240,9 @@ Footer Wrap Area CSS
     padding-top: 50px;
 }
 
+@media only screen and (max-width: 767px) {
+    .ml-main-banner-area {
+        padding-top: 110px !important;
+    }
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

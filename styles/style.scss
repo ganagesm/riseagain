@@ -409,7 +409,8 @@ Navbar Area CSS
                         size: 18px;
                         weight: 600;
                     }
-                    color: $white-color;
+                    // color: $white-color;
+                    color: $black-color;
                     text-transform: capitalize;
                     padding: {
                         left: 0;
@@ -9770,5 +9771,11 @@ Footer Wrap Area CSS
 }
 .pt-50 {
     padding-top: 50px;
+}
+@media only screen and (max-width: 767px)
+{
+    .ml-main-banner-area {
+        padding-top: 110px !important;
+    }
 }
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

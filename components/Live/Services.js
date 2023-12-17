@@ -78,7 +78,7 @@ const Services = () => {
               <div className="single-services-box flex-fill">
                 <div className="icon">
                   <img
-                    src="/images/clipboard-list.svg"
+                    src="/images/icon/social-network.svg"
                     alt="image"
                     style={{
                       width: "75%",
@@ -98,7 +98,7 @@ const Services = () => {
               <div className="single-services-box flex-fill">
                 <div className="icon">
                   <img
-                    src="/images/clipboard-list.svg"
+                    src="/images/icon/employee.svg"
                     alt="image"
                     style={{
                       width: "75%",
@@ -121,7 +121,7 @@ const Services = () => {
               <div className="single-services-box flex-fill">
                 <div className="icon">
                   <img
-                    src="/images/clipboard-list.svg"
+                    src="/images/icon/return.svg"
                     alt="image"
                     style={{
                       width: "75%",

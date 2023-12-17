@@ -35,13 +35,13 @@ const Index = () => {
                   <i className="flaticon-robot-1"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="/contact">
                     DEI Solutions
                   </Link>
                 </h3>
                 <p>We focus on quality and authentic connections to help you save time, stand out, and attract the best people for your open positions.</p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="/contact" className="link-btn">
                   Read More
                 </Link>
               </div>
@@ -53,11 +53,11 @@ const Index = () => {
                   <i className="flaticon-neural"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">Employer</Link>
+                  <Link href="/contact">Employer</Link>
                 </h3>
                 <p>Elevate your workforce with highly skilled workers that are often automatically dismissed due to a career gap. This pool of talent is just what you need to enhance your culture and productivity.</p>
 
-                <Link href="/service-details" className="link-btn">
+                <Link href="/contact" className="link-btn">
                   Read More
                 </Link>
               </div>
