@@ -7,16 +7,15 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-overview">
             <div className="services-details-desc mb-30">
-              <h3>Empowering Women for a Successful Comeback
-                into the Workforce
+              <h3>Empowering Women for a Successful Comeback into the Workforce
               </h3>
               <p>At Rise Again, we’re revolutionizing the hiring landscape. Our innovative returnship programs are reshaping the way organizations build their talent pool. Leaders can enhance diversity and meet business objectives by tapping into a source of talent not commonly found through traditional means – highly skilled technical professionals who are re-entering the workforce.
               </p>
             </div>
             <div className="services-details-image">
               <img
-                src="/images/blog/generative-ai-case-studie.jpeg"
-                alt="image"
+                src="/images/returnships.jpeg"
+                alt="Empowering Women for a Successful Comeback into the Workforce"
               />
             </div>
           </div>
@@ -28,13 +27,12 @@ const ServiceDetailsContent = () => {
           <div className="services-details-overview">
             <div className="services-details-image">
               <img
-                src="/images/blog/generative-ai-case-studie.jpeg"
-                alt="image"
+                src="/images/working-together.jpeg"
+                alt="Empowering Women for a Career Resurgence"
               />
             </div>
             <div className="services-details-desc mb-30">
-              <h3>Empowering Women
-                for a Career Resurgence
+              <h3>Empowering Women for a Career Resurgence
               </h3>
               <p>Rise Again is on a mission to redefine the employment landscape. Our unique returnship programs are reshaping the way companies source their talent. Through these programs, leaders can invigorate their diversity initiatives while achieving their strategic business objectives by accessing a pool of highly skilled technical professionals who are making a comeback to the workforce.
               </p>
