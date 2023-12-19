@@ -69,9 +69,9 @@ const ContactFormContent = () => {
             <div className="contact-info-content">
               <h3>Contact us by Phone Number or Email Address</h3>
               <h2>
-                <span className="number"> India: <a href="tel:+91-95884999140">+91-95884999140</a></span>  
-                <span className="or"></span>
                 <span className="number"> USA: <a href="tel:(+1)–408-833-6257">(+1) – 408-833-6257</a></span>
+                <span className="or"></span>
+                <span className="number"> India: <a href="tel:+91-95884999140">+91-95884999140</a></span>  
                 <span className="or">OR</span>
                 <span className="email">info@riseagain.us</span>
               </h2>
