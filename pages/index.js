@@ -30,16 +30,11 @@ const Index = () => {
         <div className="container">
           <div className="row d-flex">
             <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
-                <div className="icon">
-                  <i className="flaticon-robot-1"></i>
-                </div>
-                <h3>
-                  <Link href="/contact">
+              <div className="single-main-services-box flex-fill" style={{ backgroundImage: 'url("images/register2.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <h3 style={{color: "#000"}}>
                     DEI Solutions
-                  </Link>
                 </h3>
-                <p>We focus on quality and authentic connections to help you save time, stand out, and attract the best people for your open positions.</p>
+                <p style={{color: "#000"}}>We focus on quality and authentic connections to help you <br></br> save time, stand out, and attract the best people<br></br> for your open positions.</p>
 
                 <Link href="/contact" className="link-btn">
                   Read More
@@ -48,14 +43,10 @@ const Index = () => {
             </div>
 
             <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill">
-                <div className="icon">
-                  <i className="flaticon-neural"></i>
-                </div>
-                <h3>
-                  <Link href="/contact">Employer</Link>
+              <div className="single-main-services-box flex-fill" style={{ backgroundImage: 'url("images/register1.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <h3 style={{color: "#fff"}}>Employer
                 </h3>
-                <p>Elevate your workforce with highly skilled workers that are often automatically dismissed due to a career gap. This pool of talent is just what you need to enhance your culture and productivity.</p>
+                <p style={{color: "#fff"}}>Elevate your workforce with highly skilled workers that <br></br> are often automatically dismissed due to a career gap. <br></br>This pool of talent is just what you need to enhance <br></br> your culture and productivity.</p>
 
                 <Link href="/contact" className="link-btn">
                   Read More
