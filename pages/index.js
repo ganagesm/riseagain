@@ -30,11 +30,11 @@ const Index = () => {
         <div className="container">
           <div className="row d-flex">
             <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill" style={{ backgroundImage: 'url("images/register2.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <h3 style={{color: "#000"}}>
+              <div className="single-main-services-box flex-fill dei-solutions">
+                <h3>
                     DEI Solutions
                 </h3>
-                <p style={{color: "#000"}}>We focus on quality and authentic connections to help you <br></br> save time, stand out, and attract the best people<br></br> for your open positions.</p>
+                <p>We focus on quality and authentic connections to help you <br></br> save time, stand out, and attract the best people<br></br> for your open positions.</p>
 
                 <Link href="/contact" className="link-btn">
                   Read More
@@ -43,10 +43,10 @@ const Index = () => {
             </div>
 
             <div className="col-lg-6 col-sm-6 col-md-6 d-flex">
-              <div className="single-main-services-box flex-fill" style={{ backgroundImage: 'url("images/register1.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <h3 style={{color: "#fff"}}>Employer
+              <div className="single-main-services-box flex-fill employer-solutions">
+                <h3>Employer
                 </h3>
-                <p style={{color: "#fff"}}>Elevate your workforce with highly skilled workers that <br></br> are often automatically dismissed due to a career gap. <br></br>This pool of talent is just what you need to enhance <br></br> your culture and productivity.</p>
+                <p>Elevate your workforce with highly skilled workers that <br></br> are often automatically dismissed due to a career gap. <br></br>This pool of talent is just what you need to enhance <br></br> your culture and productivity.</p>
 
                 <Link href="/contact" className="link-btn">
                   Read More

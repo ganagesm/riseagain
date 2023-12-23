@@ -11281,5 +11281,29 @@ Footer Wrap Area CSS
   background: rgba(255, 255, 255, 0.76) !important;
 
 }
+.dei-solutions {
+  background-image: url("/images/register2.png");
+  background-size: cover;
+  background-position: center;
+  color: $black-color
+}
+.employer-solutions {
+  background-image: url("/images/register1.jpg");
+  background-size: cover;
+  background-position: center;
+  h3, p {
+  color: $white-color;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .dei-solutions, 
+  .employer-solutions {
+    background-color: $white-color;
+    background-image: none;
+    h3, p {
+      color: $black-color
+      }
+  }
+}
 
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/

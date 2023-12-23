@@ -54,8 +54,8 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="services-details-image">
               <img
-                src="/images/blog/generative-ai-case-studie.jpeg"
-                alt="image"
+                src="/images/promoting-inclusivity.jpeg"
+                alt="Dismantling Prejudices and Promoting Inclusivity"
               />
             </div>
           </div>
