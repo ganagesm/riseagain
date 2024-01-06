@@ -4,7 +4,7 @@
     "description": "riseagain",
     "main": "index.js",
     "scripts": {
-        "dev": "next dev",
+        "dev": "next dev --port 4000",
         "build": "next build",
         "start": "next start",
         "export": "next export"
