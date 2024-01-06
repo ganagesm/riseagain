@@ -1,10 +1,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/riseagain1/public_html/node/git
+    - /bin/cp -r .next/* $DEPLOYPATH
     - /bin/cp -r pages/* $DEPLOYPATH
     - /bin/cp -r public/* $DEPLOYPATH/public
     - /bin/cp -r styles/* $DEPLOYPATH/styles
     - /bin/cp index.js $DEPLOYPATH
     - cd $DEPLOYPATH
     - npm install --production
-    - npm run build
