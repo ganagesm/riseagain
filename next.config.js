@@ -8,7 +8,7 @@ const nextConfig = {
   },
   optimizeFonts: false,
 };
-
+// Module
 module.exports = {
   webpack5: true,
   webpack: (config) => {
