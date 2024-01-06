@@ -1,5 +1,5 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/riseagain1/public_html/staging
+ - export DEPLOYPATH=/home/riseagain1/public_html/node/git
  - /bin/cp index.html $DEPLOYPATH
