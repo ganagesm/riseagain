@@ -2,4 +2,4 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/riseagain1/public_html/node/git
- - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp index.js $DEPLOYPATH
